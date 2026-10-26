@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Find your Toronto through ten distinctive neighbourhoods. Explore by food, cafés, parks, culture and the things you love.">
+    <meta name="theme-color" content="#f7f5ef">
+    <title>Neighbourhood Notes — Find your Toronto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><a class="brand" href="#">nn<span>neighbourhood<br>notes</span></a>
+        <nav><a href="#explore">Explore Toronto</a><a href="#approach">Our approach ↗</a><button id="savedToggle"
+                aria-pressed="false">Saved <span id="savedCount">0</span></button></nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="eyebrow"><span class="dot"></span> THE TORONTO EDITION · 10 PLACES TO BEGIN</div>
+            <h1>A city is a place.<br>A neighbourhood is <em>a feeling.</em></h1>
+            <div class="hero-bottom">
+                <p>Find the Toronto that feels like you.<br>Ten neighbourhoods. Different rhythms. Your kind of place.
+                </p><a class="round-link" href="#explore" aria-label="Explore neighbourhoods">↘</a>
+            </div>
+            <div class="cityline" aria-hidden="true"><span>⌂</span><span>▤</span><span>⌂</span><span
+                    class="tower">│<b>◉</b>│</span><span>▥</span><span>⌂</span><span>▤</span><span>♧</span><span>⌂</span>
+            </div>
+        </section>
+        <section id="explore" class="explore">
+            <div class="section-top">
+                <div>
+                    <div class="eyebrow">YOUR CURIOSITY, YOUR COMPASS</div>
+                    <h2>What draws you in?</h2>
+                </div><button class="surprise" id="surprise">✧ Surprise me</button>
+            </div>
+            <p class="hint">Choose up to five interests. We’ll bring matching neighbourhoods to the top.</p>
+            <div class="chips" id="chips" aria-label="Neighbourhood interests"></div>
+            <div class="tools"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search"
+                        placeholder="Search neighbourhoods or interests…"
+                        aria-label="Search neighbourhoods"></label><label class="sort">Sort <select id="sort">
+                        <option value="match">Best match</option>
+                        <option value="name">A–Z</option>
+                    </select></label></div>
+            <div class="results-line"><span id="resultCount" role="status" aria-live="polite"></span><button
+                    id="reset">Reset filters</button></div>
+            <div id="cards" class="cards"></div>
+            <div id="empty" class="empty" hidden>
+                <h3>No places found—yet.</h3>
+                <p>Try another search or clear your filters.</p><button id="emptyReset">Show all neighbourhoods</button>
+            </div>
+        </section>
+        <section id="approach" class="approach">
+            <div class="eyebrow">A MORE PERSONAL WAY TO EXPLORE</div>
+            <h2>Less “best in the world.”<br>More <em>right for your world.</em></h2>
+            <div class="approach-grid">
+                <p>Start with what you enjoy. Find a neighbourhood’s character, a few things to try, and the details
+                    that change how a stay might feel.</p>
+                <p>Our first collection is an editorial guide, based on linked local tourism sources reviewed October
+                    26, 2026. Interest matches reflect these descriptions, not measured quality scores. Map pins are
+                    approximate neighbourhood reference points, not boundaries.</p>
+            </div>
+        </section>
+    </main>
+    <footer><a class="brand" href="#">nn<span>neighbourhood<br>notes</span></a>
+        <p>Toronto, one neighbourhood at a time.</p><a href="neighbourhoods.json" download>Explore the data ↓</a>
+    </footer>
+    <dialog id="detail"><button id="closeDetail" class="close" aria-label="Close neighbourhood details">×</button>
+        <div id="detailContent"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
