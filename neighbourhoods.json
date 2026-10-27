@@ -1,12 +1,322 @@
 [
-{"id":"kensington-market","name":"Kensington Market","area":"Downtown west","icon":"✺","color":"#e4b65b","headline":"A little unexpected. A lot to discover.","description":"A compact collection of colourful streets, specialty groceries, international food and vintage shops. Come with an appetite and room to wander.","tags":["Food","Creative","Social"],"highlights":["Browse vintage shops and independent boutiques","Build a food walk around specialty grocers and small eateries","Explore the market streets on foot"],"nuance":"The lively shopping streets are an experience in their own right. Check the specific street and accommodation if quiet evenings are important.","source":"https://www.destinationtoronto.com/neighbourhoods/westside/kensington-market/","lat":43.6547,"lon":-79.4006},
-{"id":"annex","name":"The Annex","area":"Central","icon":"⌂","color":"#c4c8ad","headline":"Old houses. New ideas.","description":"Historic residential streets meet the shops and food of Bloor Street, with university grounds and major cultural institutions close by.","tags":["Architecture","Culture","Cafés"],"highlights":["Wander residential streets for older architecture","Explore nearby university grounds","Pair a café stop with a cultural outing"],"nuance":"Bloor Street and the residential back streets feel different. Choose the immediate surroundings that suit your routine.","source":"https://www.destinationtoronto.com/neighbourhoods/midtown/annex/","lat":43.6704,"lon":-79.4071},
-{"id":"roncesvalles","name":"Roncesvalles","area":"West end","icon":"❋","color":"#b2c4b4","headline":"Find your everyday favourites.","description":"Polish heritage, independent shops and café stops give Roncy its neighbourhood rhythm, with High Park nearby for a change of pace.","tags":["Parks","Cafés","Food"],"highlights":["Explore Polish food and neighbourhood shops","Make time for a café-and-book morning","Plan a walk in nearby High Park"],"nuance":"Park and subway access depend on the exact address. The northern and southern ends support different daily routes.","source":"https://www.destinationtoronto.com/neighbourhoods/high-park/roncesvalles/","lat":43.6456,"lon":-79.4485},
-{"id":"junction","name":"The Junction","area":"West end","icon":"✳","color":"#c9b7a6","headline":"Independent by nature.","description":"A former railway-town main street with design shops, galleries, places to eat and an independent retail character.","tags":["Creative","Cafés","Social"],"highlights":["Browse design and homeware shops","Spend an afternoon exploring Dundas West","Look for local art and music outings"],"nuance":"The Junction and Junction Triangle are separate areas. Check the map and actual transit journey for any accommodation.","source":"https://www.destinationtoronto.com/neighbourhoods/high-park/the-junction/","lat":43.6655,"lon":-79.4655},
-{"id":"leslieville","name":"Leslieville","area":"East end","icon":"☕","color":"#d6b8a1","headline":"Slow mornings on Queen East.","description":"Restaurants, vintage finds and independent boutiques sit alongside a residential, family-oriented neighbourhood atmosphere.","tags":["Cafés","Food","Creative"],"highlights":["Browse vintage and independent shops","Build a relaxed brunch outing","Explore Queen East and its side streets"],"nuance":"Queen Street is the commercial spine. Nearby residential streets can offer a different setting; evaluate the specific block.","source":"https://www.destinationtoronto.com/neighbourhoods/eastside/leslieville/","lat":43.6620,"lon":-79.3320},
-{"id":"riverside","name":"Riverside","area":"East end","icon":"≋","color":"#b8c8cd","headline":"History with a creative current.","description":"A compact Queen East district with historic streets, public art, cafés and cultural outings around the Opera House.","tags":["Architecture","Culture","Social"],"highlights":["Explore public art around Queen East","Take an architecture-focused walk","Check the Opera House for an evening out"],"nuance":"Riverside is distinct from neighbouring Leslieville. Being near a music venue is a benefit for some stays and a consideration for others.","source":"https://www.destinationtoronto.com/neighbourhoods/eastside/riverside/","lat":43.6590,"lon":-79.3490},
-{"id":"beaches","name":"The Beaches","area":"East end","icon":"≈","color":"#b9d1ce","headline":"Let the lake set the pace.","description":"Lake Ontario shoreline, a long boardwalk, parks and a local shopping street make outdoor time the centre of the experience.","tags":["Parks","Waterfront","Cafés"],"highlights":["Walk along the waterfront boardwalk","Spend time around Kew Gardens","Explore the shops along Queen East"],"nuance":"Season changes the experience. A summer beach visit and a winter waterfront walk offer very different kinds of enjoyment.","source":"https://www.destinationtoronto.com/neighbourhoods/eastside/the-beaches/","lat":43.6710,"lon":-79.2960},
-{"id":"danforth","name":"Danforth / Greektown","area":"East end","icon":"☼","color":"#dbc78f","headline":"Good food. A street full of possibilities.","description":"Greek heritage meets a wider mix of restaurants, independent grocers, shops and music, with subway access along the corridor.","tags":["Food","Culture","Social"],"highlights":["Explore Greek and other international food","Browse independent grocers and shops","Check for a concert at the Danforth Music Hall"],"nuance":"The Danforth is a long corridor. This guide focuses on the Greektown area; check the location rather than relying on the broad name.","source":"https://www.destinationtoronto.com/neighbourhoods/eastside/danforth-greektown/","lat":43.6780,"lon":-79.3480},
-{"id":"west-queen-west","name":"West Queen West","area":"West end","icon":"✷","color":"#c6b8d0","headline":"Follow your creative curiosity.","description":"Independent shops, cafés, art and evening outings along Queen West, with Trinity Bellwoods adding a green-space counterpoint.","tags":["Creative","Social","Cafés"],"highlights":["Explore independent shops and art","Pair a café stop with Trinity Bellwoods","Plan an evening around restaurants and music"],"nuance":"Queen West is used as a broad label. This entry focuses on the Bathurst-to-Dufferin stretch; side streets differ from the main corridor.","source":"https://www.destinationtoronto.com/neighbourhoods/westside/queen-west/","lat":43.6435,"lon":-79.4185},
-{"id":"cabbagetown","name":"Cabbagetown","area":"Downtown east","icon":"♧","color":"#b8c3a4","headline":"A walk through another chapter.","description":"Victorian residential architecture, local cafés and Riverdale Farm give this downtown-east neighbourhood a distinctive walking experience.","tags":["Architecture","Parks","Culture"],"highlights":["Take a Victorian-architecture walk","Visit Riverdale Farm","Explore cafés around Parliament Street"],"nuance":"The heritage residential streets and surrounding commercial streets are different settings. Use an exact address when planning a stay.","source":"https://www.destinationtoronto.com/neighbourhoods/old-town/cabbagetown/","lat":43.6660,"lon":-79.3660}
+  {
+    "id": "kensington-market",
+    "name": "Kensington Market",
+    "area": "Downtown west",
+    "color": "#e4b65b",
+    "headline": "A little unexpected. A lot to discover.",
+    "description": "A compact collection of colourful streets, specialty groceries, international food and vintage shops. Come with an appetite and room to wander.",
+    "tags": [
+      "Food",
+      "Creative",
+      "Social"
+    ],
+    "highlights": [
+      "Browse vintage shops and independent boutiques",
+      "Build a food walk around specialty grocers and small eateries",
+      "Explore the market streets on foot"
+    ],
+    "nuance": "The lively shopping streets are an experience in their own right. Check the specific street and accommodation if quiet evenings are important.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/westside/kensington-market/",
+    "lat": 43.6547,
+    "lon": -79.4006,
+    "photo": {
+      "src": "images/kensington-market.jpg",
+      "alt": "Kensington Market, Toronto. Intersection of Kensington Avenue (left) and Baldwin street.",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kensington_Market_Toronto_August_2017_01.jpg",
+      "title": "Kensington Market Toronto August 2017 01.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Kensington_Market_Toronto_August_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "annex",
+    "name": "The Annex",
+    "area": "Central",
+    "color": "#c4c8ad",
+    "headline": "Old houses. New ideas.",
+    "description": "Historic residential streets meet the shops and food of Bloor Street, with university grounds and major cultural institutions close by.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Cafés"
+    ],
+    "highlights": [
+      "Wander residential streets for older architecture",
+      "Explore nearby university grounds",
+      "Pair a café stop with a cultural outing"
+    ],
+    "nuance": "Bloor Street and the residential back streets feel different. Choose the immediate surroundings that suit your routine.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/midtown/annex/",
+    "lat": 43.6704,
+    "lon": -79.4071,
+    "photo": {
+      "src": "images/annex.jpg",
+      "alt": "Victorian homes in Toronto’s Annex neighbourhood",
+      "author": "yorkville",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Annex,_Toronto_-_Victorian_homes.jpg",
+      "title": "The Annex, Toronto - Victorian homes.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_Annex%2C_Toronto_-_Victorian_homes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "roncesvalles",
+    "name": "Roncesvalles",
+    "area": "West end",
+    "color": "#b2c4b4",
+    "headline": "Find your everyday favourites.",
+    "description": "Polish heritage, independent shops and café stops give Roncy its neighbourhood rhythm, with High Park nearby for a change of pace.",
+    "tags": [
+      "Parks",
+      "Cafés",
+      "Food"
+    ],
+    "highlights": [
+      "Explore Polish food and neighbourhood shops",
+      "Make time for a café-and-book morning",
+      "Plan a walk in nearby High Park"
+    ],
+    "nuance": "Park and subway access depend on the exact address. The northern and southern ends support different daily routes.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/high-park/roncesvalles/",
+    "lat": 43.6456,
+    "lon": -79.4485,
+    "photo": {
+      "src": "images/roncesvalles.jpg",
+      "alt": "Looking north along Roncesvalles Avenue at Westminster Avenue",
+      "author": "Dillan Payne",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Roncesvalles_Avenue,_April_27_2026_(11).jpg",
+      "title": "Roncesvalles Avenue, April 27 2026 (11).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Roncesvalles_Avenue%2C_April_27_2026_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "junction",
+    "name": "The Junction",
+    "area": "West end",
+    "color": "#c9b7a6",
+    "headline": "Independent by nature.",
+    "description": "A former railway-town main street with design shops, galleries, places to eat and an independent retail character.",
+    "tags": [
+      "Creative",
+      "Cafés",
+      "Social"
+    ],
+    "highlights": [
+      "Browse design and homeware shops",
+      "Spend an afternoon exploring Dundas West",
+      "Look for local art and music outings"
+    ],
+    "nuance": "The Junction and Junction Triangle are separate areas. Check the map and actual transit journey for any accommodation.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/high-park/the-junction/",
+    "lat": 43.6655,
+    "lon": -79.4655,
+    "photo": {
+      "src": "images/junction.jpg",
+      "alt": "Buildings on Dundas Street West in The Junction, Toronto.",
+      "author": "Arild Vågen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dundas_Street_West_August_2017_03.jpg",
+      "title": "Dundas Street West August 2017 03.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dundas_Street_West_August_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "leslieville",
+    "name": "Leslieville",
+    "area": "East end",
+    "color": "#d6b8a1",
+    "headline": "Slow mornings on Queen East.",
+    "description": "Restaurants, vintage finds and independent boutiques sit alongside a residential, family-oriented neighbourhood atmosphere.",
+    "tags": [
+      "Cafés",
+      "Food",
+      "Creative"
+    ],
+    "highlights": [
+      "Browse vintage and independent shops",
+      "Build a relaxed brunch outing",
+      "Explore Queen East and its side streets"
+    ],
+    "nuance": "Queen Street is the commercial spine. Nearby residential streets can offer a different setting; evaluate the specific block.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/leslieville/",
+    "lat": 43.662,
+    "lon": -79.332,
+    "photo": {
+      "src": "images/leslieville.jpg",
+      "alt": "Queen Street East streetscape at the entrance to Leslieville",
+      "author": "Vladislav Litvinov",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_Leslieville,_view_from_a_streetcar_(51202483775).jpg",
+      "title": "Entrance to Leslieville, view from a streetcar (51202483775).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Entrance_to_Leslieville%2C_view_from_a_streetcar_%2851202483775%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "riverside",
+    "name": "Riverside",
+    "area": "East end",
+    "color": "#b8c8cd",
+    "headline": "History with a creative current.",
+    "description": "A compact Queen East district with historic streets, public art, cafés and cultural outings around the Opera House.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Social"
+    ],
+    "highlights": [
+      "Explore public art around Queen East",
+      "Take an architecture-focused walk",
+      "Check the Opera House for an evening out"
+    ],
+    "nuance": "Riverside is distinct from neighbouring Leslieville. Being near a music venue is a benefit for some stays and a consideration for others.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/riverside/",
+    "lat": 43.659,
+    "lon": -79.349,
+    "photo": {
+      "src": "images/riverside.jpg",
+      "alt": "The historic Broadview Hotel in Riverside, Toronto",
+      "author": "JasonParis from Toronto, Canada",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BroadviewHotel_(30283689335).jpg",
+      "title": "BroadviewHotel (30283689335).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/BroadviewHotel_%2830283689335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "beaches",
+    "name": "The Beaches",
+    "area": "East end",
+    "color": "#b9d1ce",
+    "headline": "Let the lake set the pace.",
+    "description": "Lake Ontario shoreline, a long boardwalk, parks and a local shopping street make outdoor time the centre of the experience.",
+    "tags": [
+      "Parks",
+      "Waterfront",
+      "Cafés"
+    ],
+    "highlights": [
+      "Walk along the waterfront boardwalk",
+      "Spend time around Kew Gardens",
+      "Explore the shops along Queen East"
+    ],
+    "nuance": "Season changes the experience. A summer beach visit and a winter waterfront walk offer very different kinds of enjoyment.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/the-beaches/",
+    "lat": 43.671,
+    "lon": -79.296,
+    "photo": {
+      "src": "images/beaches.jpg",
+      "alt": "Aerial view of the Lake Ontario shoreline and The Beaches, Toronto",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Beaches_aerial_view_2023.jpg",
+      "title": "The Beaches aerial view 2023.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Beaches_aerial_view_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "danforth",
+    "name": "Danforth / Greektown",
+    "area": "East end",
+    "color": "#dbc78f",
+    "headline": "Good food. A street full of possibilities.",
+    "description": "Greek heritage meets a wider mix of restaurants, independent grocers, shops and music, with subway access along the corridor.",
+    "tags": [
+      "Food",
+      "Culture",
+      "Social"
+    ],
+    "highlights": [
+      "Explore Greek and other international food",
+      "Browse independent grocers and shops",
+      "Check for a concert at the Danforth Music Hall"
+    ],
+    "nuance": "The Danforth is a long corridor. This guide focuses on the Greektown area; check the location rather than relying on the broad name.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/danforth-greektown/",
+    "lat": 43.678,
+    "lon": -79.348,
+    "photo": {
+      "src": "images/danforth.jpg",
+      "alt": "Danforth Ave at Jones Ave",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Danforth_Ave_at_Jones_Ave_2022.jpg",
+      "title": "Danforth Ave at Jones Ave 2022.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/Danforth_Ave_at_Jones_Ave_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "west-queen-west",
+    "name": "West Queen West",
+    "area": "West end",
+    "color": "#c6b8d0",
+    "headline": "Follow your creative curiosity.",
+    "description": "Independent shops, cafés, art and evening outings along Queen West, with Trinity Bellwoods adding a green-space counterpoint.",
+    "tags": [
+      "Creative",
+      "Social",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore independent shops and art",
+      "Pair a café stop with Trinity Bellwoods",
+      "Plan an evening around restaurants and music"
+    ],
+    "nuance": "Queen West is used as a broad label. This entry focuses on the Bathurst-to-Dufferin stretch; side streets differ from the main corridor.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/westside/queen-west/",
+    "lat": 43.6435,
+    "lon": -79.4185,
+    "photo": {
+      "src": "images/west-queen-west.jpg",
+      "alt": "Queen and Shaw, Toronto 2026",
+      "author": "Chicken4War",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Queen_and_Shaw,_Toronto_2026.jpg",
+      "title": "Queen and Shaw, Toronto 2026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Queen_and_Shaw%2C_Toronto_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "cabbagetown",
+    "name": "Cabbagetown",
+    "area": "Downtown east",
+    "color": "#b8c3a4",
+    "headline": "A walk through another chapter.",
+    "description": "Victorian residential architecture, local cafés and Riverdale Farm give this downtown-east neighbourhood a distinctive walking experience.",
+    "tags": [
+      "Architecture",
+      "Parks",
+      "Culture"
+    ],
+    "highlights": [
+      "Take a Victorian-architecture walk",
+      "Visit Riverdale Farm",
+      "Explore cafés around Parliament Street"
+    ],
+    "nuance": "The heritage residential streets and surrounding commercial streets are different settings. Use an exact address when planning a stay.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/old-town/cabbagetown/",
+    "lat": 43.666,
+    "lon": -79.366,
+    "photo": {
+      "src": "images/cabbagetown.jpg",
+      "alt": "Victorian brick houses in Cabbagetown, Toronto",
+      "author": "Alain Rouiller",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Toronto_Cabbage_Town_35_(8437635457).jpg",
+      "title": "Toronto Cabbage Town 35 (8437635457).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Toronto_Cabbage_Town_35_%288437635457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  }
 ]
