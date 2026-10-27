@@ -1,30 +1,370 @@
 'use strict';
-const interests = ['Food', 'Cafés', 'Parks', 'Architecture', 'Culture', 'Creative', 'Social', 'Waterfront'];
-let data = [], selected = new Set(), saved = new Set(), onlySaved = false;
-try { saved = new Set(JSON.parse(localStorage.getItem('nn-saved') || '[]')); } catch { }
-const $ = s => document.querySelector(s), cards = $('#cards'), dialog = $('#detail');
-function notify(message) { $('#toast').textContent = message; $('#toast').classList.add('show'); clearTimeout(notify.timer); notify.timer = setTimeout(() => $('#toast').classList.remove('show'), 2400); }
+
+// 1. Interests and application state
+const interests = [
+    'Food',
+    'Cafés',
+    'Parks',
+    'Architecture',
+    'Culture',
+    'Creative',
+    'Social',
+    'Waterfront'
+];
+let data = [];
+let selected = new Set();
+let saved = new Set();
+let onlySaved = false;
+
+// Restore favourites saved in this browser, if storage is available.
+try {
+    saved = new Set(JSON.parse(localStorage.getItem('nn-saved') || '[]'));
+} catch {
+    // Keep the empty set if storage is unavailable or unreadable.
+}
+
+// 2. Page elements and small helpers
+// $(selector) is a shorthand for document.querySelector(selector).
+const $ = selector => document.querySelector(selector);
+const cards = $('#cards');
+const dialog = $('#detail');
+
+function notify(message) {
+    $('#toast').textContent = message;
+    $('#toast').classList.add('show');
+    clearTimeout(notify.timer);
+    notify.timer = setTimeout(() => {
+        $('#toast').classList.remove('show');
+    }, 2400);
+}
+
+// Escape special characters before inserting photo metadata into HTML.
 function escapeHtml(value) {
-    return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+    return String(value).replace(/[&<>"']/g, char => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+    }[char]));
 }
-function photoCredit(n) {
-    const p = n.photo;
-    return `<a href="${escapeHtml(p.source)}" target="_blank" rel="noopener noreferrer">Photo: ${escapeHtml(p.author)}</a> · <a href="${escapeHtml(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.license)}</a> · cropped to fit`;
+
+function photoCredit(neighbourhood) {
+    const photo = neighbourhood.photo;
+    return `
+        <a href="${escapeHtml(photo.source)}"
+           target="_blank" rel="noopener noreferrer">
+            Photo: ${escapeHtml(photo.author)}
+        </a>
+        ·
+        <a href="${escapeHtml(photo.licenseUrl)}"
+           target="_blank" rel="noopener noreferrer">
+            ${escapeHtml(photo.license)}
+        </a>
+        · cropped to fit
+    `;
 }
-function matches(n) { return n.tags.filter(t => selected.has(t)); }
+
+// Return the neighbourhood tags that match the selected interests.
+// Search accepts accented and unaccented names, such as Medellín / Medellin.
+function searchText(value) {
+    return String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
+}
+
+function filteredNeighbourhoods() {
+    const query = searchText($('#search').value.trim());
+    const city = $('#city').value;
+    return data.filter(neighbourhood => {
+        const passesCity = !city || neighbourhood.city === city;
+        const passesSaved = !onlySaved || saved.has(neighbourhood.id);
+        const text = searchText([
+            neighbourhood.name, neighbourhood.city, neighbourhood.country,
+            neighbourhood.area, neighbourhood.description, ...neighbourhood.tags
+        ].join(' '));
+        return passesCity && passesSaved && (!query || text.includes(query));
+    });
+}
+
+function travelContext(neighbourhood) {
+    if (neighbourhood.context !== 'cultural') return '';
+    return `<p class="travel-context">Cultural profile · Canada advises against all travel to Ukraine.
+        Images may predate damage. <a href="https://travel.gc.ca/destinations/ukraine"
+        target="_blank" rel="noopener noreferrer">Read current travel advice ↗</a></p>`;
+}
+
+function matches(neighbourhood) {
+    return neighbourhood.tags.filter(tag => selected.has(tag));
+}
+
+// 3. Filter, sort and render the neighbourhood cards
 function render() {
-    const q = $('#search').value.trim().toLocaleLowerCase();
-    let list = data.filter(n => (!onlySaved || saved.has(n.id)) && (!q || [n.name, n.area, n.description, ...n.tags].join(' ').toLocaleLowerCase().includes(q)));
-    list.sort((a, b) => $('#sort').value === 'name' ? a.name.localeCompare(b.name) : matches(b).length - matches(a).length || data.indexOf(a) - data.indexOf(b));
-    $('#resultCount').textContent = `${list.length} neighbourhood${list.length === 1 ? '' : 's'}${onlySaved ? ' in your saved collection' : ''}${selected.size ? ' · ranked by your interests' : ' · an editorial collection'}`;
-    $('#savedCount').textContent = saved.size; $('#empty').hidden = list.length > 0; cards.replaceChildren();
-    for (const n of list) {
-        const article = document.createElement('article'); article.className = 'card'; article.style.setProperty('--card-color', n.color); article.innerHTML = `<div class="art"><span class="number">TORONTO / ${String(data.indexOf(n) + 1).padStart(2, '0')}</span><img class="neighbourhood-photo" src="${n.photo.src}" alt="${escapeHtml(n.photo.alt)}" width="1000" height="600" loading="lazy" decoding="async"><button class="save" aria-label="${saved.has(n.id) ? 'Unsave' : 'Save'} ${n.name}" aria-pressed="${saved.has(n.id)}">${saved.has(n.id) ? '♥' : '♡'}</button></div><div class="card-body"><div class="photo-credit">${photoCredit(n)}</div><span class="area">${n.area}</span><h3>${n.name}</h3><p class="headline">${n.headline}</p><div class="tags">${n.tags.map(t => `<span class="tag ${selected.has(t) ? 'matched' : ''}">${t}</span>`).join('')}</div><div class="card-bottom"><button class="detail-button">Get to know it ↗</button><span class="match">${selected.size ? `${matches(n).length} of ${selected.size} interests` : 'Explore the character'}</span></div></div>`;
-        article.querySelector('.save').onclick = () => { saved.has(n.id) ? saved.delete(n.id) : saved.add(n.id); try { localStorage.setItem('nn-saved', JSON.stringify([...saved])); } catch { notify('Saving is available for this visit only.'); } render(); }; article.querySelector('.detail-button').onclick = () => openDetail(n); cards.append(article);
+    let list = filteredNeighbourhoods();
+
+    list.sort((a, b) => {
+        if ($('#sort').value === 'name') {
+            return a.name.localeCompare(b.name);
+        }
+        // More matching interests come first. Ties keep the collection order.
+        return matches(b).length - matches(a).length
+            || data.indexOf(a) - data.indexOf(b);
+    });
+
+    $('#resultCount').textContent =
+        `${list.length} neighbourhood${list.length === 1 ? '' : 's'}`
+        + `${onlySaved ? ' in your saved collection' : ''}`
+        + `${selected.size ? ' · ranked by your interests' : ' · an editorial collection'}`;
+    $('#cityContext').hidden = !list.some(neighbourhood => neighbourhood.context === 'cultural');
+    $('#savedCount').textContent = saved.size;
+    $('#empty').hidden = list.length > 0;
+    cards.replaceChildren();
+
+    for (const neighbourhood of list) {
+        const article = document.createElement('article');
+        article.className = 'card';
+        article.style.setProperty('--card-color', neighbourhood.color);
+
+        // This template supplies the HTML inside one card.
+        article.innerHTML = `
+            <div class="art">
+                <span class="number">
+                    ${escapeHtml(neighbourhood.city.toUpperCase())} / ${String(data.indexOf(neighbourhood) + 1).padStart(2, '0')}
+                </span>
+                <img class="neighbourhood-photo"
+                     src="${neighbourhood.photo.src}"
+                     alt="${escapeHtml(neighbourhood.photo.alt)}"
+                     width="1000" height="600"
+                     loading="lazy" decoding="async">
+                <button class="save"
+                        aria-label="${saved.has(neighbourhood.id) ? 'Unsave' : 'Save'} ${neighbourhood.name}"
+                        aria-pressed="${saved.has(neighbourhood.id)}">
+                    ${saved.has(neighbourhood.id) ? '♥' : '♡'}
+                </button>
+            </div>
+            <div class="card-body">
+                <div class="photo-credit">${photoCredit(neighbourhood)}</div>
+                <span class="area">${escapeHtml(neighbourhood.city)} · ${escapeHtml(neighbourhood.country)}</span>
+                <h3>${neighbourhood.name}</h3>
+                <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
+                <p class="headline">${neighbourhood.headline}</p>
+                ${neighbourhood.photo.note ? `<p class="archive-label">${escapeHtml(neighbourhood.photo.note)}</p>` : ''}
+                ${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
+                <div class="tags">
+                    ${neighbourhood.tags.map(tag => `
+                        <span class="tag ${selected.has(tag) ? 'matched' : ''}">${tag}</span>
+                    `).join('')}
+                </div>
+                <div class="card-bottom">
+                    <button class="detail-button">Get to know it ↗</button>
+                    <span class="match">
+                        ${selected.size
+                            ? `${matches(neighbourhood).length} of ${selected.size} interests`
+                            : 'Explore the character'}
+                    </span>
+                </div>
+            </div>
+        `;
+
+        article.querySelector('.save').onclick = () => {
+            if (saved.has(neighbourhood.id)) {
+                saved.delete(neighbourhood.id);
+            } else {
+                saved.add(neighbourhood.id);
+            }
+            try {
+                localStorage.setItem('nn-saved', JSON.stringify([...saved]));
+            } catch {
+                notify('Saving is available for this visit only.');
+            }
+            render();
+        };
+
+        article.querySelector('.detail-button').onclick = () => {
+            openDetail(neighbourhood);
+        };
+        cards.append(article);
     }
 }
-function openDetail(n) { $('#detailContent').innerHTML = `<div class="eyebrow">TORONTO / ${n.area.toUpperCase()}</div><h2>${n.name}</h2><figure class="detail-photo"><img src="${n.photo.src}" alt="${escapeHtml(n.photo.alt)}" width="1000" height="600"><figcaption class="photo-credit">${photoCredit(n)}</figcaption></figure><p><em>${n.headline}</em></p><p>${n.description}</p><div class="tags">${n.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div><h4>A few ways to begin</h4><ul>${n.highlights.map(h => `<li>${h}</li>`).join('')}</ul><h4>The detail that matters</h4><p class="note">${n.nuance}</p><div class="detail-links"><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(n.name + ', Toronto')}" target="_blank" rel="noopener noreferrer">Explore on a map ↗</a><a href="${n.source}" target="_blank" rel="noopener noreferrer">Read the local source ↗</a></div><p class="source-note">Editorial profile · source reviewed October 26, 2026. Check current details before making plans.</p>`; dialog.showModal(); history.replaceState(null, '', '#' + n.id); }
-function reset() { selected.clear(); $('#search').value = ''; $('#sort').value = 'match'; onlySaved = false; $('#savedToggle').setAttribute('aria-pressed', 'false'); document.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', 'false')); render(); }
-for (const t of interests) { const b = document.createElement('button'); b.className = 'chip'; b.textContent = t; b.setAttribute('aria-pressed', 'false'); b.onclick = () => { if (selected.has(t)) selected.delete(t); else if (selected.size < 5) selected.add(t); else { notify('Choose up to five interests. Deselect one to try another.'); return; } b.setAttribute('aria-pressed', String(selected.has(t))); render(); }; $('#chips').append(b); }
-$('#search').addEventListener('input', render); $('#sort').addEventListener('change', render); $('#reset').onclick = reset; $('#emptyReset').onclick = reset; $('#savedToggle').onclick = () => { onlySaved = !onlySaved; $('#savedToggle').setAttribute('aria-pressed', String(onlySaved)); render(); $('#explore').scrollIntoView(); }; $('#closeDetail').onclick = () => dialog.close(); dialog.addEventListener('click', e => { if (e.target === dialog) { const r = dialog.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dialog.close(); } }); dialog.addEventListener('close', () => history.replaceState(null, '', '#explore')); $('#surprise').onclick = () => { const pool = selected.size ? data.filter(n => matches(n).length) : data; if (pool.length) openDetail(pool[Math.floor(Math.random() * pool.length)]); };
-fetch('neighbourhoods.json?v=photos-1').then(r => { if (!r.ok) throw Error('Unable to load'); return r.json(); }).then(rows => { if (!Array.isArray(rows) || rows.length !== 10 || rows.some(n => !n.id || !n.name || !Array.isArray(n.tags))) throw Error('Invalid collection'); data = rows; saved = new Set([...saved].filter(id => data.some(n => n.id === id))); render(); const entry = data.find(n => n.id === location.hash.slice(1)); if (entry) openDetail(entry); }).catch(() => { $('#resultCount').textContent = 'The collection could not load. Please refresh to try again.'; });
+
+// 4. Open an expanded neighbourhood profile
+function openDetail(neighbourhood) {
+    $('#detailContent').innerHTML = `
+        <div class="eyebrow">${escapeHtml(neighbourhood.city.toUpperCase())} / ${escapeHtml(neighbourhood.country.toUpperCase())}</div>
+        <h2>${neighbourhood.name}</h2>
+        <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
+        ${travelContext(neighbourhood)}
+        <figure class="detail-photo">
+            <img src="${neighbourhood.photo.src}"
+                 alt="${escapeHtml(neighbourhood.photo.alt)}"
+                 width="1000" height="600">
+            <figcaption class="photo-credit">${photoCredit(neighbourhood)}${neighbourhood.photo.note ? ` · ${escapeHtml(neighbourhood.photo.note)}` : ''}</figcaption>
+        </figure>
+        <p><em>${neighbourhood.headline}</em></p>
+        <p>${neighbourhood.description}</p>
+        <div class="tags">
+            ${neighbourhood.tags.map(tag => `
+                <span class="tag">${tag}</span>
+            `).join('')}
+        </div>
+        <h4>${neighbourhood.context === 'cultural' ? 'Discover its character' : 'A few ways to begin'}</h4>
+        <ul>
+            ${neighbourhood.highlights.map(highlight => `
+                <li>${highlight}</li>
+            `).join('')}
+        </ul>
+        <h4>The detail that matters</h4>
+        <p class="note">${neighbourhood.nuance}</p>
+        <div class="detail-links">
+            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(neighbourhood.name + ', ' + neighbourhood.city + ', ' + neighbourhood.country)}"
+               target="_blank" rel="noopener noreferrer">
+                Explore on a map ↗
+            </a>
+            <a href="${neighbourhood.source}"
+               target="_blank" rel="noopener noreferrer">
+                Read the source ↗
+            </a>
+        </div>
+        <p class="source-note">
+            Editorial profile · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
+            Check current details before making plans.
+        </p>
+    `;
+    dialog.showModal();
+    history.replaceState(null, '', '#' + neighbourhood.id);
+}
+
+// 5. Reset controls and create the interest buttons
+function reset() {
+    selected.clear();
+    $('#search').value = '';
+    $('#sort').value = 'match';
+    $('#city').value = '';
+
+    onlySaved = false;
+    $('#savedToggle').setAttribute('aria-pressed', 'false');
+    document.querySelectorAll('.chip').forEach(button => {
+        button.setAttribute('aria-pressed', 'false');
+    });
+    render();
+}
+
+for (const interest of interests) {
+    const button = document.createElement('button');
+    button.className = 'chip';
+    button.textContent = interest;
+    button.setAttribute('aria-pressed', 'false');
+
+    button.onclick = () => {
+        if (selected.has(interest)) {
+            selected.delete(interest);
+        } else if (selected.size < 5) {
+            selected.add(interest);
+        } else {
+            notify('Choose up to five interests. Deselect one to try another.');
+            return;
+        }
+        button.setAttribute('aria-pressed', String(selected.has(interest)));
+        render();
+    };
+    $('#chips').append(button);
+}
+
+// 6. Connect page controls to their actions
+$('#search').addEventListener('input', render);
+$('#sort').addEventListener('change', render);
+$('#city').addEventListener('change', render);
+$('#reset').onclick = reset;
+$('#emptyReset').onclick = reset;
+
+$('#savedToggle').onclick = () => {
+    onlySaved = !onlySaved;
+    $('#savedToggle').setAttribute('aria-pressed', String(onlySaved));
+    render();
+    $('#explore').scrollIntoView();
+};
+
+$('#closeDetail').onclick = () => dialog.close();
+
+// Close when someone clicks the backdrop outside the dialog rectangle.
+dialog.addEventListener('click', event => {
+    if (event.target === dialog) {
+        const bounds = dialog.getBoundingClientRect();
+        if (
+            event.clientX < bounds.left
+            || event.clientX > bounds.right
+            || event.clientY < bounds.top
+            || event.clientY > bounds.bottom
+        ) {
+            dialog.close();
+        }
+    }
+});
+
+dialog.addEventListener('close', () => {
+    history.replaceState(null, '', '#explore');
+});
+
+$('#surprise').onclick = () => {
+    const available = filteredNeighbourhoods();
+    const pool = selected.size
+        ? available.filter(neighbourhood => matches(neighbourhood).length)
+        : available;
+    if (pool.length) {
+        const randomIndex = Math.floor(Math.random() * pool.length);
+        openDetail(pool[randomIndex]);
+    }
+};
+
+// 7. Load the data, validate it, then draw the initial collection
+fetch('neighbourhoods.json?v=world-1')
+    .then(response => {
+        if (!response.ok) {
+            throw Error('Unable to load');
+        }
+        return response.json();
+    })
+    .then(rows => {
+        if (
+            !Array.isArray(rows)
+            || rows.length === 0
+            || rows.some(neighbourhood => (
+                !neighbourhood.id
+                || !neighbourhood.name
+                || !neighbourhood.city
+                || !neighbourhood.country
+                || !neighbourhood.photo?.src
+                || !Array.isArray(neighbourhood.tags)
+            ))
+        ) {
+            throw Error('Invalid collection');
+        }
+        data = rows;
+
+        // Generate the city selector from the records rather than a fixed list.
+        const cities = [...new Set(data.map(neighbourhood => neighbourhood.city))].sort();
+        for (const city of cities) {
+            const option = document.createElement('option');
+            option.value = city;
+            option.textContent = city;
+            $('#city').append(option);
+        }
+        $('#collectionSummary').textContent =
+            `THE WORLD EDITION · ${data.length} NEIGHBOURHOODS · ${cities.length} CITIES`;
+
+        // Keep only saved IDs that still exist in the loaded collection.
+        saved = new Set([...saved].filter(id => (
+            data.some(neighbourhood => neighbourhood.id === id)
+        )));
+        render();
+
+        // A URL such as #riverside opens that profile immediately.
+        const entry = data.find(neighbourhood => (
+            neighbourhood.id === location.hash.slice(1)
+        ));
+        if (entry) {
+            openDetail(entry);
+        }
+    })
+    .catch(() => {
+        $('#resultCount').textContent =
+            'The collection could not load. Please refresh to try again.';
+    });

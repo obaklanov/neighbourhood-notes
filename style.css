@@ -45,3 +45,42 @@
 .detail-photo figcaption {
     margin-top: 8px;
 }
+
+/* Multiple cities and cultural context */
+.city-filter {
+    font-size: 12px;
+    color: var(--muted);
+    white-space: nowrap;
+}
+.local-area {
+    font-size: 11px;
+    color: var(--muted);
+    margin: 4px 0 12px;
+}
+.travel-context {
+    padding: 14px 18px;
+    background: #efe5cf;
+    border-left: 3px solid #a58a50;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.7;
+    margin: 0 0 24px;
+}
+.travel-context[hidden] { display: none; }
+.context-label, .archive-label {
+    font-size: 10px;
+    color: #706044;
+}
+.context-label {
+    display: inline-block;
+    padding: 4px 7px;
+    background: #efe5cf;
+    border-radius: 4px;
+}
+@media (max-width: 600px) {
+    .tools { flex-wrap: wrap; }
+    .search { flex-basis: 100%; }
+    .city-filter { flex: 1; }
+    .city-filter select { max-width: 160px; }
+    h1 { font-size: 40px; }
+}

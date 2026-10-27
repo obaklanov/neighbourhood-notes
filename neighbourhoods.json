@@ -29,7 +29,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:Kensington_Market_Toronto_August_2017_01.jpg",
       "title": "Kensington Market Toronto August 2017 01.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Kensington_Market_Toronto_August_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "annex",
@@ -61,7 +64,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:The_Annex,_Toronto_-_Victorian_homes.jpg",
       "title": "The Annex, Toronto - Victorian homes.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_Annex%2C_Toronto_-_Victorian_homes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "roncesvalles",
@@ -93,7 +99,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:Roncesvalles_Avenue,_April_27_2026_(11).jpg",
       "title": "Roncesvalles Avenue, April 27 2026 (11).jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Roncesvalles_Avenue%2C_April_27_2026_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "junction",
@@ -125,7 +134,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:Dundas_Street_West_August_2017_03.jpg",
       "title": "Dundas Street West August 2017 03.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dundas_Street_West_August_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "leslieville",
@@ -157,7 +169,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_Leslieville,_view_from_a_streetcar_(51202483775).jpg",
       "title": "Entrance to Leslieville, view from a streetcar (51202483775).jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Entrance_to_Leslieville%2C_view_from_a_streetcar_%2851202483775%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "riverside",
@@ -189,7 +204,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:BroadviewHotel_(30283689335).jpg",
       "title": "BroadviewHotel (30283689335).jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/BroadviewHotel_%2830283689335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "beaches",
@@ -221,7 +239,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:The_Beaches_aerial_view_2023.jpg",
       "title": "The Beaches aerial view 2023.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Beaches_aerial_view_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "danforth",
@@ -253,7 +274,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:Danforth_Ave_at_Jones_Ave_2022.jpg",
       "title": "Danforth Ave at Jones Ave 2022.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/Danforth_Ave_at_Jones_Ave_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "west-queen-west",
@@ -285,7 +309,10 @@
       "source": "https://commons.wikimedia.org/wiki/File:Queen_and_Shaw,_Toronto_2026.jpg",
       "title": "Queen and Shaw, Toronto 2026.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Queen_and_Shaw%2C_Toronto_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
   },
   {
     "id": "cabbagetown",
@@ -317,6 +344,536 @@
       "source": "https://commons.wikimedia.org/wiki/File:Toronto_Cabbage_Town_35_(8437635457).jpg",
       "title": "Toronto Cabbage Town 35 (8437635457).jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Toronto_Cabbage_Town_35_%288437635457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-26"
+  },
+  {
+    "id": "kharkiv-nahirnyi",
+    "name": "Nahirnyi",
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "area": "Historic upper town",
+    "color": "#c7c1a9",
+    "headline": "The city's architectural conversation.",
+    "description": "Kharkiv's historic upper town follows the Sumska Street axis, bringing together civic architecture, university history and the cultural identity of the city centre. This is a cultural profile, not a current travel recommendation.",
+    "tags": [
+      "Architecture",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore the architectural history of Sumska Street",
+      "Learn how the upper town shaped the city centre",
+      "Compare the area's historic streets and civic spaces"
+    ],
+    "nuance": "Nahirnyi is a broad historic area rather than a single compact administrative neighbourhood. Photographs may predate wartime damage; present access and building conditions are not verified.",
+    "source": "https://ru.wikipedia.org/wiki/Нагорный_район_(Харьков)",
+    "lat": 50.0053,
+    "lon": 36.235,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/kharkiv-nahirnyi.jpg",
+      "alt": "Historic architecture at 40 Sumska Street in central Kharkiv",
+      "author": "Dmitry Glazunov",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sumskaya_40_02.jpg",
+      "title": "Sumskaya 40 02.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sumskaya_40_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "context": "cultural"
+  },
+  {
+    "id": "kharkiv-zalopan",
+    "name": "Zalopan",
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "area": "Historic river district",
+    "color": "#d8b89c",
+    "headline": "History on the other side of the Lopan.",
+    "description": "Named for its position across the Lopan River from the oldest city centre, Zalopan holds an important chapter of Kharkiv's trading and religious history, with the Annunciation Cathedral as a distinctive landmark.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Waterfront"
+    ],
+    "highlights": [
+      "Discover the story behind the name Zalopan",
+      "Study the Annunciation Cathedral's distinctive architecture",
+      "Explore the relationship between river crossings and the historic trading city"
+    ],
+    "nuance": "This profile concerns the historic core around the cathedral, not every area once described as Zalopan. Historic imagery does not establish present-day conditions or access.",
+    "source": "https://ru.wikipedia.org/wiki/Залопань",
+    "lat": 49.989,
+    "lon": 36.2244,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/kharkiv-zalopan.jpg",
+      "alt": "Annunciation (Blagoveshchensky) Cathedral in Kharkiv, Ukraine.",
+      "author": "Ekaterina Polischuk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Annunciation_Cathedral_in_Kharkiv.jpg",
+      "title": "The Annunciation Cathedral in Kharkiv.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Annunciation_Cathedral_in_Kharkiv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "context": "cultural"
+  },
+  {
+    "id": "kharkiv-pavlove-pole",
+    "name": "Pavlove Pole",
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "area": "Northern residential district",
+    "color": "#acc6af",
+    "headline": "Residential rhythms beside a green ravine.",
+    "description": "A planned residential district north of the centre, Pavlove Pole is closely associated with Sarzhyn Yar, the green ravine separating it from the upper town. Its identity combines residential urban planning with a memorable natural landscape.",
+    "tags": [
+      "Parks",
+      "Architecture"
+    ],
+    "highlights": [
+      "Learn about Sarzhyn Yar and its landscape",
+      "Compare the district's planned residential forms",
+      "Discover the local history of the spring pavilion"
+    ],
+    "nuance": "Sarzhyn Yar is a landscape feature at the district's edge, not a synonym for the entire neighbourhood. This profile describes established character; current recreational access is not verified.",
+    "source": "https://kharkiv.name/uk/articles-2278-istoriya-sarzhynogo-yaru",
+    "lat": 50.0435,
+    "lon": 36.222,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/kharkiv-pavlove-pole.jpg",
+      "alt": "A Pond at Sarzhyn Yar Park in Kharkiv, Ukraine",
+      "author": "Наталка Зубар",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pond_at_Sarzhyn_Yar_Park.jpg",
+      "title": "Pond at Sarzhyn Yar Park.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pond_at_Sarzhyn_Yar_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "context": "cultural"
+  },
+  {
+    "id": "kharkiv-zhuravlivka",
+    "name": "Zhuravlivka",
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "area": "Kharkiv River district",
+    "color": "#aac9c6",
+    "headline": "A different perspective on the river city.",
+    "description": "A historic district along the Kharkiv River below the slopes of the upper town, Zhuravlivka combines a long settlement history with low-rise residential areas and the nearby hydropark landscape.",
+    "tags": [
+      "Waterfront",
+      "Parks",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore the history of the river-side settlement",
+      "Understand how the slopes separate it from the upper town",
+      "Discover the hydropark's place in Kharkiv's landscape"
+    ],
+    "nuance": "Zhuravlivka covers several distinct areas. Water and park imagery is for cultural context; it does not confirm safe access, swimming conditions or current facilities.",
+    "source": "https://uk.wikipedia.org/wiki/Журавлівка_(Харків)",
+    "lat": 50.015,
+    "lon": 36.27,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/kharkiv-zhuravlivka.jpg",
+      "alt": "Kharkiv River landscape beside Zhuravlivka hydropark, viewed from the Pisky bank",
+      "author": "Канопус Киля",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gulf_in_Sands.jpg",
+      "title": "Gulf in Sands.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/Gulf_in_Sands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "context": "cultural"
+  },
+  {
+    "id": "kharkiv-zaderzhprom",
+    "name": "Zaderzhprom",
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "area": "Quarter behind Derzhprom",
+    "color": "#d4bcaa",
+    "headline": "Modernist streets, literary memory.",
+    "description": "The residential quarter behind Derzhprom holds a distinctive chapter of Kharkiv's modernist and literary history. The Slovo House connects its architecture to the lives of Ukrainian writers and artists.",
+    "tags": [
+      "Architecture",
+      "Culture"
+    ],
+    "highlights": [
+      "Discover the quarter's cooperative residential architecture",
+      "Learn about the writers and artists associated with Slovo House",
+      "Explore the relationship between the quarter and Kharkiv's former capital-city role"
+    ],
+    "nuance": "This is a smaller quarter within the broader central city, not a separate administrative district. Buildings have suffered wartime damage; the photo is historical context and present access is not verified.",
+    "source": "https://lyuk.media/city/taking-a-stroll-derzhprom/",
+    "lat": 50.0125,
+    "lon": 36.228,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/kharkiv-zaderzhprom.jpg",
+      "alt": "Slovo House in the Zaderzhprom quarter of Kharkiv",
+      "author": "Victor Vizu",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Slovo3.jpg",
+      "title": "Slovo3.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Slovo3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "context": "cultural"
+  },
+  {
+    "id": "rome-trastevere",
+    "name": "Trastevere",
+    "city": "Rome",
+    "country": "Italy",
+    "area": "West of the Tiber",
+    "color": "#d2ac87",
+    "headline": "Winding lanes, lively evenings.",
+    "description": "Small streets and squares around Santa Maria in Trastevere create a memorable setting for Roman food, architectural wandering and evenings spent among restaurants and gathering places.",
+    "tags": [
+      "Food",
+      "Architecture",
+      "Social"
+    ],
+    "highlights": [
+      "Explore the streets around Santa Maria in Trastevere",
+      "Plan a meal around Roman cooking",
+      "Compare the atmosphere of small lanes and larger squares"
+    ],
+    "nuance": "The popular squares draw visitors and evening activity. Choose the exact street carefully if you want the atmosphere without having it outside your bedroom.",
+    "source": "https://www.turismoroma.it/en/quartieri/trastevere-testaccio",
+    "lat": 41.8895,
+    "lon": 12.4698,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/rome-trastevere.jpg",
+      "alt": "Ceiling in the Santa Maria in Trastevere basilica in Rome, Lazio, Italy",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Trastevere_church_in_Rome_(12).jpg",
+      "title": "Santa Maria in Trastevere church in Rome (12).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Santa_Maria_in_Trastevere_church_in_Rome_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "rome-monti",
+    "name": "Monti",
+    "city": "Rome",
+    "country": "Italy",
+    "area": "Historic central Rome",
+    "color": "#d6c29c",
+    "headline": "A neighbourhood between ancient chapters.",
+    "description": "Historic streets, independent shops and gathering places around Piazza della Madonna dei Monti offer a neighbourhood-scale experience close to some of Rome's best-known ancient landmarks.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore the streets around Piazza della Madonna dei Monti",
+      "Browse the shops along Via Urbana and Via del Boschetto",
+      "Combine neighbourhood time with nearby archaeological sights"
+    ],
+    "nuance": "Monti is a substantial historic district. The small-street atmosphere around the piazza differs from the busier roads at its edges; nearby monuments do not make every block equally calm.",
+    "source": "https://www.turismoroma.it/en/quartieri/esquilino-monti",
+    "lat": 41.8948,
+    "lon": 12.4908,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/rome-monti.jpg",
+      "alt": "La fontana di piazza della Madonna dei Monti",
+      "author": "Galzu",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontana_di_piazza_Madonna_dei_Monti.JPG",
+      "title": "Fontana di piazza Madonna dei Monti.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fontana_di_piazza_Madonna_dei_Monti.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "rome-testaccio",
+    "name": "Testaccio",
+    "city": "Rome",
+    "country": "Italy",
+    "area": "South of the historic centre",
+    "color": "#c9b19e",
+    "headline": "Let lunch lead the way.",
+    "description": "Food-market culture, Roman cooking and a working-neighbourhood history give Testaccio a distinctive identity. The former slaughterhouse complex adds a further layer of cultural interest.",
+    "tags": [
+      "Food",
+      "Culture",
+      "Social"
+    ],
+    "highlights": [
+      "Explore the Testaccio market during its opening hours",
+      "Discover traditional Roman food",
+      "Learn about the former Mattatoio and the district's history"
+    ],
+    "nuance": "Market mornings and evening venues offer different experiences. Check opening hours and the specific block rather than assuming the whole neighbourhood follows one rhythm.",
+    "source": "https://www.turismoroma.it/en/quartieri/trastevere-testaccio",
+    "lat": 41.8795,
+    "lon": 12.4753,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/rome-testaccio.jpg",
+      "alt": "El Mercado de Testaccio. Mercado que inspiró a la canción del mismo nombre del grupo chileno folclórico Inti-Illimani",
+      "author": "pa ve from rome, it",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:ElMercadoDeTestaccio.jpg",
+      "title": "ElMercadoDeTestaccio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/ElMercadoDeTestaccio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "rome-prati",
+    "name": "Prati",
+    "city": "Rome",
+    "country": "Italy",
+    "area": "Vatican-side Rome",
+    "color": "#c9c5ae",
+    "headline": "Broad streets and a more measured pace.",
+    "description": "An orderly street grid, substantial urban buildings and shopping streets distinguish Prati from Rome's tightly woven old-town lanes. It provides a different perspective on the Vatican side of the city.",
+    "tags": [
+      "Architecture",
+      "Food",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore the streets around Via Cola di Rienzo",
+      "Compare Prati's architecture with the old centre",
+      "Combine local food stops with a Vatican-side outing"
+    ],
+    "nuance": "Prati is not Vatican City. The edges nearest major attractions can feel different from residential blocks farther away; verify the exact location and transport connections.",
+    "source": "https://www.turismoroma.it/it/quartieri",
+    "lat": 41.907,
+    "lon": 12.4643,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/rome-prati.jpg",
+      "alt": "Roma, edicola della Madonna del Divino Amore a via Cola di Rienzo angolo via Terenzio",
+      "author": "Lalupa",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Prati_-_Divino_Amore_a_v_Cola_di_Rienzo_ang_v_Terenzio_P1040679.JPG",
+      "title": "Prati - Divino Amore a v Cola di Rienzo ang v Terenzio P1040679.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Prati_-_Divino_Amore_a_v_Cola_di_Rienzo_ang_v_Terenzio_P1040679.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "rome-garbatella",
+    "name": "Garbatella",
+    "city": "Rome",
+    "country": "Italy",
+    "area": "Southern Rome",
+    "color": "#b9c5a8",
+    "headline": "Courtyards with a character of their own.",
+    "description": "Garden-city influences, unusual residential architecture and shared courtyards distinguish Garbatella. It rewards an interest in the everyday architecture of Rome beyond the monumental centre.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Parks"
+    ],
+    "highlights": [
+      "Explore the neighbourhood's garden-city design",
+      "Look for distinctive residential buildings",
+      "Learn how courtyards shape its streetscape"
+    ],
+    "nuance": "Many courtyards and gardens are residents' spaces, not public attractions. Respect access signs and plan journeys to central sights separately.",
+    "source": "https://www.turismoroma.it/sites/default/files/quartieri-ITA.pdf",
+    "lat": 41.8625,
+    "lon": 12.4885,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/rome-garbatella.jpg",
+      "alt": "Houses at Garbatella. Photo made during the second course to Toponomastica Femminile Association made by Wikimedia Italia in Rome, at the Roma Tre University and Garbatella urban area",
+      "author": "Camelia.boban",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Houses_at_Garbatella_5.jpg",
+      "title": "Houses at Garbatella 5.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Houses_at_Garbatella_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "medellin-laureles",
+    "name": "Laureles",
+    "city": "Medellín",
+    "country": "Colombia",
+    "area": "Laureles–Estadio",
+    "color": "#afc7a7",
+    "headline": "Circular streets, everyday discoveries.",
+    "description": "A distinctive planned street pattern, neighbourhood parks and places to eat give Laureles a character separate from El Poblado. Start with the streets around its first and second parks.",
+    "tags": [
+      "Parks",
+      "Food",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore the area around the neighbourhood parks",
+      "Discover Laureles' circular street layout",
+      "Build an afternoon around cafés and food stops"
+    ],
+    "nuance": "The residential park areas and the La 70 entertainment corridor are different settings. This entry concerns the Laureles neighbourhood rather than the entire Laureles–Estadio comuna.",
+    "source": "https://www.medellin.travel/que-hacer-en-medellin-barrios-cultura-y-turismo-creativo/",
+    "lat": 6.244,
+    "lon": -75.594,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/medellin-laureles.jpg",
+      "alt": "Aerial view of Laureles and neighbouring Estadio in Medellín",
+      "author": "CONOCER",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Laureles_y_Estadio_neighborhoods_Medell%C3%ADn.jpeg",
+      "title": "Laureles y Estadio neighborhoods Medellín.jpeg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Laureles_y_Estadio_neighborhoods_Medell%C3%ADn.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "medellin-ciudad-del-rio",
+    "name": "Ciudad del Río",
+    "city": "Medellín",
+    "country": "Colombia",
+    "area": "El Poblado · arts district",
+    "color": "#d9c6a0",
+    "headline": "Art meets everyday outdoor life.",
+    "description": "A former industrial area reshaped around contemporary art, residential buildings and a linear park. The Museo de Arte Moderno de Medellín gives this part of the city a distinctive cultural anchor.",
+    "tags": [
+      "Culture",
+      "Parks",
+      "Creative"
+    ],
+    "highlights": [
+      "Explore the Museo de Arte Moderno de Medellín",
+      "Discover the linear park and its public spaces",
+      "Learn about the area's transition from industry to mixed urban life"
+    ],
+    "nuance": "The name refers to an urban development sector, not a separate city. Museum opening hours and events vary; check the current programme before visiting.",
+    "source": "https://www.elmamm.org/",
+    "lat": 6.2232,
+    "lon": -75.574,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/medellin-ciudad-del-rio.jpg",
+      "alt": "Facade of the Museo de Arte Moderno de Medellín in Ciudad del Río",
+      "author": "Andrés Molina Mesa",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Moderno_de_Medell%C3%ADn_-_Fachada.jpg",
+      "title": "Museo de Arte Moderno de Medellín - Fachada.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/Museo_de_Arte_Moderno_de_Medell%C3%ADn_-_Fachada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "medellin-provenza",
+    "name": "Provenza",
+    "city": "Medellín",
+    "country": "Colombia",
+    "area": "El Poblado · El Provenzal sector",
+    "color": "#b8c8b2",
+    "headline": "Food, conversation and evening energy.",
+    "description": "A dining and evening-out sector within El Poblado, Provenza brings restaurants and social venues together in a recognisable part of the city. It suits an interest in food and an animated atmosphere.",
+    "tags": [
+      "Food",
+      "Social",
+      "Creative"
+    ],
+    "highlights": [
+      "Explore its restaurants and dining streets",
+      "Compare daytime and evening atmosphere",
+      "Discover the surrounding El Poblado area through the official guide"
+    ],
+    "nuance": "Provenza is a popular sector name within the wider El Poblado area. Evening activity is part of the appeal; evaluate accommodation noise and the specific route independently.",
+    "source": "https://www.medellin.travel/wp-content/uploads/2026/03/guia-vive-el-poblado-v1.pdf",
+    "lat": 6.207,
+    "lon": -75.5655,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/medellin-provenza.jpg",
+      "alt": "Carrera 35 - Provenza - Medellín - Colombia",
+      "author": "José Luiz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Provenza_-_Carrera_35_-_Medell%C3%ADn_-_Colombia_2024.jpg",
+      "title": "Provenza - Carrera 35 - Medellín - Colombia 2024.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Provenza_-_Carrera_35_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "medellin-prado",
+    "name": "Prado Centro",
+    "city": "Medellín",
+    "country": "Colombia",
+    "area": "La Candelaria",
+    "color": "#c7b6cd",
+    "headline": "The city remembers in its houses.",
+    "description": "Historic houses and cultural reuse make Prado a distinctive part of central Medellín. Its architectural heritage offers a different focus from the city's better-known dining districts.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Creative"
+    ],
+    "highlights": [
+      "Discover Prado's historic house architecture",
+      "Look for public cultural venues in heritage buildings",
+      "Explore the city's official Prado cultural guide"
+    ],
+    "nuance": "Heritage appeal does not establish suitability for an overnight stay. Confirm venue opening hours, route and current local conditions before planning a visit.",
+    "source": "https://www.medellin.travel/wp-content/uploads/2025/02/PRADOCENTRO2.pdf",
+    "lat": 6.262,
+    "lon": -75.563,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/medellin-prado.jpg",
+      "alt": "A historic house in Prado Centro, Medellín",
+      "author": "Felipe Restrepo Acosta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_casa_en_el_barrio_Prado_-_carrera_48_con_calle_63_A_-_Medell%C3%ADn.jpg",
+      "title": "2018 Medellín casa en el barrio Prado - carrera 48 con calle 63 A - Medellín.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/2018_Medell%C3%ADn_casa_en_el_barrio_Prado_-_carrera_48_con_calle_63_A_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  },
+  {
+    "id": "medellin-belen",
+    "name": "Belén · Parque Central",
+    "city": "Medellín",
+    "country": "Colombia",
+    "area": "Belén",
+    "color": "#c6c49f",
+    "headline": "A neighbourhood gathered around its park.",
+    "description": "The central park and church anchor this part of Belén, offering a neighbourhood-scale introduction to southwest Medellín. This profile focuses on the park's immediate surroundings.",
+    "tags": [
+      "Parks",
+      "Culture",
+      "Social"
+    ],
+    "highlights": [
+      "Discover the history of Parque de Belén",
+      "Explore the central church and surrounding streets",
+      "Compare this local centre with the city's other neighbourhood hubs"
+    ],
+    "nuance": "Belén is also the name of a large comuna with many neighbourhoods. This entry covers the central park area only and should not be used to generalize about all of Belén.",
+    "source": "https://es.wikipedia.org/wiki/Parque_de_Belén",
+    "lat": 6.2302,
+    "lon": -75.6024,
+    "reviewedAt": "2026-10-26",
+    "photo": {
+      "src": "images/medellin-belen.jpg",
+      "alt": "Parque de Belén and its church square in Medellín, photographed in 2020",
+      "author": "XalD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_de_Bel%C3%A9n_en_la_noche,_julio_de_2020.jpg",
+      "title": "Parque de Belén en la noche, julio de 2020.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Parque_de_Bel%C3%A9n_en_la_noche%2C_julio_de_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
     }
   }
 ]
