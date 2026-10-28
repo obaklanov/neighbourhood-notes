@@ -84,3 +84,12 @@
     .city-filter select { max-width: 160px; }
     h1 { font-size: 40px; }
 }
+
+/* Listing-count selection context */
+.listing-stat {
+    font-size: 11px;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: 10px 0 14px;
+}
+.card h3 { overflow-wrap: anywhere; }

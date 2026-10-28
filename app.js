@@ -112,7 +112,7 @@ function render() {
     $('#resultCount').textContent =
         `${list.length} neighbourhood${list.length === 1 ? '' : 's'}`
         + `${onlySaved ? ' in your saved collection' : ''}`
-        + `${selected.size ? ' · ranked by your interests' : ' · an editorial collection'}`;
+        + `${selected.size ? ' · ranked by your interests' : ' · selected by listing count'}`;
     $('#cityContext').hidden = !list.some(neighbourhood => neighbourhood.context === 'cultural');
     $('#savedCount').textContent = saved.size;
     $('#empty').hidden = list.length > 0;
@@ -146,6 +146,7 @@ function render() {
                 <h3>${neighbourhood.name}</h3>
                 <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
                 <p class="headline">${neighbourhood.headline}</p>
+                <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} listings · #${neighbourhood.selection.rank} in this snapshot</p>
                 ${neighbourhood.photo.note ? `<p class="archive-label">${escapeHtml(neighbourhood.photo.note)}</p>` : ''}
                 ${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
                 <div class="tags">
@@ -199,6 +200,7 @@ function openDetail(neighbourhood) {
             <figcaption class="photo-credit">${photoCredit(neighbourhood)}${neighbourhood.photo.note ? ` · ${escapeHtml(neighbourhood.photo.note)}` : ''}</figcaption>
         </figure>
         <p><em>${neighbourhood.headline}</em></p>
+        <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} unique listings · rank #${neighbourhood.selection.rank} · snapshot ${escapeHtml(neighbourhood.selection.snapshotDate)}</p>
         <p>${neighbourhood.description}</p>
         <div class="tags">
             ${neighbourhood.tags.map(tag => `
@@ -224,6 +226,7 @@ function openDetail(neighbourhood) {
             </a>
         </div>
         <p class="source-note">
+            Selection: <a href="${neighbourhood.selection.source}" target="_blank" rel="noopener noreferrer">Inside Airbnb</a>, <a href="${neighbourhood.selection.licenseUrl}" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Listing count is not a quality rating or proof of availability.<br>
             Editorial profile · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
             Check current details before making plans.
         </p>
@@ -315,7 +318,7 @@ $('#surprise').onclick = () => {
 };
 
 // 7. Load the data, validate it, then draw the initial collection
-fetch('neighbourhoods.json?v=world-1')
+fetch('neighbourhoods.json?v=toronto-counts-1')
     .then(response => {
         if (!response.ok) {
             throw Error('Unable to load');
@@ -348,7 +351,7 @@ fetch('neighbourhoods.json?v=world-1')
             $('#city').append(option);
         }
         $('#collectionSummary').textContent =
-            `THE WORLD EDITION · ${data.length} NEIGHBOURHOODS · ${cities.length} CITIES`;
+            `THE TORONTO EDITION · ${data.length} NEIGHBOURHOODS`;
 
         // Keep only saved IDs that still exist in the loaded collection.
         saved = new Set([...saved].filter(id => (

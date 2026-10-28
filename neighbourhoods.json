@@ -1,60 +1,166 @@
 [
   {
-    "id": "kensington-market",
-    "name": "Kensington Market",
-    "area": "Downtown west",
-    "color": "#e4b65b",
-    "headline": "A little unexpected. A lot to discover.",
-    "description": "A compact collection of colourful streets, specialty groceries, international food and vintage shops. Come with an appetite and room to wander.",
+    "id": "waterfront-communities-the-island",
+    "name": "Waterfront Communities-The Island",
+    "area": "Harbourfront, downtown waterfront & Toronto Islands",
+    "color": "#b2cbd0",
+    "headline": "Lake air. City lights. A ferry away from it all.",
+    "description": "A broad waterfront district brings together high-rise city life, harbour walks and the Toronto Islands. On the mainland, follow Queens Quay for lake views and cultural stops; across the harbour, the islands offer a different pace.",
     "tags": [
-      "Food",
-      "Creative",
-      "Social"
+      "Waterfront",
+      "Parks",
+      "Culture"
     ],
     "highlights": [
-      "Browse vintage shops and independent boutiques",
-      "Build a food walk around specialty grocers and small eateries",
-      "Explore the market streets on foot"
+      "Follow the harbour along Queens Quay",
+      "Explore the cultural spaces around Harbourfront Centre",
+      "Plan a separate island outing, checking ferry arrangements first"
     ],
-    "nuance": "The lively shopping streets are an experience in their own right. Check the specific street and accommodation if quiet evenings are important.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/westside/kensington-market/",
-    "lat": 43.6547,
-    "lon": -79.4006,
-    "photo": {
-      "src": "images/kensington-market.jpg",
-      "alt": "Kensington Market, Toronto. Intersection of Kensington Avenue (left) and Baldwin street.",
-      "author": "Arild Vågen",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Kensington_Market_Toronto_August_2017_01.jpg",
-      "title": "Kensington Market Toronto August 2017 01.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Kensington_Market_Toronto_August_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
+    "nuance": "This source area combines very different settings. A downtown condo and an island stay are not interchangeable; check the precise location and transport connections.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/waterfront-and-toronto-islands/",
+    "lat": 43.6389,
+    "lon": -79.3814,
     "city": "Toronto",
     "country": "Canada",
-    "reviewedAt": "2026-10-26"
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/waterfront-communities-the-island.jpg",
+      "alt": "Boats and the Amsterdam Bridge on Toronto’s Harbourfront",
+      "author": "Wladyslaw",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Toronto_Harbourfront_-_Amsterdam_Bridge.jpg",
+      "title": "Toronto - ON - Toronto Harbourfront - Amsterdam Bridge.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Toronto_-_ON_-_Toronto_Harbourfront_-_Amsterdam_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 1,
+      "listingCount": 3776,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
+  },
+  {
+    "id": "niagara",
+    "name": "Niagara",
+    "area": "King West & west downtown",
+    "color": "#d8baa7",
+    "headline": "Old brick, new towers, an evening out.",
+    "description": "Niagara sits west of the downtown core, where older residential streets and industrial-era buildings meet condominium development. King Street West supplies an urban restaurant-and-nightlife rhythm, with quieter side streets changing the feel from block to block.",
+    "tags": [
+      "Food",
+      "Social",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore the older streets around Niagara Street",
+      "Browse the restaurants and cafés along King Street West",
+      "Combine neighbourhood wandering with a visit to nearby Fort York"
+    ],
+    "nuance": "Niagara is a Toronto neighbourhood, not Niagara Falls. On lively streets, ask about evening noise and check the exact building before choosing a longer stay.",
+    "source": "https://en.wikipedia.org/wiki/Niagara,_Toronto",
+    "lat": 43.643,
+    "lon": -79.408,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/niagara.jpg",
+      "alt": "Aerial view of Niagara in Toronto, photographed in 2025",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Niagara,_Toronto_aerial_view_2025.jpg",
+      "title": "Niagara, Toronto aerial view 2025.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Niagara%2C_Toronto_aerial_view_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 2,
+      "listingCount": 891,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
+  },
+  {
+    "id": "church-yonge-corridor",
+    "name": "Church-Yonge Corridor",
+    "area": "Downtown east of Yonge Street",
+    "color": "#cfb9cf",
+    "headline": "A central address with a social heartbeat.",
+    "description": "The downtown corridor east of Yonge includes the Church-Wellesley Village, a centre of Toronto’s LGBTQ+ community. Restaurants, bars and residential towers sit close together, with a lively street atmosphere around the Village and the Yonge spine.",
+    "tags": [
+      "Social",
+      "Culture",
+      "Food"
+    ],
+    "highlights": [
+      "Walk Church Street through the Village",
+      "Explore the area’s LGBTQ+ venues and community spaces",
+      "Make a café-and-people-watching loop through the side streets"
+    ],
+    "nuance": "The statistical corridor extends beyond the Village. Street activity and evening noise vary, so use the exact address rather than the neighbourhood label alone.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/city-centre/church-wellesley-village/",
+    "lat": 43.6653,
+    "lon": -79.3809,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/church-yonge-corridor.jpg",
+      "alt": "Church and Wellesley streets in Toronto, photographed in 2023",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wellesley_St_East_at_Church_St_2023.jpg",
+      "title": "Wellesley St East at Church St 2023.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wellesley_St_East_at_Church_St_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 3,
+      "listingCount": 724,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
   },
   {
     "id": "annex",
-    "name": "The Annex",
-    "area": "Central",
+    "name": "Annex",
+    "area": "Bloor Street & historic residential streets",
     "color": "#c4c8ad",
     "headline": "Old houses. New ideas.",
-    "description": "Historic residential streets meet the shops and food of Bloor Street, with university grounds and major cultural institutions close by.",
+    "description": "The Annex pairs older homes and leafy residential streets with the food, shops and cultural life around Bloor Street. Its proximity to the university gives the area a bookish, exploratory feel, suited to unhurried walks and café stops.",
     "tags": [
       "Architecture",
       "Culture",
       "Cafés"
     ],
     "highlights": [
-      "Wander residential streets for older architecture",
-      "Explore nearby university grounds",
-      "Pair a café stop with a cultural outing"
+      "Walk the residential streets for older Toronto architecture",
+      "Browse Bloor Street’s cafés and independent businesses",
+      "Pair neighbourhood wandering with nearby university and museum visits"
     ],
-    "nuance": "Bloor Street and the residential back streets feel different. Choose the immediate surroundings that suit your routine.",
+    "nuance": "The source’s Annex area is broader than one familiar village. Busy Bloor Street, Yorkville-side addresses and residential back streets can deliver very different stays.",
     "source": "https://www.destinationtoronto.com/neighbourhoods/midtown/annex/",
     "lat": 43.6704,
     "lon": -79.4071,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
     "photo": {
       "src": "images/annex.jpg",
       "alt": "Victorian homes in Toronto’s Annex neighbourhood",
@@ -65,815 +171,292 @@
       "title": "The Annex, Toronto - Victorian homes.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_Annex%2C_Toronto_-_Victorian_homes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
     },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "roncesvalles",
-    "name": "Roncesvalles",
-    "area": "West end",
-    "color": "#b2c4b4",
-    "headline": "Find your everyday favourites.",
-    "description": "Polish heritage, independent shops and café stops give Roncy its neighbourhood rhythm, with High Park nearby for a change of pace.",
-    "tags": [
-      "Parks",
-      "Cafés",
-      "Food"
-    ],
-    "highlights": [
-      "Explore Polish food and neighbourhood shops",
-      "Make time for a café-and-book morning",
-      "Plan a walk in nearby High Park"
-    ],
-    "nuance": "Park and subway access depend on the exact address. The northern and southern ends support different daily routes.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/high-park/roncesvalles/",
-    "lat": 43.6456,
-    "lon": -79.4485,
-    "photo": {
-      "src": "images/roncesvalles.jpg",
-      "alt": "Looking north along Roncesvalles Avenue at Westminster Avenue",
-      "author": "Dillan Payne",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Roncesvalles_Avenue,_April_27_2026_(11).jpg",
-      "title": "Roncesvalles Avenue, April 27 2026 (11).jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Roncesvalles_Avenue%2C_April_27_2026_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "junction",
-    "name": "The Junction",
-    "area": "West end",
-    "color": "#c9b7a6",
-    "headline": "Independent by nature.",
-    "description": "A former railway-town main street with design shops, galleries, places to eat and an independent retail character.",
-    "tags": [
-      "Creative",
-      "Cafés",
-      "Social"
-    ],
-    "highlights": [
-      "Browse design and homeware shops",
-      "Spend an afternoon exploring Dundas West",
-      "Look for local art and music outings"
-    ],
-    "nuance": "The Junction and Junction Triangle are separate areas. Check the map and actual transit journey for any accommodation.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/high-park/the-junction/",
-    "lat": 43.6655,
-    "lon": -79.4655,
-    "photo": {
-      "src": "images/junction.jpg",
-      "alt": "Buildings on Dundas Street West in The Junction, Toronto.",
-      "author": "Arild Vågen",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Dundas_Street_West_August_2017_03.jpg",
-      "title": "Dundas Street West August 2017 03.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dundas_Street_West_August_2017_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "leslieville",
-    "name": "Leslieville",
-    "area": "East end",
-    "color": "#d6b8a1",
-    "headline": "Slow mornings on Queen East.",
-    "description": "Restaurants, vintage finds and independent boutiques sit alongside a residential, family-oriented neighbourhood atmosphere.",
-    "tags": [
-      "Cafés",
-      "Food",
-      "Creative"
-    ],
-    "highlights": [
-      "Browse vintage and independent shops",
-      "Build a relaxed brunch outing",
-      "Explore Queen East and its side streets"
-    ],
-    "nuance": "Queen Street is the commercial spine. Nearby residential streets can offer a different setting; evaluate the specific block.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/leslieville/",
-    "lat": 43.662,
-    "lon": -79.332,
-    "photo": {
-      "src": "images/leslieville.jpg",
-      "alt": "Queen Street East streetscape at the entrance to Leslieville",
-      "author": "Vladislav Litvinov",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_Leslieville,_view_from_a_streetcar_(51202483775).jpg",
-      "title": "Entrance to Leslieville, view from a streetcar (51202483775).jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Entrance_to_Leslieville%2C_view_from_a_streetcar_%2851202483775%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "riverside",
-    "name": "Riverside",
-    "area": "East end",
-    "color": "#b8c8cd",
-    "headline": "History with a creative current.",
-    "description": "A compact Queen East district with historic streets, public art, cafés and cultural outings around the Opera House.",
-    "tags": [
-      "Architecture",
-      "Culture",
-      "Social"
-    ],
-    "highlights": [
-      "Explore public art around Queen East",
-      "Take an architecture-focused walk",
-      "Check the Opera House for an evening out"
-    ],
-    "nuance": "Riverside is distinct from neighbouring Leslieville. Being near a music venue is a benefit for some stays and a consideration for others.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/riverside/",
-    "lat": 43.659,
-    "lon": -79.349,
-    "photo": {
-      "src": "images/riverside.jpg",
-      "alt": "The historic Broadview Hotel in Riverside, Toronto",
-      "author": "JasonParis from Toronto, Canada",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:BroadviewHotel_(30283689335).jpg",
-      "title": "BroadviewHotel (30283689335).jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/BroadviewHotel_%2830283689335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "beaches",
-    "name": "The Beaches",
-    "area": "East end",
-    "color": "#b9d1ce",
-    "headline": "Let the lake set the pace.",
-    "description": "Lake Ontario shoreline, a long boardwalk, parks and a local shopping street make outdoor time the centre of the experience.",
-    "tags": [
-      "Parks",
-      "Waterfront",
-      "Cafés"
-    ],
-    "highlights": [
-      "Walk along the waterfront boardwalk",
-      "Spend time around Kew Gardens",
-      "Explore the shops along Queen East"
-    ],
-    "nuance": "Season changes the experience. A summer beach visit and a winter waterfront walk offer very different kinds of enjoyment.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/the-beaches/",
-    "lat": 43.671,
-    "lon": -79.296,
-    "photo": {
-      "src": "images/beaches.jpg",
-      "alt": "Aerial view of the Lake Ontario shoreline and The Beaches, Toronto",
-      "author": "Canmenwalker",
+    "selection": {
+      "rank": 4,
+      "listingCount": 714,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
       "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:The_Beaches_aerial_view_2023.jpg",
-      "title": "The Beaches aerial view 2023.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Beaches_aerial_view_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "danforth",
-    "name": "Danforth / Greektown",
-    "area": "East end",
-    "color": "#dbc78f",
-    "headline": "Good food. A street full of possibilities.",
-    "description": "Greek heritage meets a wider mix of restaurants, independent grocers, shops and music, with subway access along the corridor.",
-    "tags": [
-      "Food",
-      "Culture",
-      "Social"
-    ],
-    "highlights": [
-      "Explore Greek and other international food",
-      "Browse independent grocers and shops",
-      "Check for a concert at the Danforth Music Hall"
-    ],
-    "nuance": "The Danforth is a long corridor. This guide focuses on the Greektown area; check the location rather than relying on the broad name.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/eastside/danforth-greektown/",
-    "lat": 43.678,
-    "lon": -79.348,
-    "photo": {
-      "src": "images/danforth.jpg",
-      "alt": "Danforth Ave at Jones Ave",
-      "author": "Canmenwalker",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Danforth_Ave_at_Jones_Ave_2022.jpg",
-      "title": "Danforth Ave at Jones Ave 2022.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/Danforth_Ave_at_Jones_Ave_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "west-queen-west",
-    "name": "West Queen West",
-    "area": "West end",
-    "color": "#c6b8d0",
-    "headline": "Follow your creative curiosity.",
-    "description": "Independent shops, cafés, art and evening outings along Queen West, with Trinity Bellwoods adding a green-space counterpoint.",
-    "tags": [
-      "Creative",
-      "Social",
-      "Cafés"
-    ],
-    "highlights": [
-      "Explore independent shops and art",
-      "Pair a café stop with Trinity Bellwoods",
-      "Plan an evening around restaurants and music"
-    ],
-    "nuance": "Queen West is used as a broad label. This entry focuses on the Bathurst-to-Dufferin stretch; side streets differ from the main corridor.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/westside/queen-west/",
-    "lat": 43.6435,
-    "lon": -79.4185,
-    "photo": {
-      "src": "images/west-queen-west.jpg",
-      "alt": "Queen and Shaw, Toronto 2026",
-      "author": "Chicken4War",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Queen_and_Shaw,_Toronto_2026.jpg",
-      "title": "Queen and Shaw, Toronto 2026.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Queen_and_Shaw%2C_Toronto_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "cabbagetown",
-    "name": "Cabbagetown",
-    "area": "Downtown east",
-    "color": "#b8c3a4",
-    "headline": "A walk through another chapter.",
-    "description": "Victorian residential architecture, local cafés and Riverdale Farm give this downtown-east neighbourhood a distinctive walking experience.",
-    "tags": [
-      "Architecture",
-      "Parks",
-      "Culture"
-    ],
-    "highlights": [
-      "Take a Victorian-architecture walk",
-      "Visit Riverdale Farm",
-      "Explore cafés around Parliament Street"
-    ],
-    "nuance": "The heritage residential streets and surrounding commercial streets are different settings. Use an exact address when planning a stay.",
-    "source": "https://www.destinationtoronto.com/neighbourhoods/old-town/cabbagetown/",
-    "lat": 43.666,
-    "lon": -79.366,
-    "photo": {
-      "src": "images/cabbagetown.jpg",
-      "alt": "Victorian brick houses in Cabbagetown, Toronto",
-      "author": "Alain Rouiller",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Toronto_Cabbage_Town_35_(8437635457).jpg",
-      "title": "Toronto Cabbage Town 35 (8437635457).jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Toronto_Cabbage_Town_35_%288437635457%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "city": "Toronto",
-    "country": "Canada",
-    "reviewedAt": "2026-10-26"
-  },
-  {
-    "id": "kharkiv-nahirnyi",
-    "name": "Nahirnyi",
-    "city": "Kharkiv",
-    "country": "Ukraine",
-    "area": "Historic upper town",
-    "color": "#c7c1a9",
-    "headline": "The city's architectural conversation.",
-    "description": "Kharkiv's historic upper town follows the Sumska Street axis, bringing together civic architecture, university history and the cultural identity of the city centre. This is a cultural profile, not a current travel recommendation.",
-    "tags": [
-      "Architecture",
-      "Culture"
-    ],
-    "highlights": [
-      "Explore the architectural history of Sumska Street",
-      "Learn how the upper town shaped the city centre",
-      "Compare the area's historic streets and civic spaces"
-    ],
-    "nuance": "Nahirnyi is a broad historic area rather than a single compact administrative neighbourhood. Photographs may predate wartime damage; present access and building conditions are not verified.",
-    "source": "https://ru.wikipedia.org/wiki/Нагорный_район_(Харьков)",
-    "lat": 50.0053,
-    "lon": 36.235,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/kharkiv-nahirnyi.jpg",
-      "alt": "Historic architecture at 40 Sumska Street in central Kharkiv",
-      "author": "Dmitry Glazunov",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Sumskaya_40_02.jpg",
-      "title": "Sumskaya 40 02.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sumskaya_40_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "context": "cultural"
-  },
-  {
-    "id": "kharkiv-zalopan",
-    "name": "Zalopan",
-    "city": "Kharkiv",
-    "country": "Ukraine",
-    "area": "Historic river district",
-    "color": "#d8b89c",
-    "headline": "History on the other side of the Lopan.",
-    "description": "Named for its position across the Lopan River from the oldest city centre, Zalopan holds an important chapter of Kharkiv's trading and religious history, with the Annunciation Cathedral as a distinctive landmark.",
-    "tags": [
-      "Architecture",
-      "Culture",
-      "Waterfront"
-    ],
-    "highlights": [
-      "Discover the story behind the name Zalopan",
-      "Study the Annunciation Cathedral's distinctive architecture",
-      "Explore the relationship between river crossings and the historic trading city"
-    ],
-    "nuance": "This profile concerns the historic core around the cathedral, not every area once described as Zalopan. Historic imagery does not establish present-day conditions or access.",
-    "source": "https://ru.wikipedia.org/wiki/Залопань",
-    "lat": 49.989,
-    "lon": 36.2244,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/kharkiv-zalopan.jpg",
-      "alt": "Annunciation (Blagoveshchensky) Cathedral in Kharkiv, Ukraine.",
-      "author": "Ekaterina Polischuk",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:The_Annunciation_Cathedral_in_Kharkiv.jpg",
-      "title": "The Annunciation Cathedral in Kharkiv.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Annunciation_Cathedral_in_Kharkiv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "context": "cultural"
-  },
-  {
-    "id": "kharkiv-pavlove-pole",
-    "name": "Pavlove Pole",
-    "city": "Kharkiv",
-    "country": "Ukraine",
-    "area": "Northern residential district",
-    "color": "#acc6af",
-    "headline": "Residential rhythms beside a green ravine.",
-    "description": "A planned residential district north of the centre, Pavlove Pole is closely associated with Sarzhyn Yar, the green ravine separating it from the upper town. Its identity combines residential urban planning with a memorable natural landscape.",
-    "tags": [
-      "Parks",
-      "Architecture"
-    ],
-    "highlights": [
-      "Learn about Sarzhyn Yar and its landscape",
-      "Compare the district's planned residential forms",
-      "Discover the local history of the spring pavilion"
-    ],
-    "nuance": "Sarzhyn Yar is a landscape feature at the district's edge, not a synonym for the entire neighbourhood. This profile describes established character; current recreational access is not verified.",
-    "source": "https://kharkiv.name/uk/articles-2278-istoriya-sarzhynogo-yaru",
-    "lat": 50.0435,
-    "lon": 36.222,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/kharkiv-pavlove-pole.jpg",
-      "alt": "A Pond at Sarzhyn Yar Park in Kharkiv, Ukraine",
-      "author": "Наталка Зубар",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Pond_at_Sarzhyn_Yar_Park.jpg",
-      "title": "Pond at Sarzhyn Yar Park.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pond_at_Sarzhyn_Yar_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "context": "cultural"
-  },
-  {
-    "id": "kharkiv-zhuravlivka",
-    "name": "Zhuravlivka",
-    "city": "Kharkiv",
-    "country": "Ukraine",
-    "area": "Kharkiv River district",
-    "color": "#aac9c6",
-    "headline": "A different perspective on the river city.",
-    "description": "A historic district along the Kharkiv River below the slopes of the upper town, Zhuravlivka combines a long settlement history with low-rise residential areas and the nearby hydropark landscape.",
-    "tags": [
-      "Waterfront",
-      "Parks",
-      "Culture"
-    ],
-    "highlights": [
-      "Explore the history of the river-side settlement",
-      "Understand how the slopes separate it from the upper town",
-      "Discover the hydropark's place in Kharkiv's landscape"
-    ],
-    "nuance": "Zhuravlivka covers several distinct areas. Water and park imagery is for cultural context; it does not confirm safe access, swimming conditions or current facilities.",
-    "source": "https://uk.wikipedia.org/wiki/Журавлівка_(Харків)",
-    "lat": 50.015,
-    "lon": 36.27,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/kharkiv-zhuravlivka.jpg",
-      "alt": "Kharkiv River landscape beside Zhuravlivka hydropark, viewed from the Pisky bank",
-      "author": "Канопус Киля",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Gulf_in_Sands.jpg",
-      "title": "Gulf in Sands.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/Gulf_in_Sands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "context": "cultural"
-  },
-  {
-    "id": "kharkiv-zaderzhprom",
-    "name": "Zaderzhprom",
-    "city": "Kharkiv",
-    "country": "Ukraine",
-    "area": "Quarter behind Derzhprom",
-    "color": "#d4bcaa",
-    "headline": "Modernist streets, literary memory.",
-    "description": "The residential quarter behind Derzhprom holds a distinctive chapter of Kharkiv's modernist and literary history. The Slovo House connects its architecture to the lives of Ukrainian writers and artists.",
-    "tags": [
-      "Architecture",
-      "Culture"
-    ],
-    "highlights": [
-      "Discover the quarter's cooperative residential architecture",
-      "Learn about the writers and artists associated with Slovo House",
-      "Explore the relationship between the quarter and Kharkiv's former capital-city role"
-    ],
-    "nuance": "This is a smaller quarter within the broader central city, not a separate administrative district. Buildings have suffered wartime damage; the photo is historical context and present access is not verified.",
-    "source": "https://lyuk.media/city/taking-a-stroll-derzhprom/",
-    "lat": 50.0125,
-    "lon": 36.228,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/kharkiv-zaderzhprom.jpg",
-      "alt": "Slovo House in the Zaderzhprom quarter of Kharkiv",
-      "author": "Victor Vizu",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Slovo3.jpg",
-      "title": "Slovo3.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Slovo3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    },
-    "context": "cultural"
-  },
-  {
-    "id": "rome-trastevere",
-    "name": "Trastevere",
-    "city": "Rome",
-    "country": "Italy",
-    "area": "West of the Tiber",
-    "color": "#d2ac87",
-    "headline": "Winding lanes, lively evenings.",
-    "description": "Small streets and squares around Santa Maria in Trastevere create a memorable setting for Roman food, architectural wandering and evenings spent among restaurants and gathering places.",
-    "tags": [
-      "Food",
-      "Architecture",
-      "Social"
-    ],
-    "highlights": [
-      "Explore the streets around Santa Maria in Trastevere",
-      "Plan a meal around Roman cooking",
-      "Compare the atmosphere of small lanes and larger squares"
-    ],
-    "nuance": "The popular squares draw visitors and evening activity. Choose the exact street carefully if you want the atmosphere without having it outside your bedroom.",
-    "source": "https://www.turismoroma.it/en/quartieri/trastevere-testaccio",
-    "lat": 41.8895,
-    "lon": 12.4698,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/rome-trastevere.jpg",
-      "alt": "Ceiling in the Santa Maria in Trastevere basilica in Rome, Lazio, Italy",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Trastevere_church_in_Rome_(12).jpg",
-      "title": "Santa Maria in Trastevere church in Rome (12).jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/Santa_Maria_in_Trastevere_church_in_Rome_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
     }
   },
   {
-    "id": "rome-monti",
-    "name": "Monti",
-    "city": "Rome",
-    "country": "Italy",
-    "area": "Historic central Rome",
-    "color": "#d6c29c",
-    "headline": "A neighbourhood between ancient chapters.",
-    "description": "Historic streets, independent shops and gathering places around Piazza della Madonna dei Monti offer a neighbourhood-scale experience close to some of Rome's best-known ancient landmarks.",
-    "tags": [
-      "Architecture",
-      "Culture",
-      "Cafés"
-    ],
-    "highlights": [
-      "Explore the streets around Piazza della Madonna dei Monti",
-      "Browse the shops along Via Urbana and Via del Boschetto",
-      "Combine neighbourhood time with nearby archaeological sights"
-    ],
-    "nuance": "Monti is a substantial historic district. The small-street atmosphere around the piazza differs from the busier roads at its edges; nearby monuments do not make every block equally calm.",
-    "source": "https://www.turismoroma.it/en/quartieri/esquilino-monti",
-    "lat": 41.8948,
-    "lon": 12.4908,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/rome-monti.jpg",
-      "alt": "La fontana di piazza della Madonna dei Monti",
-      "author": "Galzu",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-      "source": "https://commons.wikimedia.org/wiki/File:Fontana_di_piazza_Madonna_dei_Monti.JPG",
-      "title": "Fontana di piazza Madonna dei Monti.JPG",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fontana_di_piazza_Madonna_dei_Monti.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "rome-testaccio",
-    "name": "Testaccio",
-    "city": "Rome",
-    "country": "Italy",
-    "area": "South of the historic centre",
-    "color": "#c9b19e",
-    "headline": "Let lunch lead the way.",
-    "description": "Food-market culture, Roman cooking and a working-neighbourhood history give Testaccio a distinctive identity. The former slaughterhouse complex adds a further layer of cultural interest.",
-    "tags": [
-      "Food",
-      "Culture",
-      "Social"
-    ],
-    "highlights": [
-      "Explore the Testaccio market during its opening hours",
-      "Discover traditional Roman food",
-      "Learn about the former Mattatoio and the district's history"
-    ],
-    "nuance": "Market mornings and evening venues offer different experiences. Check opening hours and the specific block rather than assuming the whole neighbourhood follows one rhythm.",
-    "source": "https://www.turismoroma.it/en/quartieri/trastevere-testaccio",
-    "lat": 41.8795,
-    "lon": 12.4753,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/rome-testaccio.jpg",
-      "alt": "El Mercado de Testaccio. Mercado que inspiró a la canción del mismo nombre del grupo chileno folclórico Inti-Illimani",
-      "author": "pa ve from rome, it",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:ElMercadoDeTestaccio.jpg",
-      "title": "ElMercadoDeTestaccio.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/ElMercadoDeTestaccio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "rome-prati",
-    "name": "Prati",
-    "city": "Rome",
-    "country": "Italy",
-    "area": "Vatican-side Rome",
-    "color": "#c9c5ae",
-    "headline": "Broad streets and a more measured pace.",
-    "description": "An orderly street grid, substantial urban buildings and shopping streets distinguish Prati from Rome's tightly woven old-town lanes. It provides a different perspective on the Vatican side of the city.",
-    "tags": [
-      "Architecture",
-      "Food",
-      "Cafés"
-    ],
-    "highlights": [
-      "Explore the streets around Via Cola di Rienzo",
-      "Compare Prati's architecture with the old centre",
-      "Combine local food stops with a Vatican-side outing"
-    ],
-    "nuance": "Prati is not Vatican City. The edges nearest major attractions can feel different from residential blocks farther away; verify the exact location and transport connections.",
-    "source": "https://www.turismoroma.it/it/quartieri",
-    "lat": 41.907,
-    "lon": 12.4643,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/rome-prati.jpg",
-      "alt": "Roma, edicola della Madonna del Divino Amore a via Cola di Rienzo angolo via Terenzio",
-      "author": "Lalupa",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Prati_-_Divino_Amore_a_v_Cola_di_Rienzo_ang_v_Terenzio_P1040679.JPG",
-      "title": "Prati - Divino Amore a v Cola di Rienzo ang v Terenzio P1040679.JPG",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Prati_-_Divino_Amore_a_v_Cola_di_Rienzo_ang_v_Terenzio_P1040679.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "rome-garbatella",
-    "name": "Garbatella",
-    "city": "Rome",
-    "country": "Italy",
-    "area": "Southern Rome",
-    "color": "#b9c5a8",
-    "headline": "Courtyards with a character of their own.",
-    "description": "Garden-city influences, unusual residential architecture and shared courtyards distinguish Garbatella. It rewards an interest in the everyday architecture of Rome beyond the monumental centre.",
+    "id": "moss-park",
+    "name": "Moss Park",
+    "area": "Downtown east, including parts of Corktown & Garden District",
+    "color": "#b9c7b2",
+    "headline": "Older Toronto, with a complicated present.",
+    "description": "The source’s broad Moss Park area reaches beyond the park itself into older east-downtown streets, including parts of Corktown and the Garden District. Housing, local community spaces and layers of city history make this an area to understand street by street.",
     "tags": [
       "Architecture",
       "Culture",
       "Parks"
     ],
     "highlights": [
-      "Explore the neighbourhood's garden-city design",
-      "Look for distinctive residential buildings",
-      "Learn how courtyards shape its streetscape"
+      "Explore older streets toward Corktown within the broader area",
+      "Look for heritage buildings around Queen Street East",
+      "Plan a daytime walk around the park and surrounding community spaces"
     ],
-    "nuance": "Many courtyards and gardens are residents' spaces, not public attractions. Respect access signs and plan journeys to central sights separately.",
-    "source": "https://www.turismoroma.it/sites/default/files/quartieri-ITA.pdf",
-    "lat": 41.8625,
-    "lon": 12.4885,
-    "reviewedAt": "2026-10-26",
+    "nuance": "The City’s Downtown East plan addresses housing, public-health and community-safety challenges here. Listing volume is not a suitability score; research the immediate block and your comfort with the surroundings.",
+    "source": "https://www.toronto.ca/city-government/accountability-operations-customer-service/long-term-vision-plans-and-strategies/downtown-east-action-plan/",
+    "lat": 43.6542,
+    "lon": -79.3716,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
     "photo": {
-      "src": "images/rome-garbatella.jpg",
-      "alt": "Houses at Garbatella. Photo made during the second course to Toponomastica Femminile Association made by Wikimedia Italia in Rome, at the Roma Tre University and Garbatella urban area",
-      "author": "Camelia.boban",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Houses_at_Garbatella_5.jpg",
-      "title": "Houses at Garbatella 5.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Houses_at_Garbatella_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      "src": "images/moss-park.jpg",
+      "alt": "Moss Park’s residential blocks and surrounding downtown streets, photographed in 2023",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Moss_Park_Apartments_2023.jpg",
+      "title": "Moss Park Apartments 2023.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Moss_Park_Apartments_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 5,
+      "listingCount": 673,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
     }
   },
   {
-    "id": "medellin-laureles",
-    "name": "Laureles",
-    "city": "Medellín",
-    "country": "Colombia",
-    "area": "Laureles–Estadio",
-    "color": "#afc7a7",
-    "headline": "Circular streets, everyday discoveries.",
-    "description": "A distinctive planned street pattern, neighbourhood parks and places to eat give Laureles a character separate from El Poblado. Start with the streets around its first and second parks.",
-    "tags": [
-      "Parks",
-      "Food",
-      "Cafés"
-    ],
-    "highlights": [
-      "Explore the area around the neighbourhood parks",
-      "Discover Laureles' circular street layout",
-      "Build an afternoon around cafés and food stops"
-    ],
-    "nuance": "The residential park areas and the La 70 entertainment corridor are different settings. This entry concerns the Laureles neighbourhood rather than the entire Laureles–Estadio comuna.",
-    "source": "https://www.medellin.travel/que-hacer-en-medellin-barrios-cultura-y-turismo-creativo/",
-    "lat": 6.244,
-    "lon": -75.594,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/medellin-laureles.jpg",
-      "alt": "Aerial view of Laureles and neighbouring Estadio in Medellín",
-      "author": "CONOCER",
-      "license": "Public domain",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-      "source": "https://commons.wikimedia.org/wiki/File:Laureles_y_Estadio_neighborhoods_Medell%C3%ADn.jpeg",
-      "title": "Laureles y Estadio neighborhoods Medellín.jpeg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Laureles_y_Estadio_neighborhoods_Medell%C3%ADn.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "medellin-ciudad-del-rio",
-    "name": "Ciudad del Río",
-    "city": "Medellín",
-    "country": "Colombia",
-    "area": "El Poblado · arts district",
-    "color": "#d9c6a0",
-    "headline": "Art meets everyday outdoor life.",
-    "description": "A former industrial area reshaped around contemporary art, residential buildings and a linear park. The Museo de Arte Moderno de Medellín gives this part of the city a distinctive cultural anchor.",
-    "tags": [
-      "Culture",
-      "Parks",
-      "Creative"
-    ],
-    "highlights": [
-      "Explore the Museo de Arte Moderno de Medellín",
-      "Discover the linear park and its public spaces",
-      "Learn about the area's transition from industry to mixed urban life"
-    ],
-    "nuance": "The name refers to an urban development sector, not a separate city. Museum opening hours and events vary; check the current programme before visiting.",
-    "source": "https://www.elmamm.org/",
-    "lat": 6.2232,
-    "lon": -75.574,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/medellin-ciudad-del-rio.jpg",
-      "alt": "Facade of the Museo de Arte Moderno de Medellín in Ciudad del Río",
-      "author": "Andrés Molina Mesa",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Moderno_de_Medell%C3%ADn_-_Fachada.jpg",
-      "title": "Museo de Arte Moderno de Medellín - Fachada.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/1/14/Museo_de_Arte_Moderno_de_Medell%C3%ADn_-_Fachada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "medellin-provenza",
-    "name": "Provenza",
-    "city": "Medellín",
-    "country": "Colombia",
-    "area": "El Poblado · El Provenzal sector",
-    "color": "#b8c8b2",
-    "headline": "Food, conversation and evening energy.",
-    "description": "A dining and evening-out sector within El Poblado, Provenza brings restaurants and social venues together in a recognisable part of the city. It suits an interest in food and an animated atmosphere.",
+    "id": "kensington-chinatown",
+    "name": "Kensington-Chinatown",
+    "area": "Spadina, Dundas West & Kensington Market",
+    "color": "#e4b65b",
+    "headline": "Follow your appetite down a side street.",
+    "description": "This combined source area brings together downtown Chinatown’s busy shopping-and-food streets and Kensington Market’s smaller lanes. Groceries, independent shops, vintage finds and an enormous range of food make it rewarding to explore without a rigid itinerary.",
     "tags": [
       "Food",
-      "Social",
-      "Creative"
-    ],
-    "highlights": [
-      "Explore its restaurants and dining streets",
-      "Compare daytime and evening atmosphere",
-      "Discover the surrounding El Poblado area through the official guide"
-    ],
-    "nuance": "Provenza is a popular sector name within the wider El Poblado area. Evening activity is part of the appeal; evaluate accommodation noise and the specific route independently.",
-    "source": "https://www.medellin.travel/wp-content/uploads/2026/03/guia-vive-el-poblado-v1.pdf",
-    "lat": 6.207,
-    "lon": -75.5655,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/medellin-provenza.jpg",
-      "alt": "Carrera 35 - Provenza - Medellín - Colombia",
-      "author": "José Luiz",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Provenza_-_Carrera_35_-_Medell%C3%ADn_-_Colombia_2024.jpg",
-      "title": "Provenza - Carrera 35 - Medellín - Colombia 2024.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Provenza_-_Carrera_35_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "medellin-prado",
-    "name": "Prado Centro",
-    "city": "Medellín",
-    "country": "Colombia",
-    "area": "La Candelaria",
-    "color": "#c7b6cd",
-    "headline": "The city remembers in its houses.",
-    "description": "Historic houses and cultural reuse make Prado a distinctive part of central Medellín. Its architectural heritage offers a different focus from the city's better-known dining districts.",
-    "tags": [
-      "Architecture",
-      "Culture",
-      "Creative"
-    ],
-    "highlights": [
-      "Discover Prado's historic house architecture",
-      "Look for public cultural venues in heritage buildings",
-      "Explore the city's official Prado cultural guide"
-    ],
-    "nuance": "Heritage appeal does not establish suitability for an overnight stay. Confirm venue opening hours, route and current local conditions before planning a visit.",
-    "source": "https://www.medellin.travel/wp-content/uploads/2025/02/PRADOCENTRO2.pdf",
-    "lat": 6.262,
-    "lon": -75.563,
-    "reviewedAt": "2026-10-26",
-    "photo": {
-      "src": "images/medellin-prado.jpg",
-      "alt": "A historic house in Prado Centro, Medellín",
-      "author": "Felipe Restrepo Acosta",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_casa_en_el_barrio_Prado_-_carrera_48_con_calle_63_A_-_Medell%C3%ADn.jpg",
-      "title": "2018 Medellín casa en el barrio Prado - carrera 48 con calle 63 A - Medellín.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/2018_Medell%C3%ADn_casa_en_el_barrio_Prado_-_carrera_48_con_calle_63_A_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
-    }
-  },
-  {
-    "id": "medellin-belen",
-    "name": "Belén · Parque Central",
-    "city": "Medellín",
-    "country": "Colombia",
-    "area": "Belén",
-    "color": "#c6c49f",
-    "headline": "A neighbourhood gathered around its park.",
-    "description": "The central park and church anchor this part of Belén, offering a neighbourhood-scale introduction to southwest Medellín. This profile focuses on the park's immediate surroundings.",
-    "tags": [
-      "Parks",
-      "Culture",
+      "Creative",
       "Social"
     ],
     "highlights": [
-      "Discover the history of Parque de Belén",
-      "Explore the central church and surrounding streets",
-      "Compare this local centre with the city's other neighbourhood hubs"
+      "Explore Chinatown around Spadina Avenue and Dundas Street West",
+      "Build a tasting walk through Kensington Market",
+      "Browse independent shops and food stores between stops"
     ],
-    "nuance": "Belén is also the name of a large comuna with many neighbourhoods. This entry covers the central park area only and should not be used to generalize about all of Belén.",
-    "source": "https://es.wikipedia.org/wiki/Parque_de_Belén",
-    "lat": 6.2302,
-    "lon": -75.6024,
-    "reviewedAt": "2026-10-26",
+    "nuance": "Kensington Market and Chinatown are distinct pockets inside one statistical area. A busy main-road address and a small residential lane can feel very different.",
+    "source": "https://www.destinationtoronto.com/neighbourhoods/westside/kensington-market/",
+    "lat": 43.6533,
+    "lon": -79.3998,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
     "photo": {
-      "src": "images/medellin-belen.jpg",
-      "alt": "Parque de Belén and its church square in Medellín, photographed in 2020",
-      "author": "XalD",
+      "src": "images/kensington-chinatown.jpg",
+      "alt": "Shops and street life in Toronto’s Chinatown",
+      "author": "ぐら(Gura)",
+      "license": "CC BY-SA 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinatown_Toronto.JPG",
+      "title": "Chinatown Toronto.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chinatown_Toronto.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 6,
+      "listingCount": 638,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
+  },
+  {
+    "id": "trinity-bellwoods",
+    "name": "Trinity-Bellwoods",
+    "area": "Queen West, Dundas West & Trinity Bellwoods Park",
+    "color": "#b6c6a1",
+    "headline": "Park time meets a creative city rhythm.",
+    "description": "Trinity-Bellwoods takes its name from the large park at its centre of gravity. Residential streets connect the green space with the shops, cafés and restaurants along Queen and Dundas, giving you an easy mix of outdoor time and urban exploration.",
+    "tags": [
+      "Parks",
+      "Cafés",
+      "Creative"
+    ],
+    "highlights": [
+      "Take an unhurried walk through Trinity Bellwoods Park",
+      "Browse Queen Street West’s storefronts",
+      "Explore the food and café stops along Dundas Street West"
+    ],
+    "nuance": "A park-side stay, a quiet residential street and a busy restaurant strip are different experiences. Outdoor social activity and main-street noise can change with the season and time of day.",
+    "source": "https://en.wikipedia.org/wiki/Trinity%E2%80%93Bellwoods",
+    "lat": 43.6475,
+    "lon": -79.4134,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/trinity-bellwoods.jpg",
+      "alt": "Queen Street West storefronts in Trinity-Bellwoods",
+      "author": "Dillan Payne",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Parque_de_Bel%C3%A9n_en_la_noche,_julio_de_2020.jpg",
-      "title": "Parque de Belén en la noche, julio de 2020.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Parque_de_Bel%C3%A9n_en_la_noche%2C_julio_de_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+      "source": "https://commons.wikimedia.org/wiki/File:Queen_Street_West_in_Toronto,_July_7_2025_(03).jpg",
+      "title": "Queen Street West in Toronto, July 7 2025 (03).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/Queen_Street_West_in_Toronto%2C_July_7_2025_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 7,
+      "listingCount": 556,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
+  },
+  {
+    "id": "dovercourt-wallace-emerson-junction",
+    "name": "Dovercourt-Wallace Emerson-Junction",
+    "area": "Bloor-side west end & Wallace Emerson",
+    "color": "#c6b7a3",
+    "headline": "A west-end patchwork worth slowing down for.",
+    "description": "This long source label groups several west-end pockets rather than one uniform neighbourhood. Bloor-side shopping streets, residential blocks and former industrial areas offer different routes into everyday Toronto, with Wallace Emerson forming one part of the wider district.",
+    "tags": [
+      "Cafés",
+      "Food",
+      "Creative"
+    ],
+    "highlights": [
+      "Browse Bloor Street between Dufferin and Lansdowne",
+      "Make a café-and-local-shops walk through Bloordale",
+      "Explore Wallace Emerson’s residential streets away from the main road"
+    ],
+    "nuance": "Do not confuse the whole source area with The Junction or Junction Triangle alone. Choose a specific pocket and check the walking route to the transit stop you would actually use.",
+    "source": "https://www.toronto-bia.com/find-a-bia/bias/bloordale-village/",
+    "lat": 43.6665,
+    "lon": -79.4386,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/dovercourt-wallace-emerson-junction.jpg",
+      "alt": "Aerial view of Wallace Emerson in Toronto’s west end",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wallace_Emerson_2022.jpg",
+      "title": "Wallace Emerson 2022.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wallace_Emerson_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 8,
+      "listingCount": 523,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
+  },
+  {
+    "id": "bay-street-corridor",
+    "name": "Bay Street Corridor",
+    "area": "Central downtown, College Park & Yonge-adjacent streets",
+    "color": "#bac4cf",
+    "headline": "The city on your doorstep.",
+    "description": "Central towers and busy streets give this corridor a practical downtown character. Around College Park, older commercial architecture meets newer residential buildings, with Yonge Street’s shops and transit connections nearby.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Parks"
+    ],
+    "highlights": [
+      "Look at the Art Deco details of the College Park complex",
+      "Pause in the public space behind College Park",
+      "Explore central downtown on foot, using Yonge and College as starting points"
+    ],
+    "nuance": "Bay Street is longer than the statistical neighbourhood. Confirm the exact address rather than assuming every Bay Street listing is in the financial district or beside College Park.",
+    "source": "https://en.wikipedia.org/wiki/College_Park_(Toronto)",
+    "lat": 43.6609,
+    "lon": -79.3832,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/bay-street-corridor.jpg",
+      "alt": "The historic College Park building at Yonge and College",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:College_Park_Building_2022.jpg",
+      "title": "College Park Building 2022.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/College_Park_Building_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 9,
+      "listingCount": 497,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
+    }
+  },
+  {
+    "id": "willowdale-east",
+    "name": "Willowdale East",
+    "area": "North York, east of Yonge Street",
+    "color": "#c9c4a6",
+    "headline": "A different centre of Toronto.",
+    "description": "East of Yonge in North York, Willowdale combines high-rise living near the main street with lower-rise residential streets farther east. Restaurants and everyday services along Yonge offer a different base from the downtown core.",
+    "tags": [
+      "Food",
+      "Cafés",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore the restaurants along Yonge Street",
+      "Build a daily routine around the North York Centre area",
+      "Walk east of the towers to see the quieter residential streets"
+    ],
+    "nuance": "Willowdale East is not downtown Toronto. Compare your address with the subway entrance and the places you plan to visit; a neighbourhood name does not describe the whole daily journey.",
+    "source": "https://en.wikipedia.org/wiki/Willowdale,_Toronto",
+    "lat": 43.771,
+    "lon": -79.405,
+    "city": "Toronto",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "photo": {
+      "src": "images/willowdale-east.jpg",
+      "alt": "Yonge Street in the North York–Willowdale area",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yonge_St_in_North_York-Willowdale_2021.jpg",
+      "title": "Yonge St in North York-Willowdale 2021.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Yonge_St_in_North_York-Willowdale_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "selection": {
+      "rank": 10,
+      "listingCount": 445,
+      "snapshotDate": "2026-09-16",
+      "source": "https://data.insideairbnb.com/canada/on/toronto/2026-09-16/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Toronto only; not the whole metropolitan area"
     }
   }
 ]

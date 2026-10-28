@@ -5,23 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description"
-        content="Discover the world's great neighbourhoods in Toronto, Kharkiv, Rome and Medellín. Find your place through food, parks, architecture, culture and more.">
+        content="Explore ten Toronto neighbourhoods selected by Airbnb listing count. Compare their character, food, parks, architecture and local details.">
     <meta name="theme-color" content="#f7f5ef">
-    <title>Neighbourhood Notes — The world's best neighbourhoods for you</title>
-    <link rel="stylesheet" href="style.css?v=world-1">
+    <title>Neighbourhood Notes — Ten ways into Toronto</title>
+    <link rel="stylesheet" href="style.css?v=toronto-counts-1">
 </head>
 
 <body>
     <header><a class="brand" href="#">nn<span>neighbourhood<br>notes</span></a>
-        <nav><a href="#explore">Explore the world</a><a href="#approach">Our approach ↗</a><button id="savedToggle"
+        <nav><a href="#explore">Explore Toronto</a><a href="#approach">Our approach ↗</a><button id="savedToggle"
                 aria-pressed="false">Saved <span id="savedCount">0</span></button></nav>
     </header>
     <main>
         <section class="hero">
-            <div class="eyebrow"><span class="dot"></span> <span id="collectionSummary">THE WORLD EDITION · 25 NEIGHBOURHOODS · 4 CITIES</span></div>
-            <h1>The world is full of places.<br>Find one that <em>feels like you.</em></h1>
+            <div class="eyebrow"><span class="dot"></span> <span id="collectionSummary">THE TORONTO EDITION · 10 NEIGHBOURHOODS</span></div>
+            <h1>One city. Many ways to stay.<br>Find the Toronto that <em>feels like you.</em></h1>
             <div class="hero-bottom">
-                <p>Discover the world's best neighbourhoods—for you.<br>Four cities. Twenty-five neighbourhoods. Your kind of place.
+                <p>Ten neighbourhoods. Different rhythms. Your kind of place.<br>Selected by listing count. Explored through what you enjoy.
                 </p><a class="round-link" href="#explore" aria-label="Explore neighbourhoods">↘</a>
             </div>
             <div class="cityline" aria-hidden="true"><span>⌂</span><span>▤</span><span>⌂</span><span
@@ -45,11 +45,7 @@
                     </select></label></div>
             <div class="results-line"><span id="resultCount" role="status" aria-live="polite"></span><button
                     id="reset">Reset filters</button></div>
-            <p id="cityContext" class="travel-context" hidden>
-                Kharkiv profiles explore cultural heritage. Canada advises against all travel to Ukraine.
-                Photos may predate wartime damage.
-                <a href="https://travel.gc.ca/destinations/ukraine" target="_blank" rel="noopener noreferrer">Current travel advice ↗</a>
-            </p>
+            <p id="cityContext" class="travel-context" hidden></p>
             <div id="cards" class="cards"></div>
             <div id="empty" class="empty" hidden>
                 <h3>No places found—yet.</h3>
@@ -62,7 +58,7 @@
             <div class="approach-grid">
                 <p>Start with what you enjoy. Find a neighbourhood’s character, a few things to try, and the details
                     that change how a stay might feel.</p>
-                <p>This is a curated collection across Toronto, Kharkiv, Rome and Medellín. Interest matches reflect editorial descriptions, not measured global quality scores. Each profile links its sources and photo credits. Map searches indicate places, not precise neighbourhood boundaries.</p>
+                <p>These are the ten source neighbourhoods with the most unique listings in Inside Airbnb’s September 16, 2026 Toronto snapshot. Counts cover the City of Toronto, not the whole metro area. They measure listing presence, not quality or current availability. Interest matches and descriptions are editorial. Source boundaries may combine several local pockets; map searches are approximate. <a href="https://insideairbnb.com/get-the-data/" target="_blank" rel="noopener noreferrer">Inside Airbnb data</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.</p>
             </div>
         </section>
     </main>
@@ -73,7 +69,7 @@
         <div id="detailContent"></div>
     </dialog>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=world-1"></script>
+    <script src="app.js?v=toronto-counts-1"></script>
 </body>
 
 </html>
