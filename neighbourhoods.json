@@ -1736,5 +1736,485 @@
       "dateBasis": "Provider MaxRecordInserted date",
       "exclusionsNote": "The municipality-wide label Halifax Regional Municipality is excluded because it does not identify a neighbourhood."
     }
+  },
+  {
+    "id": "mx-cuauhtemoc",
+    "name": "Cuauhtémoc",
+    "area": "Historic centre, Roma, Condesa & central-city pockets",
+    "color": "#d7b99c",
+    "headline": "The city’s history, with several modern rhythms.",
+    "description": "Cuauhtémoc contains much of Mexico City’s historic and cultural core. The historic centre, Roma, Condesa and other central colonias share this broad source label while offering very different streets, food scenes and daily routines.",
+    "tags": [
+      "Architecture",
+      "Food",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore a focused route through the historic centre",
+      "Compare the cafés and residential streets of Roma and Condesa",
+      "Choose a museum or cultural stop as an anchor for the day"
+    ],
+    "nuance": "This is an entire borough, not one neighbourhood. The count does not tell you which colonia suits you; check the specific street and surroundings.",
+    "source": "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc%2C_Mexico_City",
+    "lat": 19.435,
+    "lon": -99.149,
+    "photo": {
+      "src": "images/mx-cuauhtemoc.jpg",
+      "alt": "Aerial night view of central Mexico City",
+      "author": "Gobierno CDMX",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A3600_(39489715275).jpg",
+      "title": "Sobrevuelos CDMX HJ2A3600 (39489715275).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/af/Sobrevuelos_CDMX_HJ2A3600_%2839489715275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 14166,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-miguel-hidalgo",
+    "name": "Miguel Hidalgo",
+    "area": "Chapultepec, Polanco, Tacuba & western-city pockets",
+    "color": "#bbcab2",
+    "headline": "Big green spaces, museums and distinct local worlds.",
+    "description": "Miguel Hidalgo combines Chapultepec’s park and museums with districts including Polanco, Tacuba and Tacubaya. It offers several ways into the western city, from cultural outings to local shopping and residential streets.",
+    "tags": [
+      "Parks",
+      "Culture",
+      "Architecture"
+    ],
+    "highlights": [
+      "Plan a visit around Chapultepec Park",
+      "Choose a museum in the Chapultepec area",
+      "Explore a specific pocket such as Polanco or Tacubaya"
+    ],
+    "nuance": "The borough joins very different districts. Confirm the actual walking route and distances instead of assuming every address is close to the park.",
+    "source": "https://en.wikipedia.org/wiki/Miguel_Hidalgo%2C_Mexico_City",
+    "lat": 19.426,
+    "lon": -99.202,
+    "photo": {
+      "src": "images/mx-miguel-hidalgo.jpg",
+      "alt": "Polanco buildings viewed across Chapultepec in Miguel Hidalgo",
+      "author": "Carlos Valenzuela",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Reforma_buildings1706.jpg",
+      "title": "Reforma buildings1706.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Reforma_buildings1706.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 4739,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-benito-juarez",
+    "name": "Benito Juárez",
+    "area": "Del Valle, Narvarte & south-central residential streets",
+    "color": "#c9c5aa",
+    "headline": "A daily routine beyond the historic core.",
+    "description": "Largely residential Benito Juárez sits south of the historic centre. Colonias such as Del Valle and Narvarte provide different combinations of local food, services, apartment living and neighbourhood streets.",
+    "tags": [
+      "Food",
+      "Cafés",
+      "Parks"
+    ],
+    "highlights": [
+      "Build a café-and-food route in one colonia",
+      "Explore residential streets away from the largest roads",
+      "Plan a local park stop as part of a daily walking loop"
+    ],
+    "nuance": "Choose a specific colonia and check your route to transit. A broad residential label does not guarantee quiet streets or the same convenience everywhere.",
+    "source": "https://en.wikipedia.org/wiki/Benito_Ju%C3%A1rez%2C_Mexico_City",
+    "lat": 19.38,
+    "lon": -99.161,
+    "photo": {
+      "src": "images/mx-benito-juarez.jpg",
+      "alt": "Aerial night view of the World Trade Center area in Benito Juárez",
+      "author": "Gobierno CDMX",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Sobrevuelos_CDMX_HJ2A5968_(25514225827).jpg",
+      "title": "Sobrevuelos CDMX HJ2A5968 (25514225827).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sobrevuelos_CDMX_HJ2A5968_%2825514225827%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 3474,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-coyoacan",
+    "name": "Coyoacán",
+    "area": "Historic Coyoacán & the wider southern borough",
+    "color": "#c6b5c8",
+    "headline": "A village-like centre inside a much larger city.",
+    "description": "Coyoacán’s historic centre retains plazas, older buildings and a distinctive street pattern. Beyond that familiar visitor pocket, the borough extends through varied residential and university-side districts.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Cafés"
+    ],
+    "highlights": [
+      "Walk the historic centre’s plazas and side streets",
+      "Choose a cultural visit before building the day around it",
+      "Explore a quieter route beyond the busiest visitor streets"
+    ],
+    "nuance": "The whole borough is much larger than the historic centre. Confirm where your accommodation sits rather than relying on the Coyoacán name alone.",
+    "source": "https://en.wikipedia.org/wiki/Coyoac%C3%A1n",
+    "lat": 19.346,
+    "lon": -99.162,
+    "photo": {
+      "src": "images/mx-coyoacan.jpg",
+      "alt": "Decorated entrance on a street in Coyoacán",
+      "author": "DavidGomezChiu",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Puerta_a_Coyoac%C3%A1n.JPG",
+      "title": "Puerta a Coyoacán.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Puerta_a_Coyoac%C3%A1n.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 4,
+      "listingCount": 2209,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-venustiano-carranza",
+    "name": "Venustiano Carranza",
+    "area": "Eastern centre, traditional markets & airport-side districts",
+    "color": "#b8cbd0",
+    "headline": "A working city of markets and connections.",
+    "description": "Venustiano Carranza extends east from the historic centre toward the airport. Traditional markets, transport infrastructure and residential areas make this a different base from the better-known café districts.",
+    "tags": [
+      "Food",
+      "Culture",
+      "Architecture"
+    ],
+    "highlights": [
+      "Research a daytime visit to one traditional market",
+      "Explore a focused route around local historic streets",
+      "Plan daily journeys from the exact address"
+    ],
+    "nuance": "An airport-side listing is not necessarily convenient for central-city exploring. Check the terminal, transport route, immediate surroundings and potential aircraft noise.",
+    "source": "https://en.wikipedia.org/wiki/Venustiano_Carranza%2C_Mexico_City",
+    "lat": 19.425,
+    "lon": -99.095,
+    "photo": {
+      "src": "images/mx-venustiano-carranza.jpg",
+      "alt": "Borough government offices in Venustiano Carranza",
+      "author": "Cvmontuy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Delegacion_vc_2016.jpg",
+      "title": "Delegacion vc 2016.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Delegacion_vc_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 5,
+      "listingCount": 1103,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-tlalpan",
+    "name": "Tlalpan",
+    "area": "Tlalpan Centro & the far-southern borough",
+    "color": "#d7b99c",
+    "headline": "A historic centre, with a much bigger landscape behind it.",
+    "description": "Tlalpan combines a small historic centre with a very large southern territory that includes residential districts and conservation land. The centre’s older buildings and plazas offer one distinct setting within the wider borough.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Parks"
+    ],
+    "highlights": [
+      "Explore Tlalpan Centro’s streets and plaza",
+      "Plan a café stop near the historic core",
+      "Research a specific public green space before setting out"
+    ],
+    "nuance": "A listing in Tlalpan may be far from Tlalpan Centro or central Mexico City. Confirm the actual location and transport; do not assume rural or forest access is straightforward.",
+    "source": "https://en.wikipedia.org/wiki/Tlalpan",
+    "lat": 19.288,
+    "lon": -99.166,
+    "photo": {
+      "src": "images/mx-tlalpan.jpg",
+      "alt": "The municipal palace in the historic centre of Tlalpan",
+      "author": "rodrisar",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_Municipal_(Tlalpan)_2012-09-09_14-26-43.jpg",
+      "title": "Palacio Municipal (Tlalpan) 2012-09-09 14-26-43.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Palacio_Municipal_%28Tlalpan%29_2012-09-09_14-26-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 6,
+      "listingCount": 1011,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-alvaro-obregon",
+    "name": "Álvaro Obregón",
+    "area": "San Ángel, western residential pockets & parts of Santa Fe",
+    "color": "#bbcab2",
+    "headline": "Historic corners and a changing western skyline.",
+    "description": "Álvaro Obregón brings together the older streets of San Ángel with many other western-city districts, including parts of Santa Fe. Historic architecture and newer commercial landscapes coexist within a very broad source area.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Cafés"
+    ],
+    "highlights": [
+      "Plan a focused walk around historic San Ángel",
+      "Choose a cultural stop within the pocket you visit",
+      "Compare your intended daily route with the accommodation location"
+    ],
+    "nuance": "San Ángel and Santa Fe are not interchangeable bases. Hills, traffic corridors and distances can make the exact address more important than the borough name.",
+    "source": "https://en.wikipedia.org/wiki/%C3%81lvaro_Obreg%C3%B3n%2C_Mexico_City",
+    "lat": 19.36,
+    "lon": -99.206,
+    "photo": {
+      "src": "images/mx-alvaro-obregon.jpg",
+      "alt": "Office towers in the Santa Fe area, which spans borough boundaries",
+      "author": "Elías Arteaga",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lomas_de_Santa_Fe,_Contadero,_01219_Ciudad_de_M%C3%A9xico,_D.F.,_Mexico_-_panoramio.jpg",
+      "title": "Lomas de Santa Fe, Contadero, 01219 Ciudad de México, D.F., Mexico - panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lomas_de_Santa_Fe%2C_Contadero%2C_01219_Ciudad_de_M%C3%A9xico%2C_D.F.%2C_Mexico_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 7,
+      "listingCount": 1000,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-gustavo-madero",
+    "name": "Gustavo A. Madero",
+    "area": "Northern Mexico City & the La Villa area",
+    "color": "#c9c5aa",
+    "headline": "A northern city with layers of local history.",
+    "description": "Gustavo A. Madero covers a large part of northern Mexico City. The La Villa area and surrounding residential districts offer a different perspective from the central visitor corridors.",
+    "tags": [
+      "Culture",
+      "Architecture",
+      "Food"
+    ],
+    "highlights": [
+      "Research the La Villa area’s cultural and religious history",
+      "Choose a focused daytime route",
+      "Explore local food around the specific pocket you visit"
+    ],
+    "nuance": "The borough is extensive. Check the exact location, current surroundings and transport connections rather than treating it as one walkable neighbourhood.",
+    "source": "https://en.wikipedia.org/wiki/Gustavo_A._Madero%2C_Mexico_City",
+    "lat": 19.483,
+    "lon": -99.117,
+    "photo": {
+      "src": "images/mx-gustavo-madero.jpg",
+      "alt": "Public sculpture and borough offices in Gustavo A. Madero",
+      "author": "Secretaría de Cultura CDMX",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:MX_AG_ALCALD%C3%8DA_GAM_-_49517895371.jpg",
+      "title": "MX AG ALCALDÍA GAM - 49517895371.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/MX_AG_ALCALD%C3%8DA_GAM_-_49517895371.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 8,
+      "listingCount": 577,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-iztacalco",
+    "name": "Iztacalco",
+    "area": "East-central borough & older local communities",
+    "color": "#c6b5c8",
+    "headline": "An older local story in an urban eastern setting.",
+    "description": "Iztacalco’s history reaches back to a lake-side settlement, while today it is a dense, fully urban borough. Older community pockets sit within a wider mix of residential streets, commercial roads and event-related destinations.",
+    "tags": [
+      "Culture",
+      "Architecture",
+      "Food"
+    ],
+    "highlights": [
+      "Research a route through an older community pocket",
+      "Explore local food near your chosen address",
+      "Check the calendar if your stay is linked to a nearby major event"
+    ],
+    "nuance": "Check the precise venue and address if booking for an event. Borough-wide listing volume says little about the walking route, street conditions or your daily journey.",
+    "source": "https://en.wikipedia.org/wiki/Iztacalco",
+    "lat": 19.395,
+    "lon": -99.098,
+    "photo": {
+      "src": "images/mx-iztacalco.jpg",
+      "alt": "Calzada Ignacio Zaragoza and Agrícola Oriental Metro station in Iztacalco",
+      "author": "Cristian Jair Avila",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Calzada_Ignacio_Zaragoza_with_rain,_Agr%C3%ADcola_Oriental.jpg",
+      "title": "Calzada Ignacio Zaragoza with rain, Agrícola Oriental.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/Calzada_Ignacio_Zaragoza_with_rain%2C_Agr%C3%ADcola_Oriental.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 9,
+      "listingCount": 577,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
+  },
+  {
+    "id": "mx-azcapotzalco",
+    "name": "Azcapotzalco",
+    "area": "Northwestern city & historic Azcapotzalco",
+    "color": "#b8cbd0",
+    "headline": "A historic town absorbed into the metropolis.",
+    "description": "Azcapotzalco has roots as a pre-Hispanic centre and later became part of Mexico City’s expanding urban fabric. The historic core and surrounding residential and industrial districts give the borough several different characters.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Food"
+    ],
+    "highlights": [
+      "Plan a focused walk around the historic core",
+      "Research local cultural spaces before visiting",
+      "Build a food stop into a small neighbourhood route"
+    ],
+    "nuance": "Historic streets and industrial corridors are different settings. Verify the immediate block and practical transport route rather than choosing from the borough label alone.",
+    "source": "https://en.wikipedia.org/wiki/Azcapotzalco",
+    "lat": 19.486,
+    "lon": -99.185,
+    "photo": {
+      "src": "images/mx-azcapotzalco.jpg",
+      "alt": "Tree-lined Avenida Azcapotzalco in Mexico City",
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avenida_Azcapotzalco.JPG",
+      "title": "Avenida Azcapotzalco.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/Avenida_Azcapotzalco.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Mexico City",
+    "country": "Mexico",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 10,
+      "listingCount": 411,
+      "snapshotDate": "2026-09-23",
+      "source": "https://data.insideairbnb.com/mexico/df/mexico-city/2026-09-23/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listing IDs in the dated snapshot; all room types and availability values included",
+      "coverage": "Mexico City proper only; not the full cross-state metropolitan area",
+      "neighbourhoodDefinition": "Source uses alcaldía (borough) labels, not individual colonias",
+      "dateBasis": "Snapshot date"
+    }
   }
 ]

@@ -321,7 +321,7 @@ $('#surprise').onclick = () => {
 };
 
 // 7. Load the data, validate it, then draw the initial collection
-fetch('neighbourhoods.json?v=canada-counts-1')
+fetch('neighbourhoods.json?v=mexico-counts-1')
     .then(response => {
         if (!response.ok) {
             throw Error('Unable to load');
@@ -354,7 +354,7 @@ fetch('neighbourhoods.json?v=canada-counts-1')
             $('#city').append(option);
         }
         $('#collectionSummary').textContent =
-            `THE CANADA EDITION · ${data.length} AREAS · ${cities.length} CITIES`;
+            `CANADA & MEXICO · ${data.length} AREAS · ${cities.length} CITIES`;
 
         // Keep only saved IDs that still exist in the loaded collection.
         saved = new Set([...saved].filter(id => (
