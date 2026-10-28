@@ -329,7 +329,7 @@ $('#surprise').onclick = () => {
 };
 
 // 7. Load the data, validate it, then draw the initial collection
-fetch('neighbourhoods.json?v=population-fallback-1')
+fetch('neighbourhoods.json?v=mexico-photos-1')
     .then(response => {
         if (!response.ok) {
             throw Error('Unable to load');

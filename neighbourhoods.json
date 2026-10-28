@@ -2232,22 +2232,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 25.65766251393359,
     "lon": -100.32048373063478,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-19039_0343.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Independencia in Monterrey",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Independencia source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-19039_0343-photo.jpg",
+      "alt": "Basilica of Our Lady of Guadalupe in Colonia Independencia, Monterrey",
+      "author": "Catedrales e Iglesias/Cathedrals and Churches from Puebla de los Ángeles, Mexico",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_Nuestra_Se%C3%B1ora_de_Guadalupe,Monterrey,Estado_de_Nuevo_Le%C3%B3n,M%C3%A9xico_(8192695576).jpg",
+      "title": "Basilica Nuestra Señora de Guadalupe,Monterrey,Estado de Nuevo León,México (8192695576).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Basilica_Nuestra_Se%C3%B1ora_de_Guadalupe%2CMonterrey%2CEstado_de_Nuevo_Le%C3%B3n%2CM%C3%A9xico_%288192695576%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -2270,6 +2270,17 @@
       "metroSourcePages": [
         126
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-19039_0343.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Independencia in Monterrey",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Independencia source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -2452,22 +2463,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 25.674904082340767,
     "lon": -100.31640099418672,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-19039_0118.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Centro de Monterrey in Monterrey",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Centro de Monterrey source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-19039_0118-photo.jpg",
+      "alt": "View of central Monterrey",
+      "author": "Hari Seldon",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_de_Monterrey_-_panoramio.jpg",
+      "title": "Centro de Monterrey - panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Centro_de_Monterrey_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -2490,6 +2501,17 @@
       "metroSourcePages": [
         126
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-19039_0118.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Centro de Monterrey in Monterrey",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Centro de Monterrey source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -2782,22 +2804,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.517398441121628,
     "lon": -103.37884125633983,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-14097_0100.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Hacienda Santa Fe in Tlajomulco de Zúñiga",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Hacienda Santa Fe source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-14097_0100-photo.jpg",
+      "alt": "Road and shops in Hacienda Santa Fe, Tlajomulco",
+      "author": "ChavaZam",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:HSantaFe.jpg",
+      "title": "HSantaFe.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/HSantaFe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -2820,6 +2842,17 @@
       "metroSourcePages": [
         109
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-14097_0100.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Hacienda Santa Fe in Tlajomulco de Zúñiga",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Hacienda Santa Fe source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -2837,22 +2870,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.85142393088041,
     "lon": -103.42725473970177,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-14120_0604.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Valle de Los Molinos in Zapopan",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Valle de Los Molinos source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-14120_0604-photo.jpg",
+      "alt": "Valle de los Molinos, Zapopan, in summer",
+      "author": "Mexikansi72",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Valle_de_los_molinos_en_verano.jpg",
+      "title": "Valle de los molinos en verano.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Valle_de_los_molinos_en_verano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -2875,6 +2908,17 @@
       "metroSourcePages": [
         109
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-14120_0604.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Valle de Los Molinos in Zapopan",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Valle de Los Molinos source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3222,22 +3266,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.709059762983316,
     "lon": -103.45713309998044,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-14120_0539.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for San Juan de Ocotan in Zapopan",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "San Juan de Ocotan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-14120_0539-photo.jpg",
+      "alt": "Church in San Juan de Ocotán, Zapopan",
+      "author": "lupillo111",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Templo_san_juan_de_ocotan.jpg",
+      "title": "Templo san juan de ocotan.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Templo_san_juan_de_ocotan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3260,6 +3304,17 @@
       "metroSourcePages": [
         109
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-14120_0539.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for San Juan de Ocotan in Zapopan",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "San Juan de Ocotan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3277,22 +3332,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.61957674165864,
     "lon": -103.46455512368343,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-14120_0544.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Santa Ana Tepetitlan in Zapopan",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Santa Ana Tepetitlan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-14120_0544-photo.jpg",
+      "alt": "Historic chapel in Santa Ana Tepetitlán, Zapopan",
+      "author": "Rivmx",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Capilla_de_Santa_Ana_Tepetitlan.JPG",
+      "title": "Capilla de Santa Ana Tepetitlan.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/53/Capilla_de_Santa_Ana_Tepetitlan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3315,6 +3370,17 @@
       "metroSourcePages": [
         109
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-14120_0544.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Santa Ana Tepetitlan in Zapopan",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Santa Ana Tepetitlan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3332,22 +3398,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 18.95673776284493,
     "lon": -98.1918689789417,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-21114_0676.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for San Francisco Totimehuacan in Puebla",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "San Francisco Totimehuacan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-21114_0676-photo.png",
+      "alt": "Former Franciscan convent in San Francisco Totimehuacán, Puebla",
+      "author": "Rucarte123",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ex-convento_de_San_Francisco_Totimehuac%C3%A1n.png",
+      "title": "Ex-convento de San Francisco Totimehuacán.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ex-convento_de_San_Francisco_Totimehuac%C3%A1n.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3371,6 +3437,17 @@
         133,
         134
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-21114_0676.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for San Francisco Totimehuacan in Puebla",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "San Francisco Totimehuacan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3444,22 +3521,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 19.097090904782114,
     "lon": -98.2728071460125,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-21041_0012.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for San Juan Cuautlancingo in Cuautlancingo",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "San Juan Cuautlancingo source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-21041_0012-photo.jpg",
+      "alt": "Church of San Juan Cuautlancingo",
+      "author": "Jose victor retama",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Cuautlancingo.jpg",
+      "title": "Iglesia de San Juan Cuautlancingo.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/Iglesia_de_San_Juan_Cuautlancingo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3483,6 +3560,17 @@
         133,
         134
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-21041_0012.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for San Juan Cuautlancingo in Cuautlancingo",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "San Juan Cuautlancingo source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3556,22 +3644,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 19.141199779290915,
     "lon": -98.27231808524152,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-21034_0006.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for San Francisco Ocotlan in Coronango",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "San Francisco Ocotlan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-21034_0006-photo.jpg",
+      "alt": "Parish church in San Francisco Ocotlán, Coronango",
+      "author": "Catedrales e Iglesias/Cathedrals and Churches",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parroquia_de_San_Francisco_Ocotl%C3%A1n_(1).jpg",
+      "title": "Parroquia de San Francisco Ocotlán (1).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Parroquia_de_San_Francisco_Ocotl%C3%A1n_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3595,6 +3683,17 @@
         133,
         134
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-21034_0006.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for San Francisco Ocotlan in Coronango",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "San Francisco Ocotlan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3612,22 +3711,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 19.358433811227325,
     "lon": -99.66422052182756,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-15106_0269.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for San Pablo Autopan in Toluca",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "San Pablo Autopan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-15106_0269-photo.jpg",
+      "alt": "Main parish church in San Pablo Autopan, Toluca",
+      "author": "Oscariro",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sn_P_Autopan.jpg",
+      "title": "Sn P Autopan.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Sn_P_Autopan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3650,6 +3749,17 @@
       "metroSourcePages": [
         112
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-15106_0269.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for San Pablo Autopan in Toluca",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "San Pablo Autopan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3777,22 +3887,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 19.27101061047319,
     "lon": -99.67408080567904,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-15106_0292.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Seminario in Toluca",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Seminario source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-15106_0292-photo.jpg",
+      "alt": "Parque Seminario in Toluca",
+      "author": "Álvaro de la Paz Franco",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_Seminario_Toluca_42.jpg",
+      "title": "Parque Seminario Toluca 42.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Parque_Seminario_Toluca_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3815,6 +3925,17 @@
       "metroSourcePages": [
         112
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-15106_0292.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Seminario in Toluca",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Seminario source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3832,22 +3953,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 19.279933048269328,
     "lon": -99.62456720196731,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-15106_0273.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Santa Ana Tlapaltitlan in Toluca",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Santa Ana Tlapaltitlan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-15106_0273-photo.jpg",
+      "alt": "Remaining cultivated land in Santa Ana Tlapaltitlán, Toluca",
+      "author": "Monter99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Milpa_santa_ana.jpg",
+      "title": "Milpa santa ana.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Milpa_santa_ana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3870,6 +3991,17 @@
       "metroSourcePages": [
         112
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-15106_0273.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Santa Ana Tlapaltitlan in Toluca",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Santa Ana Tlapaltitlan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -3887,22 +4019,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 32.479356342038884,
     "lon": -116.9788014197606,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-02004_0069.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Camino Verde/Grupo Mexico in Tijuana",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Camino Verde/Grupo Mexico source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-02004_0069-photo.jpg",
+      "alt": "Camino Verde community centre, Tijuana",
+      "author": "Chiko elektriko",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_Comunitario_Camino_Verde.jpg",
+      "title": "Centro Comunitario Camino Verde.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Centro_Comunitario_Camino_Verde.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -3925,6 +4057,17 @@
       "metroSourcePages": [
         74
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-02004_0069.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Camino Verde/Grupo Mexico in Tijuana",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Camino Verde/Grupo Mexico source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -4657,22 +4800,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 25.547281783950268,
     "lon": -103.44318088370642,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-05035_0365.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Zona Centro in Torreón",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Zona Centro source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-05035_0365-photo.jpg",
+      "alt": "Casa Mudéjar in central Torreón",
+      "author": "Codas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Mud%C3%A9jar,_Torre%C3%B3n.jpg",
+      "title": "Casa Mudéjar, Torreón.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Casa_Mud%C3%A9jar%2C_Torre%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Commons camera coordinates fall inside CONAPO area 05035_0365."
     },
     "selection": {
       "method": "population",
@@ -4695,6 +4838,17 @@
       "metroSourcePages": [
         80
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-05035_0365.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Zona Centro in Torreón",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Zona Centro source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -4822,22 +4976,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.997864332796823,
     "lon": -89.7044746308462,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-31050_0046.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Ciudad Caucel in Mérida",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Ciudad Caucel source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-31050_0046-photo.jpg",
+      "alt": "Animaya lookout in Ciudad Caucel, Mérida",
+      "author": "Ricardo Pool",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mirador_del_Animaya_-_panoramio.jpg",
+      "title": "Mirador del Animaya - panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mirador_del_Animaya_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Commons camera coordinates fall inside CONAPO area 31050_0046."
     },
     "selection": {
       "method": "population",
@@ -4860,6 +5014,17 @@
       "metroSourcePages": [
         173
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-31050_0046.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Ciudad Caucel in Mérida",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Ciudad Caucel source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -4877,22 +5042,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.943461379769353,
     "lon": -89.55865502960177,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-31041_0006.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Kanasin in Kanasín",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Kanasin source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-31041_0006-photo.jpg",
+      "alt": "Main square in Kanasín, Yucatán",
+      "author": "Inri",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Kanas%C3%ADn,_Yucat%C3%A1n_(01).JPG",
+      "title": "Kanasín, Yucatán (01).JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/70/Kanas%C3%ADn%2C_Yucat%C3%A1n_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -4915,6 +5080,17 @@
       "metroSourcePages": [
         173
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-31041_0006.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Kanasin in Kanasín",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Kanasin source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -4932,22 +5108,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 20.885383984108234,
     "lon": -89.74585948930255,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-31101_0007.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Uman in Umán",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Uman source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-31101_0007-photo.jpg",
+      "alt": "Historic centre of Umán, Yucatán",
+      "author": "Misael Lavadores",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_de_Um%C3%A1n,_Yucat%C3%A1n._-_panoramio.jpg",
+      "title": "Centro de Umán, Yucatán. - panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Centro_de_Um%C3%A1n%2C_Yucat%C3%A1n._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -4970,6 +5146,17 @@
       "metroSourcePages": [
         173
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-31101_0007.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Uman in Umán",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Uman source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -4987,22 +5174,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 22.188367164765317,
     "lon": -100.93880252050573,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-24035_0246.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Soledad de Graciano Sanchez in Soledad de Graciano Sánchez",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Soledad de Graciano Sanchez source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-24035_0246-photo.jpg",
+      "alt": "Parish of Our Lady of Solitude in central Soledad de Graciano Sánchez",
+      "author": "Catedrales e Iglesias, Arquidiócesis de San Luis Potosi",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parroquia_Nuestra_Se%C3%B1ora_de_la_Soledad,_Soledad_de_Graciano_S%C3%A1nchez,_San_Luis_Potos%C3%AD.jpg",
+      "title": "Parroquia Nuestra Señora de la Soledad, Soledad de Graciano Sánchez, San Luis Potosí.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/22/Parroquia_Nuestra_Se%C3%B1ora_de_la_Soledad%2C_Soledad_de_Graciano_S%C3%A1nchez%2C_San_Luis_Potos%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -5025,6 +5212,17 @@
       "metroSourcePages": [
         143
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-24035_0246.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Soledad de Graciano Sanchez in Soledad de Graciano Sánchez",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Soledad de Graciano Sanchez source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -5207,22 +5405,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 21.894231716264798,
     "lon": -102.25876854620591,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-01001_0298.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Municipio Libre in Aguascalientes",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Municipio Libre source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-01001_0298-photo.jpg",
+      "alt": "Street art in Colonia Municipio Libre, Aguascalientes",
+      "author": "Luis Alvaz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grafiti_WOM_en_la_colonia_Municipio_Libre,_Aguascalientes_02.jpg",
+      "title": "Grafiti WOM en la colonia Municipio Libre, Aguascalientes 02.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Grafiti_WOM_en_la_colonia_Municipio_Libre%2C_Aguascalientes_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -5245,6 +5443,17 @@
       "metroSourcePages": [
         73
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-01001_0298.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Municipio Libre in Aguascalientes",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Municipio Libre source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -5317,22 +5526,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 18.683938829141645,
     "lon": -99.24590553792177,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-17035_0002.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Centro Xoxocotla in Xoxocotla",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Centro Xoxocotla source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-17035_0002-photo.jpg",
+      "alt": "Street intersection in central Xoxocotla, Morelos",
+      "author": "nikolas jurado cordo…",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Crucero_de_xoxocotla_-_panoramio.jpg",
+      "title": "Crucero de xoxocotla - panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crucero_de_xoxocotla_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Commons camera coordinates fall inside CONAPO area 17035_0002."
     },
     "selection": {
       "method": "population",
@@ -5355,6 +5564,17 @@
       "metroSourcePages": [
         123
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-17035_0002.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Centro Xoxocotla in Xoxocotla",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Centro Xoxocotla source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -5372,22 +5592,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 18.986120776942734,
     "lon": -99.26020655621281,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-17007_0202.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Santa Maria Ahuacatitlan in Cuernavaca",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Santa Maria Ahuacatitlan source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-17007_0202-photo.jpg",
+      "alt": "Chapel of Asunción de María y San José in Santa María Ahuacatitlán, Cuernavaca",
+      "author": "EliasOchoa",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Capilla_Asunci%C3%B3n_de_Mar%C3%ADa_y_San_Jos%C3%A9,_front_view.jpg",
+      "title": "Capilla Asunción de María y San José, front view.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Capilla_Asunci%C3%B3n_de_Mar%C3%ADa_y_San_Jos%C3%A9%2C_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -5410,6 +5630,17 @@
       "metroSourcePages": [
         123
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-17007_0202.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Santa Maria Ahuacatitlan in Cuernavaca",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Santa Maria Ahuacatitlan source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -5647,22 +5878,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 25.46283803727907,
     "lon": -101.03221622955351,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-05030_0473.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Saltillo 2000 in Saltillo",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Saltillo 2000 source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-05030_0473-photo.jpg",
+      "alt": "Jesús María church in Saltillo 2000",
+      "author": "urbanomafia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:JESUS_MARIA_Saltillo_2000_-_panoramio.jpg",
+      "title": "JESUS MARIA Saltillo 2000 - panoramio.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/JESUS_MARIA_Saltillo_2000_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Neighbourhood identified in the source title or description."
     },
     "selection": {
       "method": "population",
@@ -5685,6 +5916,17 @@
       "metroSourcePages": [
         83
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-05030_0473.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Saltillo 2000 in Saltillo",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Saltillo 2000 source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
@@ -5702,22 +5944,22 @@
       "Compare your exact accommodation address with the places you plan to visit.",
       "Use the map link to research nearby services and routes before choosing a stay."
     ],
-    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. The diagram shows the source boundary, not a street map; boundaries and population may have changed since 2020.",
+    "nuance": "Population profile: local attractions, atmosphere and interest ratings have not yet been researched. A large resident population does not establish suitability for visitors. Source boundaries and population may have changed since 2020.",
     "source": "https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx",
     "lat": 25.417926147448924,
     "lon": -101.00235960323488,
     "reviewedAt": "2026-10-28",
     "profileStatus": "population-data-only",
     "photo": {
-      "src": "images/mx-pop-05030_0619.svg",
-      "kind": "map",
-      "alt": "CONAPO 2020 boundary diagram for Zona Centro Sur in Saltillo",
-      "author": "CONAPO · diagram by Neighbourhood Notes",
-      "license": "Government data · source attribution",
-      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
-      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
-      "title": "Zona Centro Sur source boundary",
-      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
+      "src": "images/mx-pop-05030_0619-photo.jpg",
+      "alt": "Santiago Cathedral in central Saltillo, photographed in 2005",
+      "author": "Laslovarga",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2005_Catedral_De_Santiago,_Saltillo_Coahuila_Laslovarga.jpg",
+      "title": "2005 Catedral De Santiago, Saltillo Coahuila Laslovarga.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/2005_Catedral_De_Santiago%2C_Saltillo_Coahuila_Laslovarga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "locationVerification": "Commons camera coordinates fall inside CONAPO area 05030_0619."
     },
     "selection": {
       "method": "population",
@@ -5740,6 +5982,17 @@
       "metroSourcePages": [
         83
       ]
+    },
+    "boundaryMap": {
+      "src": "images/mx-pop-05030_0619.svg",
+      "kind": "map",
+      "alt": "CONAPO 2020 boundary diagram for Zona Centro Sur in Saltillo",
+      "author": "CONAPO · diagram by Neighbourhood Notes",
+      "license": "Government data · source attribution",
+      "licenseUrl": "https://www.gob.mx/conapo/documentos/indices-de-marginacion-2020-284372",
+      "source": "https://data.odint.io/mexico/V%20A%20U%20L%20T/repodatos.atdt.gob.mx/CONAPO/indices_marginacion/colonias_imc2020_shp.zip",
+      "title": "Zona Centro Sur source boundary",
+      "note": "Boundary diagram; neighbourhood photograph pending. Coordinates are the approximate centre of the boundary’s bounding box."
     }
   },
   {
