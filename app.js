@@ -54,7 +54,7 @@ function photoCredit(neighbourhood) {
     return `
         <a href="${escapeHtml(photo.source)}"
            target="_blank" rel="noopener noreferrer">
-            Photo: ${escapeHtml(photo.author)}
+            ${photo.kind === 'map' ? 'Map' : 'Photo'}: ${escapeHtml(photo.author)}
         </a>
         ·
         <a href="${escapeHtml(photo.licenseUrl)}"
@@ -146,7 +146,7 @@ function render() {
                 <h3>${neighbourhood.name}</h3>
                 <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
                 <p class="headline">${neighbourhood.headline}</p>
-                <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} listings · #${neighbourhood.selection.rank} in this snapshot</p>
+                <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} listings · #${neighbourhood.selection.rank} in its city source</p>
                 ${neighbourhood.photo.note ? `<p class="archive-label">${escapeHtml(neighbourhood.photo.note)}</p>` : ''}
                 ${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
                 <div class="tags">
@@ -200,7 +200,7 @@ function openDetail(neighbourhood) {
             <figcaption class="photo-credit">${photoCredit(neighbourhood)}${neighbourhood.photo.note ? ` · ${escapeHtml(neighbourhood.photo.note)}` : ''}</figcaption>
         </figure>
         <p><em>${neighbourhood.headline}</em></p>
-        <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} unique listings · rank #${neighbourhood.selection.rank} · snapshot ${escapeHtml(neighbourhood.selection.snapshotDate)}</p>
+        <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} listings · city rank #${neighbourhood.selection.rank} · data date ${escapeHtml(neighbourhood.selection.snapshotDate)}</p>
         <p>${neighbourhood.description}</p>
         <div class="tags">
             ${neighbourhood.tags.map(tag => `
@@ -226,7 +226,10 @@ function openDetail(neighbourhood) {
             </a>
         </div>
         <p class="source-note">
-            Selection: <a href="${neighbourhood.selection.source}" target="_blank" rel="noopener noreferrer">Inside Airbnb</a>, <a href="${neighbourhood.selection.licenseUrl}" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Listing count is not a quality rating or proof of availability.<br>
+            Selection: <a href="${neighbourhood.selection.source}" target="_blank" rel="noopener noreferrer">${escapeHtml(neighbourhood.selection.publisher)}</a>, <a href="${neighbourhood.selection.licenseUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(neighbourhood.selection.license)}</a>. Listing count is not a quality rating or proof of availability.<br>
+            ${escapeHtml(neighbourhood.selection.coverage)}.<br>
+            ${escapeHtml(neighbourhood.selection.metric)}.<br>
+            ${neighbourhood.selection.exclusionsNote ? escapeHtml(neighbourhood.selection.exclusionsNote) + '<br>' : ''}
             Editorial profile · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
             Check current details before making plans.
         </p>
@@ -318,7 +321,7 @@ $('#surprise').onclick = () => {
 };
 
 // 7. Load the data, validate it, then draw the initial collection
-fetch('neighbourhoods.json?v=toronto-counts-1')
+fetch('neighbourhoods.json?v=canada-counts-1')
     .then(response => {
         if (!response.ok) {
             throw Error('Unable to load');
@@ -351,7 +354,7 @@ fetch('neighbourhoods.json?v=toronto-counts-1')
             $('#city').append(option);
         }
         $('#collectionSummary').textContent =
-            `THE TORONTO EDITION · ${data.length} NEIGHBOURHOODS`;
+            `THE CANADA EDITION · ${data.length} AREAS · ${cities.length} CITIES`;
 
         // Keep only saved IDs that still exist in the loaded collection.
         saved = new Set([...saved].filter(id => (

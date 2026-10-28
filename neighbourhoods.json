@@ -458,5 +458,1283 @@
       "metric": "Unique listings in the dated snapshot; all room types and availability values included",
       "coverage": "City of Toronto only; not the whole metropolitan area"
     }
+  },
+  {
+    "id": "montreal-ville-marie",
+    "name": "Ville-Marie",
+    "area": "Downtown, Old Montréal & the Old Port",
+    "color": "#becbb1",
+    "headline": "Many Montréals in one central borough.",
+    "description": "Ville-Marie brings together the downtown core, Old Montréal, the Old Port and major cultural districts. Historic streets and waterfront walks sit within the same broad source area as office towers and busy shopping streets.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Waterfront"
+    ],
+    "highlights": [
+      "Walk the older streets of Old Montréal",
+      "Follow the Old Port waterfront",
+      "Explore downtown’s cultural spaces"
+    ],
+    "nuance": "A borough is larger than a village. Pick a specific pocket: the Old Port, downtown and Centre-Sud offer different daily routines.",
+    "source": "https://en.wikipedia.org/wiki/Ville-Marie%2C_Montreal",
+    "lat": 45.504,
+    "lon": -73.563,
+    "photo": {
+      "src": "images/montreal-ville-marie.jpg",
+      "alt": "Old Montréal Skyline",
+      "author": "Tony Webster from San Francisco, California",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Montr%C3%A9al_Skyline_(17217840248).jpg",
+      "title": "Old Montréal Skyline (17217840248).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Old_Montr%C3%A9al_Skyline_%2817217840248%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 4236,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "montreal-plateau",
+    "name": "Le Plateau-Mont-Royal",
+    "area": "Plateau, Mile End & Milton Park",
+    "color": "#d8bba6",
+    "headline": "Staircases, café stops and creative streets.",
+    "description": "Colourful residential blocks, exterior staircases and independent businesses give the Plateau its familiar street life. The source borough also includes Mile End and Milton Park, adding several distinct pockets to explore.",
+    "tags": [
+      "Cafés",
+      "Creative",
+      "Food"
+    ],
+    "highlights": [
+      "Explore the residential side streets",
+      "Make a café-and-bakery walk",
+      "Compare the atmosphere of the Plateau and Mile End"
+    ],
+    "nuance": "Busy commercial streets and quiet back streets are different stays. The borough label does not tell you which pocket a listing occupies.",
+    "source": "https://en.wikipedia.org/wiki/Le_Plateau-Mont-Royal",
+    "lat": 45.526,
+    "lon": -73.584,
+    "photo": {
+      "src": "images/montreal-plateau.jpg",
+      "alt": "The Plateau Mont-Royal neighborhood, at the corner of Clark street and Duluth avenue, in Montreal. In the background, Mount Royal and its cross",
+      "author": "Chicoutimi",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Plateau_Mont-Royal.jpg",
+      "title": "Plateau_Mont-Royal.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plateau_Mont-Royal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 2098,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "montreal-cdn-ndg",
+    "name": "Côte-des-Neiges-Notre-Dame-de-Grâce",
+    "area": "University-side streets & residential NDG",
+    "color": "#b8c9cf",
+    "headline": "Everyday Montréal, in two different rhythms.",
+    "description": "This large borough combines diverse Côte-des-Neiges with residential Notre-Dame-de-Grâce. University communities, neighbourhood shopping streets and international food offer a less single-centre version of city life.",
+    "tags": [
+      "Food",
+      "Cafés",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore Côte-des-Neiges’ food shops",
+      "Walk residential streets in NDG",
+      "Use a local café as the start of a neighbourhood loop"
+    ],
+    "nuance": "These two main areas are not interchangeable. Check the exact street, nearby services and transport route rather than treating the whole borough as walkable from one base.",
+    "source": "https://en.wikipedia.org/wiki/C%C3%B4te-des-Neiges%E2%80%93Notre-Dame-de-Gr%C3%A2ce",
+    "lat": 45.481,
+    "lon": -73.623,
+    "photo": {
+      "src": "images/montreal-cdn-ndg.jpg",
+      "alt": "Borough hall of Côte-des-Neiges–Notre-Dame-de-Grâce, Montréal.",
+      "author": "Montrealais",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mairie_d%27arrondissement_CdN-NDG.jpg",
+      "title": "Mairie_d'arrondissement_CdN-NDG.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Mairie_d%27arrondissement_CdN-NDG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 881,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "montreal-sud-ouest",
+    "name": "Le Sud-Ouest",
+    "area": "Canal-side districts & southwest residential pockets",
+    "color": "#d4c8ae",
+    "headline": "A former industrial city, rediscovered on foot.",
+    "description": "Le Sud-Ouest joins several districts shaped by industry, residential life and the Lachine Canal. Canal-side walks and neighbourhood food stops offer a different way into Montréal from the downtown core.",
+    "tags": [
+      "Waterfront",
+      "Food",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore a stretch of the Lachine Canal",
+      "Browse the Atwater Market area",
+      "Compare canal-side streets with the surrounding residential blocks"
+    ],
+    "nuance": "The borough includes several separated pockets. Canal access and convenient everyday shopping depend on the actual address.",
+    "source": "https://en.wikipedia.org/wiki/Le_Sud-Ouest",
+    "lat": 45.477,
+    "lon": -73.588,
+    "photo": {
+      "src": "images/montreal-sud-ouest.jpg",
+      "alt": "Borough hall, borough of Le Sud-Ouest, Montreal.",
+      "author": "Montrealais",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mairie_arrondissement_Sud-Ouest.jpg",
+      "title": "Mairie_arrondissement_Sud-Ouest.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mairie_arrondissement_Sud-Ouest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 4,
+      "listingCount": 778,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "montreal-rosemont",
+    "name": "Rosemont-La Petite-Patrie",
+    "area": "Rosemont, La Petite-Patrie & local shopping streets",
+    "color": "#c3bace",
+    "headline": "Small discoveries, repeated every day.",
+    "description": "Local shopping streets, green spaces and café stops make Rosemont–La Petite-Patrie a useful place to explore everyday Montréal. Its several residential pockets reward choosing a small area and returning to it.",
+    "tags": [
+      "Cafés",
+      "Parks",
+      "Food"
+    ],
+    "highlights": [
+      "Browse neighbourhood shops around Beaubien",
+      "Explore Plaza Saint-Hubert",
+      "Build a café-and-park walking loop"
+    ],
+    "nuance": "This is a large borough, not one compact centre. Choose a pocket near the businesses and transport you would use daily.",
+    "source": "https://www.mtl.org/en/experience/rosemont",
+    "lat": 45.549,
+    "lon": -73.591,
+    "photo": {
+      "src": "images/montreal-rosemont.jpg",
+      "alt": "Saint-Denis Street in the quarter of Rosemont, in Montreal.",
+      "author": "No machine-readable author provided. Gene.arboit assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Saint-Denis_Street,_Rosemont_quarter_in_Montreal_2005-09-04.jpg",
+      "title": "Saint-Denis_Street,_Rosemont_quarter_in_Montreal_2005-09-04.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Saint-Denis_Street%2C_Rosemont_quarter_in_Montreal_2005-09-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 5,
+      "listingCount": 629,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "montreal-mercier",
+    "name": "Mercier-Hochelaga-Maisonneuve",
+    "area": "Hochelaga, Maisonneuve & Mercier",
+    "color": "#becbb1",
+    "headline": "Market architecture and an east-end rhythm.",
+    "description": "This broad east-end borough includes Hochelaga-Maisonneuve as well as Mercier. Older commercial streets, the Maisonneuve market building and residential districts provide several different starting points for a stay.",
+    "tags": [
+      "Architecture",
+      "Food",
+      "Culture"
+    ],
+    "highlights": [
+      "Look at the historic Maisonneuve market building",
+      "Explore Hochelaga’s local shopping streets",
+      "Plan an outing toward the nearby Olympic district"
+    ],
+    "nuance": "Distances across the borough are substantial. A listing in Mercier can feel very different from one near Hochelaga’s commercial streets.",
+    "source": "https://en.wikipedia.org/wiki/Mercier%E2%80%93Hochelaga-Maisonneuve",
+    "lat": 45.56,
+    "lon": -73.543,
+    "photo": {
+      "src": "images/montreal-mercier.jpg",
+      "alt": "Marché Maisonneuve",
+      "author": "Chicoutimi",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:March%C3%A9_Maisonneuve_2.jpg",
+      "title": "Marché_Maisonneuve_2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/March%C3%A9_Maisonneuve_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 6,
+      "listingCount": 557,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "montreal-villeray",
+    "name": "Villeray-Saint-Michel-Parc-Extension",
+    "area": "Three neighbourhoods across north-central Montréal",
+    "color": "#d8bba6",
+    "headline": "Three names. Many everyday worlds.",
+    "description": "Villeray, Saint-Michel and Parc-Extension share one source label while retaining different local identities. Residential streets, community spaces and international food make this a borough to explore pocket by pocket.",
+    "tags": [
+      "Food",
+      "Culture",
+      "Parks"
+    ],
+    "highlights": [
+      "Walk a residential loop in Villeray",
+      "Explore Parc-Extension’s food businesses",
+      "Choose a local green space for a slower afternoon"
+    ],
+    "nuance": "The three names describe a wide area. Research the specific neighbourhood and nearby transit before choosing an address.",
+    "source": "https://en.wikipedia.org/wiki/Villeray%E2%80%93Saint-Michel%E2%80%93Parc-Extension",
+    "lat": 45.552,
+    "lon": -73.623,
+    "photo": {
+      "src": "images/montreal-villeray.jpg",
+      "alt": "Park Avenue Station or Jean-Talon Station (1931)",
+      "author": "Chicoutimi",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Villeray%E2%80%93Saint-Michel%E2%80%93Parc-Extension_-_Station_Parc.jpg",
+      "title": "Villeray–Saint-Michel–Parc-Extension_-_Station_Parc.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/36/Villeray%E2%80%93Saint-Michel%E2%80%93Parc-Extension_-_Station_Parc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Montréal",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 7,
+      "listingCount": 353,
+      "snapshotDate": "2026-09-14",
+      "source": "https://data.insideairbnb.com/canada/qc/montreal/2026-09-14/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Montréal only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-downtown",
+    "name": "Downtown",
+    "area": "Central peninsula & city-centre streets",
+    "color": "#b8c9cf",
+    "headline": "Towers above, waterfront close by.",
+    "description": "Downtown combines a dense residential and business core with shopping, restaurants and access to the peninsula’s waterfront. It can provide a practical base for exploring the central city on foot.",
+    "tags": [
+      "Architecture",
+      "Waterfront",
+      "Social"
+    ],
+    "highlights": [
+      "Walk toward the harbourfront",
+      "Explore downtown’s shopping streets",
+      "Pair a city walk with a waterfront pause"
+    ],
+    "nuance": "The downtown peninsula contains several distinct districts. Traffic, nightlife and access to green space vary by block.",
+    "source": "https://en.wikipedia.org/wiki/Downtown_Vancouver",
+    "lat": 49.283,
+    "lon": -123.119,
+    "photo": {
+      "src": "images/vancouver-downtown.jpg",
+      "alt": "Vancouver harbour skyline",
+      "author": "dronepicr",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouver_harbour_skyline_(44723845851).jpg",
+      "title": "Vancouver_harbour_skyline_(44723845851).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Vancouver_harbour_skyline_%2844723845851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 1434,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-kitsilano",
+    "name": "Kitsilano",
+    "area": "English Bay shore, West 4th & Broadway",
+    "color": "#d4c8ae",
+    "headline": "Beach time, with an everyday neighbourhood behind it.",
+    "description": "Kitsilano pairs the south shore of English Bay with residential streets and commercial strips along West 4th Avenue and Broadway. Beach walks and local food stops can form an easy daily routine.",
+    "tags": [
+      "Waterfront",
+      "Parks",
+      "Cafés"
+    ],
+    "highlights": [
+      "Walk the shore near Kitsilano Beach",
+      "Browse West 4th Avenue",
+      "Explore the residential streets between food stops"
+    ],
+    "nuance": "A beach-adjacent address and one farther inland are different experiences. Consider the season and the actual walk to the shore.",
+    "source": "https://www.destinationvancouver.com/neighbourhoods/kitsilano",
+    "lat": 49.268,
+    "lon": -123.163,
+    "photo": {
+      "src": "images/vancouver-kitsilano.jpg",
+      "alt": "Kitsilano Beach, Vancouver, BC, Canada",
+      "author": "Xicotencatl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kits-Beach.jpg",
+      "title": "Kits-Beach.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kits-Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 427,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-kensington",
+    "name": "Kensington-Cedar Cottage",
+    "area": "East Vancouver residential streets & Kingsway",
+    "color": "#c3bace",
+    "headline": "A food-led route into everyday East Van.",
+    "description": "Kensington-Cedar Cottage is a diverse east-side area of residential blocks, local parks and commercial streets. Food businesses around Kingsway and nearby neighbourhood strips offer an alternative to a downtown-focused stay.",
+    "tags": [
+      "Food",
+      "Parks",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore the food stops along Kingsway",
+      "Build a neighbourhood park-and-café loop",
+      "Compare the atmosphere of the main roads and side streets"
+    ],
+    "nuance": "The area is broad and some roads carry substantial traffic. Check your exact walking route to shops and transit.",
+    "source": "https://en.wikipedia.org/wiki/Kensington%E2%80%93Cedar_Cottage",
+    "lat": 49.245,
+    "lon": -123.073,
+    "photo": {
+      "src": "images/vancouver-kensington.jpg",
+      "alt": "Locator map of Kensington-Cedar Cottage within Vancouver",
+      "author": "Arnold C",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouver_Kensington-Cedar_Cottage.jpg",
+      "title": "Vancouver_Kensington-Cedar_Cottage.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Vancouver_Kensington-Cedar_Cottage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "kind": "map",
+      "note": "Neighbourhood locator map."
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 389,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-dtes",
+    "name": "Downtown Eastside",
+    "area": "Historic east-downtown districts",
+    "color": "#becbb1",
+    "headline": "Historic streets with a complicated present.",
+    "description": "One of Vancouver’s oldest urban areas, the Downtown Eastside contains layers of city history and established community life. Its source label covers an area where historic commercial streets sit alongside serious housing and public-health challenges.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Food"
+    ],
+    "highlights": [
+      "Research the specific historic pocket before visiting",
+      "Explore local heritage with a daytime route",
+      "Support established community and cultural businesses"
+    ],
+    "nuance": "Visible homelessness and substance use are part of some streets’ daily conditions. Listing count does not establish suitability; investigate the immediate block and your own comfort with the setting.",
+    "source": "https://en.wikipedia.org/wiki/Downtown_Eastside",
+    "lat": 49.281,
+    "lon": -123.099,
+    "photo": {
+      "src": "images/vancouver-dtes.jpg",
+      "alt": "Downtown Eastside",
+      "author": "Wpcpey",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Eastside_dusk_view_2018.jpg",
+      "title": "Downtown_Eastside_dusk_view_2018.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Downtown_Eastside_dusk_view_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 4,
+      "listingCount": 387,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-mount-pleasant",
+    "name": "Mount Pleasant",
+    "area": "Main Street, Broadway & surrounding blocks",
+    "color": "#d8bba6",
+    "headline": "A creative stop that becomes a daily routine.",
+    "description": "Main Street and the surrounding Mount Pleasant blocks bring together cafés, independent businesses and a changing residential landscape. It is an inviting area for building a day around small discoveries rather than a single attraction.",
+    "tags": [
+      "Creative",
+      "Cafés",
+      "Food"
+    ],
+    "highlights": [
+      "Browse Main Street’s independent shops",
+      "Plan a café-and-food walking loop",
+      "Explore residential streets away from the busiest junctions"
+    ],
+    "nuance": "Main roads and side streets feel different. Check the immediate surroundings of your accommodation and current street conditions.",
+    "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Vancouver",
+    "lat": 49.263,
+    "lon": -123.101,
+    "photo": {
+      "src": "images/vancouver-mount-pleasant.jpg",
+      "alt": "Mount Pleasant, Vancouver",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Pleasant_in_Vancouver_2018.jpg",
+      "title": "Mount_Pleasant_in_Vancouver_2018.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Mount_Pleasant_in_Vancouver_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 5,
+      "listingCount": 377,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-hastings",
+    "name": "Hastings-Sunrise",
+    "area": "Northeast Vancouver & East Hastings",
+    "color": "#b8c9cf",
+    "headline": "Neighbourhood streets beyond the centre.",
+    "description": "Hastings-Sunrise combines largely residential blocks with shops and everyday services along East Hastings and other local streets. Parks and a less downtown-centred routine make it a different way to experience Vancouver.",
+    "tags": [
+      "Parks",
+      "Food",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore the businesses along East Hastings",
+      "Choose a nearby park for a walking loop",
+      "Look beyond the commercial road into residential streets"
+    ],
+    "nuance": "This is a wide area. Check your actual transport connections and distances rather than assuming every address has the same convenience.",
+    "source": "https://en.wikipedia.org/wiki/Hastings%E2%80%93Sunrise",
+    "lat": 49.281,
+    "lon": -123.044,
+    "photo": {
+      "src": "images/vancouver-hastings.jpg",
+      "alt": "A photo taken on the corner of Skeena St and Franklin St in the Hastings-Sunrise neighbourhood of Vancouver.  Visible are a tree with leaves partially fallen, a fruit store on the right, and Sir John Franklin Elementary School in the left b",
+      "author": "The King of Mars",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tree_and_building_in_Hastings-Sunrise,_Vancouver.jpg",
+      "title": "Tree_and_building_in_Hastings-Sunrise,_Vancouver.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/84/Tree_and_building_in_Hastings-Sunrise%2C_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 6,
+      "listingCount": 346,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "vancouver-riley",
+    "name": "Riley Park",
+    "area": "Main Street & Little Mountain",
+    "color": "#d4c8ae",
+    "headline": "Main Street discoveries, with room to breathe.",
+    "description": "Riley Park combines the Main Street commercial corridor with residential streets and the Little Mountain area. Local food stops, green space and the neighbourhood’s baseball history provide several ways to shape a stay.",
+    "tags": [
+      "Parks",
+      "Food",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore Main Street’s food and café stops",
+      "Plan a walk toward Little Mountain",
+      "Look around the Nat Bailey Stadium area"
+    ],
+    "nuance": "The source area stretches beyond the Main Street strip. Check the distance from your address to the parks and shops you want to use.",
+    "source": "https://vancouver.ca/news-calendar/riley-park.aspx",
+    "lat": 49.245,
+    "lon": -123.102,
+    "photo": {
+      "src": "images/vancouver-riley.jpg",
+      "alt": "Riley Park–Little Mountain",
+      "author": "Canmenwalker",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Riley_Park%E2%80%93Little_Mountain_Aerial_view_2026.jpg",
+      "title": "Riley_Park–Little_Mountain_Aerial_view_2026.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Riley_Park%E2%80%93Little_Mountain_Aerial_view_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Vancouver",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 7,
+      "listingCount": 294,
+      "snapshotDate": "2026-09-17",
+      "source": "https://data.insideairbnb.com/canada/bc/vancouver/2026-09-17/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Vancouver only; not the whole metropolitan area",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "ottawa-rideau-vanier",
+    "name": "Rideau-Vanier",
+    "area": "ByWard Market, Lowertown, Sandy Hill & Vanier",
+    "color": "#c3bace",
+    "headline": "Market bustle, with several worlds around it.",
+    "description": "The source uses a broad ward label encompassing several familiar Ottawa neighbourhoods. ByWard Market’s commercial streets, older Lowertown blocks, Sandy Hill and Vanier offer very different daily settings within it.",
+    "tags": [
+      "Food",
+      "Culture",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore ByWard Market on foot",
+      "Compare quieter residential streets with the market core",
+      "Plan a walk in one specific pocket rather than the whole ward"
+    ],
+    "nuance": "The ward is not one compact neighbourhood. Check the immediate street, evening activity and travel route before choosing a base.",
+    "source": "https://ottawatourism.ca/en/about-ottawa/neighbourhoods",
+    "lat": 45.433,
+    "lon": -75.673,
+    "photo": {
+      "src": "images/ottawa-rideau-vanier.jpg",
+      "alt": "ByWard Market Building in Ottawa, Ontario",
+      "author": "Hayden Soloviev",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:ByWard_Market_Building_in_Ottawa,_Ontario.jpg",
+      "title": "ByWard_Market_Building_in_Ottawa,_Ontario.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/04/ByWard_Market_Building_in_Ottawa%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Ottawa",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 438,
+      "snapshotDate": "2026-09-19",
+      "source": "https://data.insideairbnb.com/canada/on/ottawa/2026-09-19/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Ottawa only; Gatineau and the rest of the CMA are not covered",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "ottawa-somerset",
+    "name": "Somerset",
+    "area": "Centretown & west-central pockets",
+    "color": "#becbb1",
+    "headline": "A capital city at neighbourhood scale.",
+    "description": "Somerset is another broad source ward, containing central residential and commercial pockets. Around Centretown and its surrounding streets, everyday shops, older homes and apartment buildings support a city routine beyond the main visitor sights.",
+    "tags": [
+      "Cafés",
+      "Food",
+      "Architecture"
+    ],
+    "highlights": [
+      "Make a food-and-café walk through Centretown",
+      "Explore older residential blocks",
+      "Compare the atmosphere of the main streets and nearby quieter roads"
+    ],
+    "nuance": "Ward boundaries and familiar neighbourhood names are not identical. Use the address to decide which commercial strip and transport route you will actually use.",
+    "source": "https://en.wikipedia.org/wiki/Centretown",
+    "lat": 45.414,
+    "lon": -75.701,
+    "photo": {
+      "src": "images/ottawa-somerset.jpg",
+      "alt": "View of Centretown towards Parliament Hill from the Best Western Premium Hotel, 2013",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Centretown,_Ottawa_(20130831-DSC04278).jpg",
+      "title": "Centretown,_Ottawa_(20130831-DSC04278).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Centretown%2C_Ottawa_%2820130831-DSC04278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Ottawa",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 217,
+      "snapshotDate": "2026-09-19",
+      "source": "https://data.insideairbnb.com/canada/on/ottawa/2026-09-19/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Ottawa only; Gatineau and the rest of the CMA are not covered",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "ottawa-kitchissippi",
+    "name": "Kitchissippi",
+    "area": "Hintonburg, Wellington Village & west-end pockets",
+    "color": "#d8bba6",
+    "headline": "Independent shops and a west-end rhythm.",
+    "description": "Kitchissippi groups several west-end Ottawa neighbourhoods under a ward-level source label. Hintonburg and Wellington Village offer local shops, café stops and residential streets suited to a slower exploration of the city.",
+    "tags": [
+      "Cafés",
+      "Creative",
+      "Food"
+    ],
+    "highlights": [
+      "Browse the Wellington Street West businesses",
+      "Walk through Wellington Village",
+      "Explore Hintonburg’s local food and creative spaces"
+    ],
+    "nuance": "This ward covers multiple pockets. Check the walk to your nearest commercial street and transit stop rather than treating the whole area as one village.",
+    "source": "https://en.wikipedia.org/wiki/Wellington_Village",
+    "lat": 45.399,
+    "lon": -75.735,
+    "photo": {
+      "src": "images/ottawa-kitchissippi.jpg",
+      "alt": "A residential street in Wellington Village, Ottawa",
+      "author": "Ross Dunn",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:A_usually_busy_part_of_an_Ottawa_neighbourhood_-_49686501443.jpg",
+      "title": "A_usually_busy_part_of_an_Ottawa_neighbourhood_-_49686501443.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/46/A_usually_busy_part_of_an_Ottawa_neighbourhood_-_49686501443.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Ottawa",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 177,
+      "snapshotDate": "2026-09-19",
+      "source": "https://data.insideairbnb.com/canada/on/ottawa/2026-09-19/visualisations/listings.csv",
+      "publisher": "Inside Airbnb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "metric": "Unique listings in the dated snapshot; all room types and availability values included",
+      "coverage": "City of Ottawa only; Gatineau and the rest of the CMA are not covered",
+      "neighbourhoodDefinition": "Inside Airbnb neighbourhood column, assigned using city/open GIS boundaries",
+      "dateBasis": "Snapshot date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "calgary-beltline",
+    "name": "Beltline",
+    "area": "Central Calgary, south of downtown",
+    "color": "#b8c9cf",
+    "headline": "A city-sized appetite in a compact urban setting.",
+    "description": "Beltline combines apartment and condominium living with restaurants, nightlife and older inner-city streets south of downtown. It is an urban choice for building a routine around food stops and central-city exploration.",
+    "tags": [
+      "Food",
+      "Social",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore the restaurants and shops around 17th Avenue",
+      "Walk older residential and commercial blocks",
+      "Use a café stop as the start of a central-city outing"
+    ],
+    "nuance": "Nightlife corridors and quieter blocks have different noise levels. The exact street and building matter for a longer stay.",
+    "source": "https://en.wikipedia.org/wiki/Beltline%2C_Calgary",
+    "lat": 51.038,
+    "lon": -114.071,
+    "photo": {
+      "src": "images/calgary-beltline.jpg",
+      "alt": "Neighbourhood of Beltline in Calgary, Alberta, Canada",
+      "author": "Qyd",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Beltline-Calgary.JPG",
+      "title": "Beltline-Calgary.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Beltline-Calgary.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Calgary",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 436,
+      "snapshotDate": "2026-09-16",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Calgary",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Calgary and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "calgary-livingston",
+    "name": "Livingston",
+    "area": "North Calgary, beyond Stoney Trail",
+    "color": "#d4c8ae",
+    "headline": "A newer residential base in Calgary’s north.",
+    "description": "Livingston is a master-planned community north of Stoney Trail. Newer homes, local pathways and developing community spaces make it a residential option rather than a traditional visitor district.",
+    "tags": [
+      "Parks",
+      "Social",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore the local residential pathways",
+      "Check community events and visitor-access rules",
+      "Plan daily shopping and transport around the exact address"
+    ],
+    "nuance": "This is far from downtown and still developing. Confirm transport, services and any membership restrictions before building a routine around community amenities.",
+    "source": "https://www.calgary.ca/communities/profiles/livingston.html",
+    "lat": 51.189,
+    "lon": -114.067,
+    "photo": {
+      "src": "images/calgary-livingston.svg",
+      "kind": "map",
+      "alt": "Street map of Livingston, Calgary; a photograph is not yet available",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL 1.0 (map data)",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "source": "https://www.openstreetmap.org/#map=14/51.189/-114.06700000000001",
+      "title": "Livingston, Calgary area map",
+      "note": "Area map; verified neighbourhood photograph pending."
+    },
+    "city": "Calgary",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 259,
+      "snapshotDate": "2026-09-16",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Calgary",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Calgary and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "calgary-seton",
+    "name": "Seton",
+    "area": "Southeast Calgary & South Health Campus",
+    "color": "#c3bace",
+    "headline": "A newer centre on the city’s southeast edge.",
+    "description": "Seton combines residential development with shops, services and the South Health Campus. It is a different kind of base from central Calgary, with everyday life shaped around a growing suburban district.",
+    "tags": [
+      "Food",
+      "Parks",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore the local commercial streets",
+      "Plan neighbourhood walks around your accommodation",
+      "Check which recreation and community facilities welcome visitors"
+    ],
+    "nuance": "Seton is not downtown. Check travel times and available services at your exact address, and avoid assuming proposed transport is already operating.",
+    "source": "https://en.wikipedia.org/wiki/Seton%2C_Calgary",
+    "lat": 50.873,
+    "lon": -113.956,
+    "photo": {
+      "src": "images/calgary-seton.jpg",
+      "alt": "South Calgary Hospital.",
+      "author": "JMacPherson",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:South_Calgary_Hospital.jpg",
+      "title": "South Calgary Hospital.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/South_Calgary_Hospital.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Calgary",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 158,
+      "snapshotDate": "2026-09-16",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Calgary",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Calgary and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "edmonton-central-core",
+    "name": "Central Core",
+    "area": "Downtown & surrounding central districts",
+    "color": "#becbb1",
+    "headline": "A broad central-city starting point.",
+    "description": "The provider groups several central Edmonton pockets under Central Core. Downtown’s skyline, cultural spaces and nearby river-valley routes offer a useful starting point, while individual streets vary considerably.",
+    "tags": [
+      "Architecture",
+      "Culture",
+      "Social"
+    ],
+    "highlights": [
+      "Explore downtown’s public and cultural spaces",
+      "Plan a route toward the river valley",
+      "Compare the atmosphere of different central blocks"
+    ],
+    "nuance": "Central Core is a provider-defined district, not a single neighbourhood. Verify the precise location and surroundings of any accommodation.",
+    "source": "https://en.wikipedia.org/wiki/Downtown_Edmonton",
+    "lat": 53.543,
+    "lon": -113.493,
+    "photo": {
+      "src": "images/edmonton-central-core.jpg",
+      "alt": "Downtown Edmonton skyline beside the North Saskatchewan River",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Edmonton,_Alberta_(cropped)_2.jpg",
+      "title": "Edmonton,_Alberta_(cropped)_2.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Edmonton%2C_Alberta_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Edmonton",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 452,
+      "snapshotDate": "2026-09-21",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Edmonton",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Edmonton and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "edmonton-greater-strathcona",
+    "name": "Greater Strathcona",
+    "area": "South-central Edmonton & Old Strathcona",
+    "color": "#d8bba6",
+    "headline": "Older storefronts and a social south-side rhythm.",
+    "description": "The provider’s Greater Strathcona label groups a wider area around Edmonton’s south-central districts. Old Strathcona and Whyte Avenue provide a familiar focus for independent businesses, older buildings and social evenings.",
+    "tags": [
+      "Food",
+      "Social",
+      "Creative"
+    ],
+    "highlights": [
+      "Explore the Old Strathcona storefronts",
+      "Browse businesses along Whyte Avenue",
+      "Plan a walk toward nearby ravine or river-valley routes"
+    ],
+    "nuance": "The provider’s area is broader than Old Strathcona alone. Confirm how close the actual address is to the streets and paths you want to use.",
+    "source": "https://en.wikipedia.org/wiki/Strathcona%2C_Edmonton",
+    "lat": 53.518,
+    "lon": -113.495,
+    "photo": {
+      "src": "images/edmonton-greater-strathcona.jpg",
+      "alt": "Strathcona, Edmonton",
+      "author": "Arctic.gnome",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Strathcona_(looking_east_from_104th_Street).JPG",
+      "title": "Old Strathcona (looking east from 104th Street).JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Old_Strathcona_%28looking_east_from_104th_Street%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Edmonton",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 305,
+      "snapshotDate": "2026-09-21",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Edmonton",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Edmonton and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "edmonton-windermere",
+    "name": "Windermere",
+    "area": "Southwest Edmonton",
+    "color": "#b8c9cf",
+    "headline": "A suburban routine on the southwest side.",
+    "description": "Windermere is a southwest Edmonton residential area near the North Saskatchewan River valley. Newer housing and commercial areas offer an everyday suburban base, with a different pace from the central city.",
+    "tags": [
+      "Parks",
+      "Food",
+      "Architecture"
+    ],
+    "highlights": [
+      "Explore neighbourhood pathways near your accommodation",
+      "Check local shopping and dining options",
+      "Plan a river-valley outing with a verified public access route"
+    ],
+    "nuance": "The provider’s Windermere label may cover a broader district. Check transport needs, walking distances and public access rather than assuming every amenity is close by.",
+    "source": "https://en.wikipedia.org/wiki/Windermere%2C_Edmonton",
+    "lat": 53.439,
+    "lon": -113.617,
+    "photo": {
+      "src": "images/edmonton-windermere.svg",
+      "kind": "map",
+      "alt": "Street map of Windermere, Edmonton; a photograph is not yet available",
+      "author": "OpenStreetMap contributors",
+      "license": "ODbL 1.0 (map data)",
+      "licenseUrl": "https://www.openstreetmap.org/copyright",
+      "source": "https://www.openstreetmap.org/#map=14/53.439/-113.61699999999999",
+      "title": "Windermere, Edmonton area map",
+      "note": "Area map; verified neighbourhood photograph pending."
+    },
+    "city": "Edmonton",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 298,
+      "snapshotDate": "2026-09-21",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Edmonton",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Edmonton and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": ""
+    }
+  },
+  {
+    "id": "halifax-downtown",
+    "name": "Downtown Halifax",
+    "area": "Harbourfront & central peninsula",
+    "color": "#d4c8ae",
+    "headline": "Harbour air, with the city close at hand.",
+    "description": "Downtown Halifax brings together the central business district, older commercial streets and the harbourfront. Waterfront walks, food stops and cultural outings make it a natural starting point for exploring the peninsula.",
+    "tags": [
+      "Waterfront",
+      "Culture",
+      "Food"
+    ],
+    "highlights": [
+      "Walk the harbourfront boardwalk",
+      "Explore the older streets behind the waterfront",
+      "Build a food-and-culture loop through the centre"
+    ],
+    "nuance": "The peninsula is hilly and some streets are lively at night. Consider the actual walking route and immediate surroundings of your address.",
+    "source": "https://discoverhalifaxns.com/plan/maps/",
+    "lat": 44.648,
+    "lon": -63.573,
+    "photo": {
+      "src": "images/halifax-downtown.jpg",
+      "alt": "Halifax harbourfront skyline, viewed from the water",
+      "author": "The original uploader was Theyab 07 at English Wikipedia.",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "source": "https://commons.wikimedia.org/wiki/File:Halifax_Downtown_Dusk.JPG",
+      "title": "Halifax_Downtown_Dusk.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Halifax_Downtown_Dusk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Halifax",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 1,
+      "listingCount": 234,
+      "snapshotDate": "2026-09-03",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Halifax",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Halifax and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": "The municipality-wide label Halifax Regional Municipality is excluded because it does not identify a neighbourhood."
+    }
+  },
+  {
+    "id": "halifax-north-end",
+    "name": "North End",
+    "area": "North of downtown on the Halifax peninsula",
+    "color": "#c3bace",
+    "headline": "Independent places, with a strong local story.",
+    "description": "Halifax’s North End offers local businesses, café stops and streets with a distinctive community history. Exploring a small pocket on foot can reveal a different side of the peninsula from the main waterfront sights.",
+    "tags": [
+      "Cafés",
+      "Creative",
+      "Culture"
+    ],
+    "highlights": [
+      "Explore local businesses around Agricola Street",
+      "Build a café-and-neighbourhood walking loop",
+      "Learn about the area’s African Nova Scotian history"
+    ],
+    "nuance": "North End covers a substantial area, and local pockets differ. Check where your address falls rather than assuming everything is close to downtown.",
+    "source": "https://discoverhalifaxns.com/regions/north-end-halifax-region/",
+    "lat": 44.664,
+    "lon": -63.594,
+    "photo": {
+      "src": "images/halifax-north-end.jpg",
+      "alt": "Agricola Street, Halifax, Nova Scotia in June 2015.",
+      "author": "Citobun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Agricola_Street_June_2015.jpg",
+      "title": "Agricola_Street_June_2015.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Agricola_Street_June_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Halifax",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 2,
+      "listingCount": 167,
+      "snapshotDate": "2026-09-03",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Halifax",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Halifax and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": "The municipality-wide label Halifax Regional Municipality is excluded because it does not identify a neighbourhood."
+    }
+  },
+  {
+    "id": "halifax-south-end",
+    "name": "South End",
+    "area": "University-side streets & southern peninsula",
+    "color": "#becbb1",
+    "headline": "A quieter chapter beside the student city.",
+    "description": "The South End combines university communities, older residential streets and access toward the peninsula’s southern green spaces. It can suit a daily rhythm built around walking, cafés and neighbourhood life.",
+    "tags": [
+      "Parks",
+      "Architecture",
+      "Cafés"
+    ],
+    "highlights": [
+      "Explore the residential streets around the universities",
+      "Plan an outing toward Point Pleasant Park",
+      "Find a local café away from the main visitor route"
+    ],
+    "nuance": "Student-oriented blocks and quieter residential streets offer different noise levels. Check the exact address and distances to the places you plan to visit.",
+    "source": "https://www.dal.ca/life-at-dal/off-campus-living/living-in-halifax/nearby-neighbourhoods.html",
+    "lat": 44.63,
+    "lon": -63.582,
+    "photo": {
+      "src": "images/halifax-south-end.jpg",
+      "alt": "Henry Hicks Building at Dalhousie University in Halifax’s South End",
+      "author": "Thorfinn Stainforth",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Dalhousie_Vines.jpg",
+      "title": "Dalhousie_Vines.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Dalhousie_Vines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    "city": "Halifax",
+    "country": "Canada",
+    "reviewedAt": "2026-10-28",
+    "selection": {
+      "rank": 3,
+      "listingCount": 159,
+      "snapshotDate": "2026-09-03",
+      "source": "https://www.doorstepanalytics.com/reports/Canada/Halifax",
+      "publisher": "Doorstep Analytics",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "metric": "Provider-reported Airbnb listing counts in the public neighbourhood table; not independently deduplicated",
+      "coverage": "Provider-defined Halifax and surrounding area; not verified to match the CMA",
+      "neighbourhoodDefinition": "Provider-reported area labels; some are broad districts. Hotels and pricing outliers are excluded by the provider.",
+      "dateBasis": "Provider MaxRecordInserted date",
+      "exclusionsNote": "The municipality-wide label Halifax Regional Municipality is excluded because it does not identify a neighbourhood."
+    }
   }
 ]
