@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description"
-        content="Explore 46 neighbourhoods and source areas in Canada and Mexico City, selected using Airbnb listing counts. Find food, parks, culture and everyday character.">
+        content="Explore 114 neighbourhoods and source areas across Canada and Mexico, selected using Airbnb listings or neighbourhood population. See each area’s method and source.">
     <meta name="theme-color" content="#f7f5ef">
     <title>Neighbourhood Notes — Explore Canada & Mexico</title>
-    <link rel="stylesheet" href="style.css?v=mexico-counts-1">
+    <link rel="stylesheet" href="style.css?v=population-fallback-1">
 </head>
 
 <body>
@@ -18,10 +18,10 @@
     </header>
     <main>
         <section class="hero">
-            <div class="eyebrow"><span class="dot"></span> <span id="collectionSummary">CANADA & MEXICO · 46 AREAS · 8 CITIES</span></div>
+            <div class="eyebrow"><span class="dot"></span> <span id="collectionSummary">CANADA & MEXICO · 114 AREAS · 24 CITIES</span></div>
             <h1>More cities. More ways to stay.<br>Find a place that <em>feels like you.</em></h1>
             <div class="hero-bottom">
-                <p>Forty-six places. Different rhythms. Your kind of place.<br>Selected by listing count. Explored through what you enjoy.
+                <p>114 places. Different rhythms. Your kind of place.<br>Selected by listings or population. Start exploring your kind of place.
                 </p><a class="round-link" href="#explore" aria-label="Explore neighbourhoods">↘</a>
             </div>
             <div class="cityline" aria-hidden="true"><span>⌂</span><span>▤</span><span>⌂</span><span
@@ -58,7 +58,7 @@
             <div class="approach-grid">
                 <p>Start with what you enjoy. Find a neighbourhood’s character, a few things to try, and the details
                     that change how a stay might feel.</p>
-                <p>City quotas follow our population rules, with Halifax included as an exception. Areas are selected by within-city Airbnb listing count. Toronto, Montréal, Vancouver, Ottawa and Mexico City use dated <a href="https://insideairbnb.com/get-the-data/" target="_blank" rel="noopener noreferrer">Inside Airbnb</a> snapshots (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>); Calgary, Edmonton and Halifax use <a href="https://www.doorstepanalytics.com/faq" target="_blank" rel="noopener noreferrer">Doorstep Analytics</a> public counts (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>). Methods and boundaries differ, so counts should not be compared across providers. Mexico City’s source labels are entire alcaldías (boroughs), not individual colonias. Some other labels are boroughs, wards or districts; city files do not necessarily cover their full metro areas. Counts show listing presence, not quality or availability. Descriptions and interest matches are editorial. Each profile gives its source and date.</p>
+                <p>City quotas follow our population rules, with Halifax included as an exception. Areas are selected by within-city Airbnb listing count where a usable source is connected. Otherwise, we select the highest-population named areas in a connected neighbourhood population dataset, keeping the same city quota. Toronto, Montréal, Vancouver, Ottawa and Mexico City use dated <a href="https://insideairbnb.com/get-the-data/" target="_blank" rel="noopener noreferrer">Inside Airbnb</a> snapshots (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>); Calgary, Edmonton and Halifax use <a href="https://www.doorstepanalytics.com/faq" target="_blank" rel="noopener noreferrer">Doorstep Analytics</a> public counts (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>). Methods and boundaries differ, so counts should not be compared across providers. Mexico City’s source labels are entire alcaldías (boroughs), not individual colonias. Some other labels are boroughs, wards or districts; city files do not necessarily cover their full metro areas. For 16 Mexican metros without usable Airbnb counts, the fallback uses <a href="https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx" target="_blank" rel="noopener noreferrer">CONAPO’s estimated 2020 urban-area populations</a>, within the municipalities defined by Metrópolis de México 2020. Source settlement types include colonias, fraccionamientos and pueblos; unnamed areas are excluded. These entries show boundary diagrams and factual population profiles; interest ratings and travel character remain unresearched. Counts show listing presence or resident population, not quality or availability. Descriptions and interest matches are editorial. Each profile gives its source and date.</p>
             </div>
         </section>
     </main>
@@ -69,7 +69,7 @@
         <div id="detailContent"></div>
     </dialog>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=mexico-counts-1"></script>
+    <script src="app.js?v=population-fallback-1"></script>
 </body>
 
 </html>

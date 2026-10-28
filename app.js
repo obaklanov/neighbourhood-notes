@@ -49,6 +49,14 @@ function escapeHtml(value) {
     }[char]));
 }
 
+function selectionLabel(neighbourhood, detailed = false) {
+    const selection = neighbourhood.selection;
+    if (selection.method === 'population') {
+        return '≈ ' + Math.round(selection.population).toLocaleString() + ' residents · population rank #' + selection.rank + ' · ' + selection.referenceYear;
+    }
+    return selection.listingCount.toLocaleString() + ' listings · #' + selection.rank + ' in its city source' + (detailed ? ' · data date ' + escapeHtml(selection.snapshotDate) : '');
+}
+
 function photoCredit(neighbourhood) {
     const photo = neighbourhood.photo;
     return `
@@ -112,7 +120,7 @@ function render() {
     $('#resultCount').textContent =
         `${list.length} neighbourhood${list.length === 1 ? '' : 's'}`
         + `${onlySaved ? ' in your saved collection' : ''}`
-        + `${selected.size ? ' · ranked by your interests' : ' · selected by listing count'}`;
+        + `${selected.size ? ' · ranked by your interests' : ' · selected by listings or population'}`;
     $('#cityContext').hidden = !list.some(neighbourhood => neighbourhood.context === 'cultural');
     $('#savedCount').textContent = saved.size;
     $('#empty').hidden = list.length > 0;
@@ -146,9 +154,9 @@ function render() {
                 <h3>${neighbourhood.name}</h3>
                 <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
                 <p class="headline">${neighbourhood.headline}</p>
-                <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} listings · #${neighbourhood.selection.rank} in its city source</p>
+                <p class="listing-stat">${selectionLabel(neighbourhood)}</p>
                 ${neighbourhood.photo.note ? `<p class="archive-label">${escapeHtml(neighbourhood.photo.note)}</p>` : ''}
-                ${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
+                ${neighbourhood.profileStatus === 'population-data-only' ? '<span class="context-label">Population profile · interests pending</span>' : ''}${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
                 <div class="tags">
                     ${neighbourhood.tags.map(tag => `
                         <span class="tag ${selected.has(tag) ? 'matched' : ''}">${tag}</span>
@@ -200,7 +208,7 @@ function openDetail(neighbourhood) {
             <figcaption class="photo-credit">${photoCredit(neighbourhood)}${neighbourhood.photo.note ? ` · ${escapeHtml(neighbourhood.photo.note)}` : ''}</figcaption>
         </figure>
         <p><em>${neighbourhood.headline}</em></p>
-        <p class="listing-stat">${neighbourhood.selection.listingCount.toLocaleString()} listings · city rank #${neighbourhood.selection.rank} · data date ${escapeHtml(neighbourhood.selection.snapshotDate)}</p>
+        <p class="listing-stat">${selectionLabel(neighbourhood, true)}</p>
         <p>${neighbourhood.description}</p>
         <div class="tags">
             ${neighbourhood.tags.map(tag => `
@@ -216,7 +224,7 @@ function openDetail(neighbourhood) {
         <h4>The detail that matters</h4>
         <p class="note">${neighbourhood.nuance}</p>
         <div class="detail-links">
-            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(neighbourhood.name + ', ' + neighbourhood.city + ', ' + neighbourhood.country)}"
+            <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(neighbourhood.name + ', ' + (neighbourhood.selection.municipality || neighbourhood.city) + ', ' + neighbourhood.country)}"
                target="_blank" rel="noopener noreferrer">
                 Explore on a map ↗
             </a>
@@ -226,11 +234,11 @@ function openDetail(neighbourhood) {
             </a>
         </div>
         <p class="source-note">
-            Selection: <a href="${neighbourhood.selection.source}" target="_blank" rel="noopener noreferrer">${escapeHtml(neighbourhood.selection.publisher)}</a>, <a href="${neighbourhood.selection.licenseUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(neighbourhood.selection.license)}</a>. Listing count is not a quality rating or proof of availability.<br>
+            Selection: <a href="${neighbourhood.selection.source}" target="_blank" rel="noopener noreferrer">${escapeHtml(neighbourhood.selection.publisher)}</a>, <a href="${neighbourhood.selection.licenseUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(neighbourhood.selection.license)}</a>. Neither listing count nor population is a quality rating or proof of availability.<br>
             ${escapeHtml(neighbourhood.selection.coverage)}.<br>
             ${escapeHtml(neighbourhood.selection.metric)}.<br>
             ${neighbourhood.selection.exclusionsNote ? escapeHtml(neighbourhood.selection.exclusionsNote) + '<br>' : ''}
-            Editorial profile · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
+            ${neighbourhood.profileStatus === 'population-data-only' ? 'Population data profile · interests not yet researched' : 'Editorial profile'} · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
             Check current details before making plans.
         </p>
     `;
@@ -321,7 +329,7 @@ $('#surprise').onclick = () => {
 };
 
 // 7. Load the data, validate it, then draw the initial collection
-fetch('neighbourhoods.json?v=mexico-counts-1')
+fetch('neighbourhoods.json?v=population-fallback-1')
     .then(response => {
         if (!response.ok) {
             throw Error('Unable to load');
