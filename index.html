@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description"
-        content="Explore 114 neighbourhoods and source areas across Canada and Mexico, selected using Airbnb listings or neighbourhood population. See each area’s method and source.">
+        content="Explore 425 neighbourhoods and source areas across Canada, the USA and Mexico, selected using Airbnb listings or neighbourhood population. See each area’s method and source.">
     <meta name="theme-color" content="#f7f5ef">
-    <title>Neighbourhood Notes — Explore Canada & Mexico</title>
-    <link rel="stylesheet" href="style.css?v=mexico-photos-1">
+    <title>Neighbourhood Notes — Explore North America</title>
+    <link rel="stylesheet" href="style.css?v=usa-1">
 </head>
 
 <body>
@@ -18,10 +18,10 @@
     </header>
     <main>
         <section class="hero">
-            <div class="eyebrow"><span class="dot"></span> <span id="collectionSummary">CANADA & MEXICO · 114 AREAS · 24 CITIES</span></div>
+            <div class="eyebrow"><span class="dot"></span> <span id="collectionSummary">NORTH AMERICA · 425 AREAS · 80 CITIES</span></div>
             <h1>More cities. More ways to stay.<br>Find a place that <em>feels like you.</em></h1>
             <div class="hero-bottom">
-                <p>114 places. Different rhythms. Your kind of place.<br>Selected by listings or population. Start exploring your kind of place.
+                <p>425 places. Different rhythms. Your kind of place.<br>Selected by listings or population. Start exploring your kind of place.
                 </p><a class="round-link" href="#explore" aria-label="Explore neighbourhoods">↘</a>
             </div>
             <div class="cityline" aria-hidden="true"><span>⌂</span><span>▤</span><span>⌂</span><span
@@ -35,7 +35,7 @@
                     <h2>What draws you in?</h2>
                 </div><button class="surprise" id="surprise">✧ Surprise me</button>
             </div>
-            <p class="hint">Choose up to five interests. We’ll bring matching neighbourhoods to the top.</p>
+            <p class="hint">Choose up to five interests. We’ll bring researched matches to the top. New data profiles are labelled while their interests are being researched.</p>
             <div class="chips" id="chips" aria-label="Neighbourhood interests"></div>
             <div class="tools"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search"
                         placeholder="Search places, cities or interests…"
@@ -58,7 +58,7 @@
             <div class="approach-grid">
                 <p>Start with what you enjoy. Find a neighbourhood’s character, a few things to try, and the details
                     that change how a stay might feel.</p>
-                <p>City quotas follow our population rules, with Halifax included as an exception. Areas are selected by within-city Airbnb listing count where a usable source is connected. Otherwise, we select the highest-population named areas in a connected neighbourhood population dataset, keeping the same city quota. Toronto, Montréal, Vancouver, Ottawa and Mexico City use dated <a href="https://insideairbnb.com/get-the-data/" target="_blank" rel="noopener noreferrer">Inside Airbnb</a> snapshots (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>); Calgary, Edmonton and Halifax use <a href="https://www.doorstepanalytics.com/faq" target="_blank" rel="noopener noreferrer">Doorstep Analytics</a> public counts (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>). Methods and boundaries differ, so counts should not be compared across providers. Mexico City’s source labels are entire alcaldías (boroughs), not individual colonias. Some other labels are boroughs, wards or districts; city files do not necessarily cover their full metro areas. For 16 Mexican metros without usable Airbnb counts, the fallback uses <a href="https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx" target="_blank" rel="noopener noreferrer">CONAPO’s estimated 2020 urban-area populations</a>, within the municipalities defined by Metrópolis de México 2020. Source settlement types include colonias, fraccionamientos and pueblos; unnamed areas are excluded. Population entries show verified neighbourhood photographs where available, with labelled boundary diagrams elsewhere. Interest ratings and travel character remain unresearched. Counts show listing presence or resident population, not quality or availability. Descriptions and interest matches are editorial. Each profile gives its source and date.</p>
+                <p>City quotas follow our population rules, with Halifax included as an exception. We select areas by Airbnb listing count where a usable source is connected: <a href="https://insideairbnb.com/get-the-data/" target="_blank" rel="noopener noreferrer">Inside Airbnb</a> (CC BY 4.0) or <a href="https://www.doorstepanalytics.com/faq" target="_blank" rel="noopener noreferrer">Doorstep Analytics</a> (CC BY-SA 4.0). Otherwise, we select the highest-population named areas in the connected dataset. Mexico uses <a href="https://github.com/IndiceMx/IM_2020/blob/main/IMUC_2020.xlsx" target="_blank" rel="noopener noreferrer">CONAPO’s 2020 estimates</a>. USA population profiles use the <a href="https://doi.org/10.7910/DVN/02NP1O" target="_blank" rel="noopener noreferrer">City-Defined Neighborhood Dataset</a> and 2020 Census data, with city GIS boundaries where stated.<br><br>Quotas refer to metro populations, but available area datasets often cover only the central city. Source areas can be neighbourhoods, associations, council districts or barrios; boundaries and counts are not comparable across providers. Each profile identifies its coverage, date and method. San Jose’s three planned entries remain pending verified area names.<br><br>Photographs identify the area shown and link to their credits; labelled diagrams fill remaining image gaps. New data profiles have no researched interest ratings yet. Listing count and resident population measure presence, not quality, safety or availability.</p>
             </div>
         </section>
     </main>
@@ -69,7 +69,7 @@
         <div id="detailContent"></div>
     </dialog>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=mexico-photos-1"></script>
+    <script src="app.js?v=usa-1"></script>
 </body>
 
 </html>

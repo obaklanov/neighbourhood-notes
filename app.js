@@ -52,7 +52,7 @@ function escapeHtml(value) {
 function selectionLabel(neighbourhood, detailed = false) {
     const selection = neighbourhood.selection;
     if (selection.method === 'population') {
-        return '≈ ' + Math.round(selection.population).toLocaleString() + ' residents · population rank #' + selection.rank + ' · ' + selection.referenceYear;
+        return (selection.populationKind === 'census-count' ? '' : '≈ ') + Math.round(selection.population).toLocaleString() + ' residents · population rank #' + selection.rank + ' · ' + selection.referenceYear;
     }
     return selection.listingCount.toLocaleString() + ' listings · #' + selection.rank + ' in its city source' + (detailed ? ' · data date ' + escapeHtml(selection.snapshotDate) : '');
 }
@@ -143,7 +143,7 @@ function render() {
                      width="1000" height="600"
                      loading="lazy" decoding="async">
                 <button class="save"
-                        aria-label="${saved.has(neighbourhood.id) ? 'Unsave' : 'Save'} ${neighbourhood.name}"
+                        aria-label="${saved.has(neighbourhood.id) ? 'Unsave' : 'Save'} ${escapeHtml(neighbourhood.name)}"
                         aria-pressed="${saved.has(neighbourhood.id)}">
                     ${saved.has(neighbourhood.id) ? '♥' : '♡'}
                 </button>
@@ -151,12 +151,12 @@ function render() {
             <div class="card-body">
                 <div class="photo-credit">${photoCredit(neighbourhood)}</div>
                 <span class="area">${escapeHtml(neighbourhood.city)} · ${escapeHtml(neighbourhood.country)}</span>
-                <h3>${neighbourhood.name}</h3>
+                <h3>${escapeHtml(neighbourhood.name)}</h3>
                 <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
-                <p class="headline">${neighbourhood.headline}</p>
+                <p class="headline">${escapeHtml(neighbourhood.headline)}</p>
                 <p class="listing-stat">${selectionLabel(neighbourhood)}</p>
                 ${neighbourhood.photo.note ? `<p class="archive-label">${escapeHtml(neighbourhood.photo.note)}</p>` : ''}
-                ${neighbourhood.profileStatus === 'population-data-only' ? '<span class="context-label">Population profile · interests pending</span>' : ''}${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
+                ${['population-data-only', 'data-only'].includes(neighbourhood.profileStatus) ? '<span class="context-label">Data profile · interests pending</span>' : ''}${neighbourhood.context === 'cultural' ? '<span class="context-label">Cultural profile</span>' : ''}
                 <div class="tags">
                     ${neighbourhood.tags.map(tag => `
                         <span class="tag ${selected.has(tag) ? 'matched' : ''}">${tag}</span>
@@ -167,7 +167,7 @@ function render() {
                     <span class="match">
                         ${selected.size
                             ? `${matches(neighbourhood).length} of ${selected.size} interests`
-                            : 'Explore the character'}
+                            : neighbourhood.profileStatus === 'data-only' ? 'Explore the area' : 'Explore the character'}
                     </span>
                 </div>
             </div>
@@ -198,7 +198,7 @@ function render() {
 function openDetail(neighbourhood) {
     $('#detailContent').innerHTML = `
         <div class="eyebrow">${escapeHtml(neighbourhood.city.toUpperCase())} / ${escapeHtml(neighbourhood.country.toUpperCase())}</div>
-        <h2>${neighbourhood.name}</h2>
+        <h2>${escapeHtml(neighbourhood.name)}</h2>
         <p class="local-area">${escapeHtml(neighbourhood.area)}</p>
         ${travelContext(neighbourhood)}
         <figure class="detail-photo">
@@ -207,22 +207,22 @@ function openDetail(neighbourhood) {
                  width="1000" height="600">
             <figcaption class="photo-credit">${photoCredit(neighbourhood)}${neighbourhood.photo.note ? ` · ${escapeHtml(neighbourhood.photo.note)}` : ''}</figcaption>
         </figure>
-        <p><em>${neighbourhood.headline}</em></p>
+        <p><em>${escapeHtml(neighbourhood.headline)}</em></p>
         <p class="listing-stat">${selectionLabel(neighbourhood, true)}</p>
-        <p>${neighbourhood.description}</p>
+        <p>${escapeHtml(neighbourhood.description)}</p>
         <div class="tags">
             ${neighbourhood.tags.map(tag => `
                 <span class="tag">${tag}</span>
             `).join('')}
         </div>
-        <h4>${neighbourhood.context === 'cultural' ? 'Discover its character' : 'A few ways to begin'}</h4>
+        <h4>${neighbourhood.profileStatus === 'data-only' ? 'Explore the data' : neighbourhood.context === 'cultural' ? 'Discover its character' : 'A few ways to begin'}</h4>
         <ul>
             ${neighbourhood.highlights.map(highlight => `
-                <li>${highlight}</li>
+                <li>${escapeHtml(highlight)}</li>
             `).join('')}
         </ul>
         <h4>The detail that matters</h4>
-        <p class="note">${neighbourhood.nuance}</p>
+        <p class="note">${escapeHtml(neighbourhood.nuance)}</p>
         <div class="detail-links">
             <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(neighbourhood.name + ', ' + (neighbourhood.selection.municipality || neighbourhood.city) + ', ' + neighbourhood.country)}"
                target="_blank" rel="noopener noreferrer">
@@ -238,7 +238,7 @@ function openDetail(neighbourhood) {
             ${escapeHtml(neighbourhood.selection.coverage)}.<br>
             ${escapeHtml(neighbourhood.selection.metric)}.<br>
             ${neighbourhood.selection.exclusionsNote ? escapeHtml(neighbourhood.selection.exclusionsNote) + '<br>' : ''}
-            ${neighbourhood.profileStatus === 'population-data-only' ? 'Population data profile · interests not yet researched' : 'Editorial profile'} · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
+            ${['population-data-only', 'data-only'].includes(neighbourhood.profileStatus) ? 'Data profile · interests not yet researched' : 'Editorial profile'} · source reviewed ${escapeHtml(neighbourhood.reviewedAt)}.
             Check current details before making plans.
         </p>
     `;
@@ -329,7 +329,7 @@ $('#surprise').onclick = () => {
 };
 
 // 7. Load the data, validate it, then draw the initial collection
-fetch('neighbourhoods.json?v=mexico-photos-1')
+fetch('neighbourhoods.json?v=usa-1')
     .then(response => {
         if (!response.ok) {
             throw Error('Unable to load');
@@ -362,7 +362,7 @@ fetch('neighbourhoods.json?v=mexico-photos-1')
             $('#city').append(option);
         }
         $('#collectionSummary').textContent =
-            `CANADA & MEXICO · ${data.length} AREAS · ${cities.length} CITIES`;
+            `NORTH AMERICA · ${data.length} AREAS · ${cities.length} CITIES`;
 
         // Keep only saved IDs that still exist in the loaded collection.
         saved = new Set([...saved].filter(id => (
